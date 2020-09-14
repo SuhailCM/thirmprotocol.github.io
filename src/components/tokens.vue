@@ -5,7 +5,7 @@
         <div class="container">
           <div class="columns is-vcentered">
             <div class="column is-7">
-              <img src="/data/b.png" />
+              <img src="../assets/b.png" />
             </div>
             <div class="column is-offset-1">
               <h1 class="title">T-TOKENS</h1>

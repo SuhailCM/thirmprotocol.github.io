@@ -23,7 +23,7 @@
       </div>
     </section>
 
-    <section class="hero is-white">
+    <section class="hero is-white is-hidden-mobile">
       <div class="hero-body">
         <div class="container">
           <b-tabs position="is-centered" class="block" type="is-toggle">
@@ -90,7 +90,7 @@
       </div>
     </section>
 
-    <section class="hero is-medium is-white">
+    <section class="hero is-medium is-white is-hidden-mobile">
       <div class="hero-body">
         <div class="container">
           <div class="columns is-vcentered has-text-centered">

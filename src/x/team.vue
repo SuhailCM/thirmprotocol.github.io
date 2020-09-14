@@ -1,16 +1,10 @@
 <template>
   <div>
-    <section class="hero is-medium">
-      <div class="hero-body">
-        <div class="container">
-          <div class="title has-text-centered">TEAM</div>
-        </div>
-      </div>
-    </section>
-
     <section class="hero is-medium is-white">
       <div class="hero-body">
         <div class="container">
+          <div class="title has-text-centered">TEAM</div>
+          <br />
           <div class="at-grid" data-column="4">
             <div class="at-column" v-for="item in team" :key="item.name">
               <div class="at-user">

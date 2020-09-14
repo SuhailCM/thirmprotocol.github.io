@@ -1,11 +1,11 @@
 
 <template>
   <div>
-    <section class="hero">
+    <section class="hero is-medium is-white">
       <div class="hero-body">
         <div class="container">
           <div class="columns is-vcentered">
-            <div class="column is-7">
+            <div class="column">
               <lottie-player
                 src="/data/6.json"
                 background="transparent"

@@ -5,7 +5,6 @@
     <tokens />
     <vision />
     <medium />
-    <contact />
   </div>
 </template>
 
@@ -15,7 +14,6 @@ import feat from "../components/feat";
 import tokens from "../components/tokens";
 import vision from "../components/vision";
 import medium from "../components/medium";
-import contact from "../components/contact";
 
 export default {
   components: {
@@ -24,7 +22,6 @@ export default {
     tokens,
     vision,
     medium,
-    contact,
   },
 };
 </script>

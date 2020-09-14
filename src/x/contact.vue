@@ -19,7 +19,7 @@
               <div class="subtitle has-text-centered">
                 <strong>CONTACT US</strong>
               </div>
-
+              <hr />
               <article class="message is-dark">
                 <div class="message-body">General : contact@thirm.com</div>
               </article>

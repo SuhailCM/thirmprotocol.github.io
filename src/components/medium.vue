@@ -1,14 +1,12 @@
 <template>
-  <section class="hero is-medium">
+  <section class="hero">
     <div class="hero-body">
-      <div class="container">
-        <div
-          ref="medium-widget"
-          id="medium-widget"
-          class="lcontainer__medium-widget box"
-          :class="{'lcontainer__medium-widget--loaded': isMediumLoaded}"
-        ></div>
-      </div>
+      <div
+        ref="medium-widget"
+        id="medium-widget"
+        class="lcontainer__medium-widget box"
+        :class="{'lcontainer__medium-widget--loaded': isMediumLoaded}"
+      ></div>
     </div>
   </section>
 </template>

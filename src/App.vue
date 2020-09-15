@@ -2,7 +2,7 @@
   <div id="app">
     <div class="bg"></div>
     <template>
-      <b-navbar class="vli" fixed-top="true">
+      <b-navbar fixed-top="true">
         <template slot="brand">
           <b-navbar-item tag="router-link" :to="{ path: '/' }">HOME</b-navbar-item>
         </template>

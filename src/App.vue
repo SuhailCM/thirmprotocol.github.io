@@ -8,9 +8,6 @@
         </template>
 
         <template slot="start">
-          <b-navbar-item target="_blank" href="https://dapp.thirm.com">
-            <strong>DAPP</strong>
-          </b-navbar-item>
           <b-navbar-item tag="router-link" :to="{ path: '/whitepaper' }">WHITEPAPER</b-navbar-item>
           <b-navbar-item tag="router-link" :to="{ path: '/team' }">TEAM</b-navbar-item>
           <b-navbar-item tag="router-link" :to="{ path: '/contact' }">CONTACT</b-navbar-item>

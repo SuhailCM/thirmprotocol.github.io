@@ -30,19 +30,19 @@ export default {
       team: [
         {
           name: "Aman Singh",
-          title: "Founder/Lead Developer",
+          title: "Founder, Lead Developer",
           img:
             "https://media-exp1.licdn.com/dms/image/C5103AQFClN65G0jEVA/profile-displayphoto-shrink_200_200/0?e=1605139200&v=beta&t=Tlo6XdIwdF5_4nAR4Aycmrd5--88OmKRAWEAFURbFzU",
         },
         {
           name: "Yash B",
-          title: "Co-Founder, Manager",
+          title: "Junior Developer, Manager",
           img:
             "https://media-exp1.licdn.com/dms/image/C5603AQF5xWciZH58qQ/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=bH0NWMQq_9RpRiZJ7q0-V2OAQu6iQgfhHgE8guiF-10",
         },
         {
           name: "Paul Kalkbrenner",
-          title: "Developer",
+          title: "Core Developer",
           img:
             "https://media-exp1.licdn.com/dms/image/C4E03AQF0_YCNuRLDMg/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=nkT9zOG_QHGPjbRpdSCpwaBbEvddgFALLFbS_T_5QWE",
         },
@@ -51,6 +51,12 @@ export default {
           title: "Developer",
           img:
             "https://media-exp1.licdn.com/dms/image/C5603AQHQhg3R8Wma6A/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=EGdkyiSrC7LywNBsjRQ194T-yZwq-87CmipmMHg8th8",
+        },
+              {
+          name: "Lucas Norbido",
+          title: "Manager",
+          img:
+            "https://media-exp1.licdn.com/dms/image/C5603AQGFmWQkzKDp4A/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=xI_rUq440CWwIJkioe4ME7Wf9WMDPg6wInuL6UnJ6QY",
         },
       ],
     };

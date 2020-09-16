@@ -41,6 +41,16 @@
             </div>
             <div class="column">
               <div class="columns">
+                        <div class="column">
+                  <center>
+                    <a target="_blank" href="https://www.linkedin.com/company/thirm/?viewAsMember=true">
+                      <span class="has-text-dark">
+         <i class="fab fa-linkedin fa-3x"></i>
+                      </span>
+                    </a>
+                  </center>
+                </div>
+                
                 <div class="column">
                   <center>
                     <a target="_blank" href="https://medium.com/thirmprotocol">

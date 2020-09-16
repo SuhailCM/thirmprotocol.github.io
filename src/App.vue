@@ -14,12 +14,6 @@
         </template>
 
         <template slot="end">
-          <b-navbar-item target="_blank" href="https://medium.com/thirmprotocol">
-            <i class="fab fa-medium fa-2x"></i>
-          </b-navbar-item>
-          <b-navbar-item target="_blank" href="https://github.com/thirmprotocol">
-            <i class="fab fa-github fa-2x"></i>
-          </b-navbar-item>
           <b-navbar-item target="_blank" href="https://twitter.com/thirmprotocol">
             <i class="fab fa-twitter fa-2x"></i>
           </b-navbar-item>
@@ -36,21 +30,24 @@
       <div class="hero-body">
         <div class="container">
           <div class="columns is-vcentered">
-            <div class="column">
+            <div class="column is-6">
               <div class="subtitle">Copyright © 2020 THIRM SOLUTIONS</div>
             </div>
             <div class="column">
               <div class="columns">
-                        <div class="column">
+                <div class="column">
                   <center>
-                    <a target="_blank" href="https://www.linkedin.com/company/thirm/?viewAsMember=true">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/company/thirm/?viewAsMember=true"
+                    >
                       <span class="has-text-dark">
-         <i class="fab fa-linkedin fa-3x"></i>
+                        <i class="fab fa-linkedin fa-3x"></i>
                       </span>
                     </a>
                   </center>
                 </div>
-                
+
                 <div class="column">
                   <center>
                     <a target="_blank" href="https://medium.com/thirmprotocol">

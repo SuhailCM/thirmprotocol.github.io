@@ -23,23 +23,21 @@
       </div>
     </section>
 
-    <section class="hero is-white is-hidden-mobile">
+    <section class="hero is-light is-hidden-mobile">
       <div class="hero-body">
         <div class="container">
-          <div class="columns">
-            <div v-for="item in lot" :key="item.symbol">
-              <div class="column is-6" v-if="item.chainId == 1">
-                <b-tooltip :label="item.name" position="is-top">
-                  <a target="_blank" v-bind:href=" 'https://etherscan.io/address/' + item.address">
-                    <figure class="image is-64x64">
-                      <img
-                        class="animate__animated animate__infinite animate__pulse"
-                        v-bind:src=" item.logoURI.trim()"
-                      />
-                    </figure>
-                  </a>
-                </b-tooltip>
-              </div>
+          <div class="columns is-multiline">
+            <div class="column is-2" v-for="item in lot" :key="item.symbol">
+              <b-tooltip :label="item.name" position="is-top">
+                <a target="_blank" v-bind:href=" 'https://etherscan.io/address/' + item.address">
+                  <figure class="image is-128x128 box">
+                    <img
+                      class="animate__animated animate__infinite animate__pulse"
+                      v-bind:src=" item.logoURI.trim()"
+                    />
+                  </figure>
+                </a>
+              </b-tooltip>
             </div>
           </div>
         </div>
@@ -74,11 +72,12 @@
 
 <script>
 import axios from "axios";
+import _ from "lodash";
 
 export default {
   data() {
     return {
-      lot: null,
+      lot: [],
     };
   },
   mounted() {
@@ -87,9 +86,20 @@ export default {
       url:
         "https://raw.githubusercontent.com/thirmprotocol/Assets/master/tokens.json",
     }).then((responsex) => {
-      this.lot = responsex.data.tokens;
+      var temparr = [];
+      _.forEach(responsex.data.tokens, function (value) {
+        console.log(value.chainId);
+
+        if (value.chainId == 1) {
+          temparr.push(value);
+        }
+      });
+
+      this.lot = temparr;
     });
   },
 };
 </script>
+
+
 

@@ -46,6 +46,12 @@ export default {
           img:
             "https://media-exp1.licdn.com/dms/image/C4E03AQF0_YCNuRLDMg/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=nkT9zOG_QHGPjbRpdSCpwaBbEvddgFALLFbS_T_5QWE",
         },
+              {
+          name: "Madhav Poudel",
+          title: "Frontend Developer",
+          img:
+            "https://media-exp1.licdn.com/dms/image/C4E03AQEbWm07ummYLw/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=y2gzLwoVIl096LFd5E5Q2UMZgZnzOTtZKLCoBWUGAfY",
+        },
         {
           name: "Tom Senreich",
           title: "Developer",

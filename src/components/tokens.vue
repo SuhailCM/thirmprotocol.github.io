@@ -26,66 +26,22 @@
     <section class="hero is-white is-hidden-mobile">
       <div class="hero-body">
         <div class="container">
-          <b-tabs position="is-centered" class="block" type="is-toggle">
-            <b-tab-item label="Testnet">
-              <br />
-              <br />
-              <div class="columns is-vcentered is-multiline">
-                <div
-                  class="column is-2"
-                  style="height:100px;"
-                  v-for="item in lot"
-                  :key="item.symbol"
-                >
-                  <b-taglist attached v-if="item.chainId == 3">
-                    <b-tag size="is-small">
-                      <a
-                        target="_blank"
-                        v-bind:href=" 'https://ropsten.etherscan.io/address/' + item.address"
-                      >
-                        <figure class="image is-64x64">
-                          <img
-                            class="animate__animated animate__infinite animate__pulse"
-                            v-bind:src=" item.logoURI.trim()"
-                          />
-                        </figure>
-                      </a>
-                    </b-tag>
-                    <b-tag size="is-small">{{ item.symbol }}</b-tag>
-                  </b-taglist>
-                </div>
+          <div class="columns">
+            <div v-for="item in lot" :key="item.symbol">
+              <div class="column is-6" v-if="item.chainId == 1">
+                <b-tooltip :label="item.name" position="is-top">
+                  <a target="_blank" v-bind:href=" 'https://etherscan.io/address/' + item.address">
+                    <figure class="image is-64x64">
+                      <img
+                        class="animate__animated animate__infinite animate__pulse"
+                        v-bind:src=" item.logoURI.trim()"
+                      />
+                    </figure>
+                  </a>
+                </b-tooltip>
               </div>
-            </b-tab-item>
-            <b-tab-item label="Mainnet">
-              <br />
-              <br />
-              <div class="columns is-vcentered is-multiline">
-                <div
-                  class="column is-2"
-                  style="height:100px;"
-                  v-for="item in lot"
-                  :key="item.symbol"
-                >
-                  <b-taglist attached v-if="item.chainId == 1">
-                    <b-tag size="is-small">
-                      <a
-                        target="_blank"
-                        v-bind:href=" 'https://etherscan.io/address/' + item.address"
-                      >
-                        <figure class="image is-64x64">
-                          <img
-                            class="animate__animated animate__infinite animate__pulse"
-                            v-bind:src=" item.logoURI.trim()"
-                          />
-                        </figure>
-                      </a>
-                    </b-tag>
-                    <b-tag size="is-small">{{ item.symbol }}</b-tag>
-                  </b-taglist>
-                </div>
-              </div>
-            </b-tab-item>
-          </b-tabs>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -20,7 +20,7 @@
               <div class="subtitle has-text-centered">
                 <strong>WHITEPAPER</strong>
               </div>
-              <hr />
+
               <b-field grouped group-multiline>
                 <div class="control">
                   <a

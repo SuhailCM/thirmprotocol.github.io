@@ -3,8 +3,29 @@
     <section class="hero is-medium is-white">
       <div class="hero-body">
         <div class="container">
-          <div class="title has-text-centered">TEAM</div>
-          <br />
+          <div class="columns is-vcentered">
+            <div class="column">
+              <lottie-player
+                src="https://assets1.lottiefiles.com/packages/lf20_ObEdDk.json"
+                background="transparent"
+                speed="1"
+                style="width: 100%; height: 100%;"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="column is-offset-1">
+              <div
+                class="subtitle"
+              >We conclude that cryptocurrencies should be convenient for everyone. We aim to make cryptocurrencies investments/profits hassle-free, one-click process.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hero is-medium is-white">
+      <div class="hero-body">
+        <div class="container">
           <div class="at-grid" data-column="4">
             <div class="at-column" v-for="item in team" :key="item.name">
               <div class="at-user">
@@ -23,6 +44,7 @@
 </template>
 
 
+              
 <script>
 export default {
   data() {
@@ -46,7 +68,7 @@ export default {
           img:
             "https://media-exp1.licdn.com/dms/image/C4E03AQF0_YCNuRLDMg/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=nkT9zOG_QHGPjbRpdSCpwaBbEvddgFALLFbS_T_5QWE",
         },
-              {
+        {
           name: "Madhav Poudel",
           title: "Frontend Developer",
           img:
@@ -58,7 +80,7 @@ export default {
           img:
             "https://media-exp1.licdn.com/dms/image/C5603AQHQhg3R8Wma6A/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=EGdkyiSrC7LywNBsjRQ194T-yZwq-87CmipmMHg8th8",
         },
-              {
+        {
           name: "Lucas Norbido",
           title: "Manager",
           img:

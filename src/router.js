@@ -2,7 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 
 import index from './x/index.vue';
-import team from './x/team.vue';
+import about from './x/about.vue';
 import whitepaper from './x/whitepaper.vue';
 import contact from './x/contact.vue';
 
@@ -17,9 +17,9 @@ export default new Router({
 			component: index,
 		},
 		{
-			path: '/team',
-			name: 'team',
-			component: team,
+			path: '/about',
+			name: 'about',
+			component: about,
 		},
 		{
 			path: '/whitepaper',

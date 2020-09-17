@@ -30,11 +30,8 @@
             <div class="column is-2" v-for="item in lot" :key="item.symbol">
               <b-tooltip :label="item.name" position="is-top">
                 <a target="_blank" v-bind:href=" 'https://etherscan.io/address/' + item.address">
-                  <figure class="image is-128x128 box">
-                    <img
-                      class="animate__animated animate__infinite animate__pulse"
-                      v-bind:src=" item.logoURI.trim()"
-                    />
+                  <figure class="image is-128x128 box zoom">
+                    <img v-bind:src="item.logoURI.trim()" />
                   </figure>
                 </a>
               </b-tooltip>
@@ -103,3 +100,8 @@ export default {
 
 
 
+<style scoped>
+.zoom:hover {
+  transform: scale(1.05);
+}
+</style>

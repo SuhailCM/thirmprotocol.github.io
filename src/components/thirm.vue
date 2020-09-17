@@ -5,7 +5,10 @@
         <div class="container">
           <div class="columns is-vcentered">
             <div class="column">
-              <img src="https://raw.githubusercontent.com/thirmprotocol/Assets/master/logo.png" />
+              <img
+                class="zoom"
+                src="https://raw.githubusercontent.com/thirmprotocol/Assets/master/logo.png"
+              />
             </div>
             <div class="column is-offset-2">
               <div class="content box">
@@ -49,5 +52,10 @@
 <style scoped>
 .vli {
   background-color: #1abc9c;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+  transition: transform 2s;
 }
 </style>

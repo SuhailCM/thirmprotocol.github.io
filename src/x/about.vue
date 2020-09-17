@@ -72,7 +72,7 @@ export default {
           name: "Madhav Poudel",
           title: "Frontend Developer",
           img:
-            "https://media-exp1.licdn.com/dms/image/C4E03AQEbWm07ummYLw/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=y2gzLwoVIl096LFd5E5Q2UMZgZnzOTtZKLCoBWUGAfY",
+            "https://media-exp1.licdn.com/dms/image/C5603AQEqigCWZn6lYw/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=Fvj3e_f4ESr0onxhyxiMqeGY57q5_aZNaNoIiQMIzwY",
         },
         {
           name: "Tom Senreich",

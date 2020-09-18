@@ -24,7 +24,7 @@
               <b-field grouped group-multiline>
                 <div class="control">
                   <a
-                    href="https://github.com/thirmprotocol/Assets/blob/master/whitepaper/english.md"
+                    href="https://github.com/thirmprotocol/whitepaper/blob/master/english.md"
                     target="_blank"
                   >
                     <b-taglist attached>

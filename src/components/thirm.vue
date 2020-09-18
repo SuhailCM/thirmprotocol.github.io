@@ -5,10 +5,7 @@
         <div class="container">
           <div class="columns is-vcentered">
             <div class="column">
-              <img
-                class="zoom"
-                src="https://raw.githubusercontent.com/thirmprotocol/Assets/master/logo.png"
-              />
+              <img class="zoom" src="logo.png" />
             </div>
             <div class="column is-offset-2">
               <div class="content box">

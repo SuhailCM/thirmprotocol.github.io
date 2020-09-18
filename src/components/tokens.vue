@@ -80,8 +80,7 @@ export default {
   mounted() {
     axios({
       method: "GET",
-      url:
-        "https://raw.githubusercontent.com/thirmprotocol/Assets/master/tokens.json",
+      url: "tokens.json",
     }).then((responsex) => {
       var temparr = [];
       _.forEach(responsex.data.tokens, function (value) {

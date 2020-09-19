@@ -21,7 +21,7 @@
                 </div>
                 <div class="column">
                   <a
-                    href="https://app.uniswap.org/#/swap?outputCurrency=0xa93f2a6b50d92bd64848f5ea15164f558b75ce9c"
+                    href="https://uniswap.info/token/0xa93f2a6b50d92bd64848f5ea15164f558b75ce9c"
                     target="_blank"
                   >
                     <b-button size="is-small">UNISWAP</b-button>

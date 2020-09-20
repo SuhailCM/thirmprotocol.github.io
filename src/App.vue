@@ -17,7 +17,7 @@
           <b-navbar-item target="_blank" href="https://twitter.com/thirmprotocol">
             <i class="fab fa-twitter fa-2x"></i>
           </b-navbar-item>
-          <b-navbar-item target="_blank" href="https://discord.com/invite/Fa4vDXj">
+          <b-navbar-item target="_blank" v-bind:href="discord">
             <i class="fab fa-discord fa-2x"></i>
           </b-navbar-item>
         </template>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="column">
                   <center>
-                    <a target="_blank" href="https://discord.com/invite/Fa4vDXj">
+                    <a target="_blank" v-bind:href="discord">
                       <span class="has-text-dark">
                         <i class="fab fa-discord fa-3x"></i>
                       </span>
@@ -117,3 +117,25 @@
   }
 }
 </style>
+
+<script>
+import axios from "axios";
+
+export default {
+  data() {
+    return {
+      discord: "https://discord.com/widget?id=712795894982115380&theme=dark",
+    };
+  },
+  mounted() {
+    axios({
+      method: "GET",
+      url: "https://discord.com/api/guilds/712795894982115380/widget.json",
+    }).then((responsex) => {
+      this.discord =
+        responsex.data.instant_invite ||
+        "https://discord.com/widget?id=712795894982115380&theme=dark";
+    });
+  },
+};
+</script>

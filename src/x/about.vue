@@ -75,12 +75,6 @@ export default {
             "https://media-exp1.licdn.com/dms/image/C5603AQEqigCWZn6lYw/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=Fvj3e_f4ESr0onxhyxiMqeGY57q5_aZNaNoIiQMIzwY",
         },
         {
-          name: "Tom Senreich",
-          title: "Developer",
-          img:
-            "https://media-exp1.licdn.com/dms/image/C5603AQHQhg3R8Wma6A/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=EGdkyiSrC7LywNBsjRQ194T-yZwq-87CmipmMHg8th8",
-        },
-        {
           name: "Lucas Norbido",
           title: "Manager",
           img:

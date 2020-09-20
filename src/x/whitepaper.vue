@@ -28,7 +28,7 @@
                     target="_blank"
                   >
                     <b-taglist attached>
-                      <b-tag type="is-info" size="is-large">English</b-tag>
+                      <b-tag type="is-info" size="is-large">Hinglish</b-tag>
                     </b-taglist>
                   </a>
                 </div>

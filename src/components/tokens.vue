@@ -80,7 +80,7 @@ export default {
   mounted() {
     axios({
       method: "GET",
-      url: "https://cdn.thirm.com/tokens.json",
+      url: "https://thirm.com/tokens.json",
     }).then((responsex) => {
       var temparr = [];
       _.forEach(responsex.data.tokens, function (value) {

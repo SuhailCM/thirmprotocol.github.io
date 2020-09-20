@@ -32,6 +32,27 @@
                     </b-taglist>
                   </a>
                 </div>
+                <div class="control">
+                  <b-tooltip label="Coming Soon !" position="is-bottom">
+                    <b-taglist attached>
+                      <b-tag type="is-info" size="is-large">English</b-tag>
+                    </b-taglist>
+                  </b-tooltip>
+                </div>
+                <div class="control">
+                  <b-tooltip label="Coming Soon !" position="is-bottom">
+                    <b-taglist attached>
+                      <b-tag type="is-info" size="is-large">Chinese</b-tag>
+                    </b-taglist>
+                  </b-tooltip>
+                </div>
+                <div class="control">
+                  <b-tooltip label="Coming Soon !" position="is-bottom">
+                    <b-taglist attached>
+                      <b-tag type="is-info" size="is-large">Russian</b-tag>
+                    </b-taglist>
+                  </b-tooltip>
+                </div>
               </b-field>
             </div>
           </div>

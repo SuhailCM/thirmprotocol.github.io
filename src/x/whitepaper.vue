@@ -1,11 +1,10 @@
-
 <template>
   <div>
     <section class="hero is-medium is-white">
       <div class="hero-body">
         <div class="container">
           <div class="columns is-vcentered">
-            <div class="column">
+            <div class="column is-6">
               <lottie-player
                 src="https://thirm.com/animations/6.json"
                 background="transparent"
@@ -15,48 +14,19 @@
                 autoplay
               ></lottie-player>
             </div>
-
-            <div class="column is-offset-1">
-              <div class="subtitle has-text-centered">
-                <strong>WHITEPAPER</strong>
+            <div class="column">
+              <div class="columns is-vcentered is-multiline">
+                <div class="column is-3" v-for="item in list" :key="item.title">
+                  <div class="title has-text-centered">
+                    <a
+                      target="_blank"
+                      v-bind:href="'https://github.com/thirmprotocol/whitepaper/blob/master/' + item.title + '.md'"
+                    >
+                      <b-button size="is-large">{{ item.title}}</b-button>
+                    </a>
+                  </div>
+                </div>
               </div>
-
-              <b-field grouped group-multiline>
-                <div class="control">
-                  <a
-                    href="https://github.com/thirmprotocol/whitepaper/blob/master/english.md"
-                    target="_blank"
-                  >
-                    <b-taglist attached>
-                      <b-tag type="is-info" size="is-large">Hinglish</b-tag>
-                    </b-taglist>
-                  </a>
-                </div>
-                <div class="control">
-                      <a
-                    href="https://github.com/thirmprotocol/whitepaper/blob/master/english.md"
-                    target="_blank"
-                  >
-                    <b-taglist attached>
-                      <b-tag type="is-info" size="is-large">English</b-tag>
-                    </b-taglist>
-                       </a>
-                </div>
-                <div class="control">
-                  <b-tooltip label="Coming Soon !" position="is-bottom">
-                    <b-taglist attached>
-                      <b-tag type="is-info" size="is-large">Chinese</b-tag>
-                    </b-taglist>
-                  </b-tooltip>
-                </div>
-                <div class="control">
-                  <b-tooltip label="Coming Soon !" position="is-bottom">
-                    <b-taglist attached>
-                      <b-tag type="is-info" size="is-large">Russian</b-tag>
-                    </b-taglist>
-                  </b-tooltip>
-                </div>
-              </b-field>
             </div>
           </div>
         </div>
@@ -64,3 +34,22 @@
     </section>
   </div>
 </template>
+
+
+
+
+<script>
+export default {
+  data() {
+    return {
+      list: [
+        {
+          title: "ENGLISH",
+        },
+      ],
+    };
+  },
+};
+</script>
+
+

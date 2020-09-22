@@ -5,6 +5,7 @@ import index from './x/index.vue';
 import about from './x/about.vue';
 import whitepaper from './x/whitepaper.vue';
 import contact from './x/contact.vue';
+import earn from './x/earn.vue';
 
 Vue.use(Router);
 
@@ -30,6 +31,11 @@ export default new Router({
 			path: '/contact',
 			name: 'contact',
 			component: contact,
+		},
+		{
+			path: '/earn',
+			name: 'earn',
+			component: earn,
 		},
 	],
 });

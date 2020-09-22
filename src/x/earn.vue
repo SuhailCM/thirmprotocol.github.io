@@ -1,0 +1,70 @@
+<template>
+  <div>
+    <section class="hero is-medium is-white">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-vcentered">
+            <div class="column is-6">
+              <lottie-player
+                src="https://assets9.lottiefiles.com/packages/lf20_bEwDo1.json"
+                background="transparent"
+                speed="1"
+                style="width: 100%; height: 100%;"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="column">
+              <div class="columns is-vcentered is-multiline">
+                <div class="column is-6" v-for="item in list" :key="item.title">
+                  <div class="box style1">
+                    <strong>{{ item.title}}</strong>
+                    <hr />
+                    {{item.guide}}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</template>
+
+
+
+
+<script>
+export default {
+  data() {
+    return {
+      list: [
+        {
+          title: "HOLD",
+          guide:
+            "THIRM PROTOCOL is continously burning THIRM TOKEN, which means growth overtime.",
+        },
+        {
+          title: "Provide Liquidity",
+          guide:
+            "THIRM PROTOCOL is continously burning THIRM TOKEN, Easy 0.3% commision for providiing Liquidity on DEX.",
+        },
+        {
+          title: "Mint T-Tokens",
+          guide:
+            "T-Tokens are the interest earning Cryptocurrency, you are automatically getting interest from best lending pool.",
+        },
+      ],
+    };
+  },
+};
+</script>
+
+
+
+<style scoped>
+.style1 {
+  height: 250px;
+}
+</style>

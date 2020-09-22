@@ -2,7 +2,7 @@
   <div id="app">
     <div class="bg"></div>
     <template>
-      <b-navbar fixed-top="true">
+      <b-navbar :fixed-top="true">
         <template slot="brand">
           <b-navbar-item tag="router-link" :to="{ path: '/' }">HOME</b-navbar-item>
         </template>
@@ -144,14 +144,18 @@ export default {
     };
   },
   mounted() {
-    axios({
-      method: "GET",
-      url: "https://discord.com/api/guilds/712795894982115380/widget.json",
-    }).then((responsex) => {
-      this.discord =
-        responsex.data.instant_invite ||
-        "https://discord.com/widget?id=712795894982115380&theme=dark";
-    });
+    try {
+      axios({
+        method: "GET",
+        url: "https://discord.com/api/guilds/712795894982115380/widget.json",
+      }).then((responsex) => {
+        this.discord =
+          responsex.data.instant_invite ||
+          "https://discord.com/widget?id=712795894982115380&theme=dark";
+      });
+    } catch (error) {
+      console.log("no discord");
+    }
   },
 };
 </script>

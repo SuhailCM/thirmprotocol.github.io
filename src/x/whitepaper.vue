@@ -6,7 +6,7 @@
           <div class="columns is-vcentered">
             <div class="column is-6">
               <lottie-player
-                src="https://thirm.com/animations/6.json"
+                src="https://thirm.com/animations/whitepaper.json"
                 background="transparent"
                 speed="1"
                 style="width: 100%; height: 100%;"

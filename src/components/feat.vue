@@ -40,7 +40,7 @@
 
             <div class="column is-5 is-offset-1">
               <lottie-player
-                src="https://assets5.lottiefiles.com/private_files/lf30_CEBzBH.json"
+                src="https://thirm.com/animations/feat.json"
                 background="transparent"
                 speed="1"
                 style="width: 100%; height: 100%;"

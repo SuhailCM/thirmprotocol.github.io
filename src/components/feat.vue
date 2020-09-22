@@ -4,7 +4,7 @@
       <div class="hero-body">
         <div class="container">
           <div class="columns is-vcentered is-multiline">
-            <div class="column is-5">
+            <div class="column is-6">
               <div class="columns is-multiline">
                 <div class="column is-12">
                   <div class="box">
@@ -38,8 +38,15 @@
               </div>
             </div>
 
-            <div class="column is-6 is-offset-1">
-              <img src="../assets/protocol.png" />
+            <div class="column is-5 is-offset-1">
+              <lottie-player
+                src="https://assets5.lottiefiles.com/private_files/lf30_CEBzBH.json"
+                background="transparent"
+                speed="1"
+                style="width: 100%; height: 100%;"
+                loop
+                autoplay
+              ></lottie-player>
             </div>
           </div>
         </div>

@@ -3,9 +3,6 @@
     <section class="hero is-medium">
       <div class="hero-body">
         <div class="container">
-          <div class="subtitle has-text-centered">SUPPORTED PLATFORMS</div>
-
-          <br />
           <div class="columns is-vcentered">
             <div class="column is-6">
               <lottie-player
@@ -16,6 +13,9 @@
                 loop
                 autoplay
               ></lottie-player>
+
+              <br />
+              <div class="subtitle has-text-centered">SUPPORTED PLATFORMS</div>
             </div>
             <div class="column">
               <div class="columns is-vcentered is-multiline">

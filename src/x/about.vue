@@ -23,18 +23,17 @@
         </div>
       </div>
     </section>
+
     <section class="hero is-medium is-white">
       <div class="hero-body">
-        <div class="container">
-          <div class="at-grid" data-column="4">
-            <div class="at-column" v-for="item in team" :key="item.name">
-              <div class="at-user">
-                <div class="at-user__avatar">
-                  <img :src="item.img" />
-                </div>
-                <div class="at-user__name">{{ item.name }}</div>
-                <div class="at-user__title">{{ item.title }}</div>
+        <div class="at-grid" data-column="5">
+          <div class="at-column" v-for="item in team" :key="item.name">
+            <div class="at-user">
+              <div class="at-user__avatar">
+                <img :src="item.img" />
               </div>
+              <div class="at-user__name">{{ item.name }}</div>
+              <div class="at-user__title">{{ item.title }}</div>
             </div>
           </div>
         </div>

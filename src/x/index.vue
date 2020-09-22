@@ -3,7 +3,7 @@
     <thirm />
     <feat />
     <tokens />
-    <vision />
+    <platforms />
     <medium />
   </div>
 </template>
@@ -12,7 +12,7 @@
 import thirm from "../components/thirm";
 import feat from "../components/feat";
 import tokens from "../components/tokens";
-import vision from "../components/vision";
+import platforms from "../components/platforms";
 import medium from "../components/medium";
 
 export default {
@@ -20,7 +20,7 @@ export default {
     thirm,
     feat,
     tokens,
-    vision,
+    platforms,
     medium,
   },
 };

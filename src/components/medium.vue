@@ -1,10 +1,10 @@
 <template>
-  <section class="hero is-hidden-mobile">
+  <section class="hero is-white is-hidden-mobile">
     <div class="hero-body">
       <div
         ref="medium-widget"
         id="medium-widget"
-        class="lcontainer__medium-widget box"
+        class="lcontainer__medium-widget"
         :class="{'lcontainer__medium-widget--loaded': isMediumLoaded}"
       ></div>
     </div>

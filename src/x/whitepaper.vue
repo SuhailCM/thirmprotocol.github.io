@@ -33,7 +33,6 @@
                   </a>
                 </div>
                 <div class="control">
-                  <b-tooltip label="Coming Soon !" position="is-bottom">
                       <a
                     href="https://github.com/thirmprotocol/whitepaper/blob/master/english.md"
                     target="_blank"
@@ -42,7 +41,6 @@
                       <b-tag type="is-info" size="is-large">English</b-tag>
                     </b-taglist>
                        </a>
-                  </b-tooltip>
                 </div>
                 <div class="control">
                   <b-tooltip label="Coming Soon !" position="is-bottom">

@@ -14,11 +14,25 @@
         </template>
 
         <template slot="end">
+          <b-navbar-item target="_blank" href="https://medium.com/thirmprotocol">
+            <span class="has-text-dark">
+              <i class="fab fa-medium fa-2x"></i>
+            </span>
+          </b-navbar-item>
+          <b-navbar-item target="_blank" href="https://github.com/thirmprotocol">
+            <span class="has-text-dark">
+              <i class="fab fa-github fa-2x"></i>
+            </span>
+          </b-navbar-item>
           <b-navbar-item target="_blank" href="https://twitter.com/thirmprotocol">
-            <i class="fab fa-twitter fa-2x"></i>
+            <span class="has-text-dark">
+              <i class="fab fa-twitter fa-2x"></i>
+            </span>
           </b-navbar-item>
           <b-navbar-item target="_blank" v-bind:href="discord">
-            <i class="fab fa-discord fa-2x"></i>
+            <span class="has-text-dark">
+              <i class="fab fa-discord fa-2x"></i>
+            </span>
           </b-navbar-item>
         </template>
       </b-navbar>
@@ -117,6 +131,7 @@
   }
 }
 </style>
+
 
 <script>
 import axios from "axios";

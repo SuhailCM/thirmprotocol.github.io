@@ -20,7 +20,7 @@
                   <div class="title has-text-centered">
                     <a
                       target="_blank"
-                      v-bind:href="'https://github.com/thirmprotocol/whitepaper/blob/master/' + item.title + '.md'"
+                      v-bind:href="'https://thirm.com/whitepaper/' + item.title + '.html'"
                     >
                       <b-button size="is-large">{{ item.title}}</b-button>
                     </a>

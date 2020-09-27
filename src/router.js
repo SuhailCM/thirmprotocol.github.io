@@ -6,6 +6,8 @@ import about from './x/about.vue';
 import whitepaper from './x/whitepaper.vue';
 import contact from './x/contact.vue';
 import earn from './x/earn.vue';
+import ttoken from './x/ttoken.vue';
+import thrm from './x/thrm.vue';
 
 Vue.use(Router);
 
@@ -16,6 +18,16 @@ export default new Router({
 			path: '/',
 			name: 'index',
 			component: index,
+		},
+		{
+			path: '/thrm',
+			name: 'thrm',
+			component: thrm,
+		},
+		{
+			path: '/ttoken',
+			name: 'ttoken',
+			component: ttoken,
 		},
 		{
 			path: '/about',

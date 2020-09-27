@@ -10,6 +10,15 @@
         </template>
 
         <template slot="start">
+          <b-navbar-dropdown label="PRODUCTS">
+            <b-navbar-item tag="router-link" :to="{ path: '/thrm' }"
+              >THIRM (THRM)</b-navbar-item
+            >
+            <b-navbar-item tag="router-link" :to="{ path: '/ttoken' }">
+              T-TOKENS
+            </b-navbar-item>
+          </b-navbar-dropdown>
+
           <b-navbar-item tag="router-link" :to="{ path: '/earn' }"
             >EARN</b-navbar-item
           >

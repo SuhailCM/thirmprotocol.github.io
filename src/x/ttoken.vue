@@ -11,12 +11,14 @@
               <h1 class="title">T-TOKENS</h1>
               <h2 class="subtitle">are Interest Bearing ERC20 Tokens.</h2>
 
-              <h2
-                class="content"
-              >(a) T-Tokens generates interest by allocating assets to most paying protocol.</h2>
-              <h2
-                class="content"
-              >(b) T-Tokens allows you to use BTC, LTC, NANO & more non ERC-20 cryptocurrencies on the Ethereum Network.</h2>
+              <h2 class="content">
+                (a) T-Tokens generates interest by allocating assets to most
+                paying protocol.
+              </h2>
+              <h2 class="content">
+                (b) T-Tokens allows you to use BTC, LTC, NANO & more non ERC-20
+                cryptocurrencies on the Ethereum Network.
+              </h2>
             </div>
           </div>
         </div>
@@ -29,7 +31,10 @@
           <div class="columns is-multiline">
             <div class="column is-2" v-for="item in lot" :key="item.symbol">
               <b-tooltip :label="item.name" position="is-top">
-                <a target="_blank" v-bind:href=" 'https://etherscan.io/address/' + item.address">
+                <a
+                  target="_blank"
+                  v-bind:href="'https://etherscan.io/address/' + item.address"
+                >
                   <figure class="image is-128x128 box zoom">
                     <img v-bind:src="item.logoURI.trim()" />
                   </figure>
@@ -46,19 +51,19 @@
         <div class="container">
           <div class="columns is-vcentered has-text-centered">
             <div class="column">
-              <img style="height:100px;" src="../assets/extra/0.png" />
+              <img style="height: 100px" src="../assets/extra/0.png" />
             </div>
             <div class="column">
-              <img style="height:100px;" src="../assets/extra/1.png" />
+              <img style="height: 100px" src="../assets/extra/1.png" />
             </div>
             <div class="column">
-              <img style="height:100px;" src="../assets/extra/5.png" />
+              <img style="height: 100px" src="../assets/extra/5.png" />
             </div>
             <div class="column">
-              <img style="height:100px;" src="../assets/extra/3.png" />
+              <img style="height: 100px" src="../assets/extra/3.png" />
             </div>
             <div class="column">
-              <img style="height:100px;" src="../assets/extra/4.png" />
+              <img style="height: 100px" src="../assets/extra/4.png" />
             </div>
           </div>
         </div>

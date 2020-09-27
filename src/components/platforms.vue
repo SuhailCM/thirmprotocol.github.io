@@ -46,12 +46,12 @@ export default {
         {
           Platform: "Bitfinex",
           Defination:
-            "Bitfinex is a cryptocurrency exchange owned and operated by iFinex Inc.",
+            "Bitfinex is a cryptocurrency exchange owned and operated by iFinex Inc. ",
         },
         {
           Platform: "Binance",
           Defination:
-            "Binance is one of the largest cryptocurrency exchange in the world in terms of trading volume. ",
+            "Binance is one of the largest cryptocurrency exchanges in the world in terms of trading volume. ",
         },
         {
           Platform: "AAVE",
@@ -61,7 +61,7 @@ export default {
         {
           Platform: "Staking",
           Defination:
-            "It is a processe in which user earns money while holding crypto-assets.",
+            "It is a process in which a user earns money while holding crypto-assets. ",
         },
         {
           Platform: "Compound",

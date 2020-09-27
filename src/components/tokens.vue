@@ -16,7 +16,7 @@
               >(a) T-Tokens generates interest by allocating assets to most paying protocol.</h2>
               <h2
                 class="content"
-              >(b) T-Tokens allows you to use BTC, LTC, NANO & more non ERC-20 Cryptocurrencies on Ethereum Network.</h2>
+              >(b) T-Tokens allows you to use BTC, LTC, NANO & more non ERC-20 cryptocurrencies on the Ethereum Network.</h2>
             </div>
           </div>
         </div>

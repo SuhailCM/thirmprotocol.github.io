@@ -8,13 +8,13 @@
               <div class="columns is-multiline">
                 <div class="column is-12">
                   <div class="box">
-                    <p>T-Tokens auto switches to the most profitable interest-paying protocol, the whole Thirm Protocol allocates itself to the most paying protocol, which means each user doesn't have to pay gas.</p>
+                    <p>T-Tokens auto switch to the most profitable interest-paying protocol. The Thirm Protocol allocates itself to the most paying protocol meaning users do not need to pay gas.</p>
                   </div>
                 </div>
 
                 <div class="column is-4">
                   <div class="box">
-                    <p>Disversify</p>
+                    <p>Diversify</p>
                   </div>
                 </div>
 
@@ -32,7 +32,7 @@
 
                 <div class="column is-12">
                   <div class="box">
-                    <p>Use Non-ERC20 Cryptocurrencies like BNB, BTC, LTC, NANO right on blockchain and still earn interest. You can use these currencies outside Thirm Ecosystem too, no limitations!</p>
+                    <p>Use Non-ERC20 cryptocurrencies like BNB, BTC, LTC and NANO on the blockchain and still earn interest. You can use these currencies outside of the Thirm Ecosystem too - no restrictions!</p>
                   </div>
                 </div>
               </div>

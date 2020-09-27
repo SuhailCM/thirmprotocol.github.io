@@ -27,31 +27,20 @@
         <template slot="end">
           <b-navbar-item
             target="_blank"
-            href="https://medium.com/thirmprotocol"
-          >
-            <span class="has-text-dark">
-              <i class="fab fa-medium"></i>
-            </span>
-          </b-navbar-item>
-          <b-navbar-item
-            target="_blank"
-            href="https://github.com/thirmprotocol"
-          >
-            <span class="has-text-dark">
-              <i class="fab fa-github"></i>
-            </span>
-          </b-navbar-item>
-          <b-navbar-item
-            target="_blank"
             href="https://twitter.com/thirmprotocol"
           >
             <span class="has-text-dark">
-              <i class="fab fa-twitter"></i>
+              <i class="fab fa-twitter fa-3x"></i>
+            </span>
+          </b-navbar-item>
+          <b-navbar-item target="_blank" href="https://t.me/thirm">
+            <span class="has-text-dark">
+              <i class="fab fa-telegram fa-3x"></i>
             </span>
           </b-navbar-item>
           <b-navbar-item target="_blank" v-bind:href="discord">
             <span class="has-text-dark">
-              <i class="fab fa-discord"></i>
+              <i class="fab fa-discord fa-3x"></i>
             </span>
           </b-navbar-item>
         </template>
@@ -105,6 +94,15 @@
                     <a target="_blank" href="https://twitter.com/thirmprotocol">
                       <span class="has-text-dark">
                         <i class="fab fa-twitter fa-3x"></i>
+                      </span>
+                    </a>
+                  </center>
+                </div>
+                <div class="column">
+                  <center>
+                    <a target="_blank" href="https://t.me/thirm">
+                      <span class="has-text-dark">
+                        <i class="fab fa-telegram fa-3x"></i>
                       </span>
                     </a>
                   </center>

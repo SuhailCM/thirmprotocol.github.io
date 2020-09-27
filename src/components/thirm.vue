@@ -10,7 +10,10 @@
             <div class="column is-offset-2">
               <div class="content box">
                 <strong>THIRM PROTOCOL</strong>
-                supercharges your DeFi Performance, access non ERC20 assests on ERC20, earn interest on your assests without locking them, automatic switch to most profitable lending protocols, Right On DeFi.
+                supercharges your DeFi Performance, access non ERC20 assests on
+                ERC20, earn interest on your assests without locking them,
+                automatic switch to most profitable lending protocols, Right On
+                DeFi.
               </div>
 
               <div class="columns is-vcentered">
@@ -19,6 +22,7 @@
                     <b-button size="is-small">DAPP</b-button>
                   </a>
                 </div>
+
                 <div class="column">
                   <a
                     href="https://uniswap.info/token/0xa93f2a6b50d92bd64848f5ea15164f558b75ce9c"
@@ -35,7 +39,16 @@
                     <b-button size="is-small">ETHERSCAN</b-button>
                   </a>
                 </div>
-                <div class="column is-6"></div>
+
+                <div class="column">
+                  <a
+                    href="https://www.stateofthedapps.com/dapps/thirm"
+                    target="_blank"
+                  >
+                    <b-button size="is-small">STATEOFTHEDAPPS</b-button>
+                  </a>
+                </div>
+                <div class="column is-3"></div>
               </div>
             </div>
           </div>

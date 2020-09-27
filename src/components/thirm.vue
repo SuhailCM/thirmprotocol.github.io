@@ -10,7 +10,7 @@
             <div class="column is-offset-2">
               <div class="content box">
                 <strong>THIRM PROTOCOL</strong>
-                supercharges your DeFi Performance, access non ERC20 assests on ERC20, earn interest on your assests without locking them, automatic switch to most profitable lending protocols, Right On DeFi.
+                supercharges your DeFi Performance, access non ERC20 assets on ERC20, earn interest on your assets without locking them, automatic switch to most profitable lending protocols, Right On DeFi.
               </div>
 
               <div class="columns is-vcentered">

@@ -24,6 +24,8 @@
           >
           <b-navbar-item tag="router-link" :to="{ path: '/whitepaper' }"
             >WHITEPAPER</b-navbar-item
+          >   <b-navbar-item tag="router-link" :to="{ path: '/faq' }"
+            >FAQ</b-navbar-item
           >
           <b-navbar-item tag="router-link" :to="{ path: '/about' }"
             >ABOUT</b-navbar-item

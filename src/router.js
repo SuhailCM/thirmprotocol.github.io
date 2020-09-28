@@ -8,6 +8,8 @@ import contact from './x/contact.vue';
 import earn from './x/earn.vue';
 import ttoken from './x/ttoken.vue';
 import thrm from './x/thrm.vue';
+import faq from './x/faq.vue';
+
 
 Vue.use(Router);
 
@@ -23,6 +25,10 @@ export default new Router({
 			path: '/thrm',
 			name: 'thrm',
 			component: thrm,
+		},	{
+			path: '/faq',
+			name: 'faq',
+			component: faq,
 		},
 		{
 			path: '/ttoken',

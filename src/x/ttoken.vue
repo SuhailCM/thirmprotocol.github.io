@@ -12,8 +12,7 @@
               <h2 class="subtitle">are Interest Bearing ERC20 Tokens.</h2>
 
               <h2 class="content">
-                (a) T-Tokens generates interest by allocating assets to most
-                paying protocol.
+                (a) T-Tokens generate interest by allocating assets to the most paying protocol.
               </h2>
               <h2 class="content">
                 (b) T-Tokens allows you to use BTC, LTC, NANO & more non ERC-20

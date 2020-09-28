@@ -48,12 +48,12 @@ export default {
         {
           title: "Provide Liquidity",
           guide:
-            "THIRM PROTOCOL is continously burning THIRM TOKEN, Easy 0.3% commision for providiing Liquidity on DEX.",
+            "THIRM PROTOCOL is continuously burning THIRM TOKEN. Receive 0.3% commission for providing Liquidity via the DEX.",
         },
         {
           title: "Mint T-Tokens",
           guide:
-            "T-Tokens are the interest earning Cryptocurrency, you are automatically getting interest from best lending pool.",
+            "T-Tokens are the interest earning cryptocurrency. You automatically receive interest from the best lending pool.",
         },
       ],
     };

@@ -17,7 +17,7 @@
             <div class="column is-offset-1">
               <div
                 class="subtitle"
-              >We conclude that cryptocurrencies should be convenient for everyone. We aim to make cryptocurrencies investments/profits hassle-free, one-click process.</div>
+              >We conclude that cryptocurrencies should be convenient for everyone. We aim to make cryptocurrency investment/profit a hassle-free, one-click process.</div>
             </div>
           </div>
         </div>

@@ -62,8 +62,8 @@ export default {
     return {
       list: [
         {
-          title: "Store Of Value",
-          guide: "THIRM PROTOCOL is uses THIRM TOKEN, as store of value.",
+          title: "Store of Value",
+          guide: "THIRM PROTOCOL uses THIRM TOKEN as a store of value.",
         },
 
         {

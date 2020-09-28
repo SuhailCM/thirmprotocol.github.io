@@ -145,8 +145,12 @@
 
 <style scoped>
 .bg {
-  animation: slide 10s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #1abc9c 50%, #09f 50%);
+  animation: slide 20s ease-in-out infinite alternate;
+  background-image: linear-gradient(
+    -60deg,
+    #d8e2f78e 50%,
+    rgb(255, 255, 255) 50%
+  );
   bottom: 0;
   left: -50%;
   opacity: 0.5;

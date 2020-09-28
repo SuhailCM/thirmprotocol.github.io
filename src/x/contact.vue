@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-medium is-white">
+    <section class="hero is-medium">
       <div class="hero-body">
         <div class="container">
           <div class="columns is-vcentered">
@@ -9,7 +9,7 @@
                 src="https://thirm.com/animations/contact.json"
                 background="transparent"
                 speed="1"
-                style="width: 100%; height: 100%;"
+                style="width: 100%; height: 100%"
                 loop
                 autoplay
               ></lottie-player>
@@ -27,7 +27,9 @@
                 <div class="message-body">Developer : developer@thirm.com</div>
               </article>
               <article class="message is-dark">
-                <div class="message-body">Partnerships : partnerships@thirm.com</div>
+                <div class="message-body">
+                  Partnerships : partnerships@thirm.com
+                </div>
               </article>
             </div>
           </div>

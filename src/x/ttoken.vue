@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-medium is-white">
+    <section class="hero is-medium">
       <div class="hero-body">
         <div class="container">
           <div class="columns is-vcentered">
@@ -12,7 +12,8 @@
               <h2 class="subtitle">are Interest Bearing ERC20 Tokens.</h2>
 
               <h2 class="content">
-                (a) T-Tokens generate interest by allocating assets to the most paying protocol.
+                (a) T-Tokens generate interest by allocating assets to the most
+                paying protocol.
               </h2>
               <h2 class="content">
                 (b) T-Tokens allows you to use BTC, LTC, NANO & more non ERC-20
@@ -45,7 +46,7 @@
       </div>
     </section>
 
-    <section class="hero is-medium is-white is-hidden-mobile">
+    <section class="hero is-medium is-hidden-mobile">
       <div class="hero-body">
         <div class="container">
           <div class="columns is-vcentered has-text-centered">

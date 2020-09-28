@@ -1,12 +1,14 @@
 <template>
-  <section class="hero is-white is-hidden-mobile">
+  <section class="hero is-hidden-mobile">
     <div class="hero-body">
-      <div
-        ref="medium-widget"
-        id="medium-widget"
-        class="lcontainer__medium-widget"
-        :class="{'lcontainer__medium-widget--loaded': isMediumLoaded}"
-      ></div>
+      <div class="container">
+        <div
+          ref="medium-widget"
+          id="medium-widget"
+          class="lcontainer__medium-widget"
+          :class="{ 'lcontainer__medium-widget--loaded': isMediumLoaded }"
+        ></div>
+      </div>
     </div>
   </section>
 </template>
@@ -38,8 +40,8 @@ export default {
         renderTo: "#medium-widget",
         params: {
           resource: "https://medium.com/thirmprotocol",
-          postsPerLine: 5,
-          limit: 5,
+          postsPerLine: 4,
+          limit: 4,
           picture: "big",
           fields: ["description"],
           ratio: "landscape",

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-medium is-white">
+    <section class="hero is-medium">
       <div class="hero-body">
         <div class="container">
           <div class="columns is-vcentered">
@@ -9,7 +9,7 @@
                 src="https://thirm.com/animations/earn.json"
                 background="transparent"
                 speed="1"
-                style="width: 100%; height: 100%;"
+                style="width: 100%; height: 100%"
                 loop
                 autoplay
               ></lottie-player>
@@ -18,9 +18,9 @@
               <div class="columns is-vcentered is-multiline">
                 <div class="column is-6" v-for="item in list" :key="item.title">
                   <div class="box style1">
-                    <strong>{{ item.title}}</strong>
+                    <strong>{{ item.title }}</strong>
                     <hr />
-                    {{item.guide}}
+                    {{ item.guide }}
                   </div>
                 </div>
               </div>

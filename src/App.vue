@@ -19,12 +19,10 @@
             </b-navbar-item>
           </b-navbar-dropdown>
 
-          <b-navbar-item tag="router-link" :to="{ path: '/earn' }"
-            >EARN</b-navbar-item
-          >
           <b-navbar-item tag="router-link" :to="{ path: '/whitepaper' }"
             >WHITEPAPER</b-navbar-item
-          >   <b-navbar-item tag="router-link" :to="{ path: '/faq' }"
+          >
+          <b-navbar-item tag="router-link" :to="{ path: '/faq' }"
             >FAQ</b-navbar-item
           >
           <b-navbar-item tag="router-link" :to="{ path: '/about' }"
@@ -32,6 +30,13 @@
           >
           <b-navbar-item tag="router-link" :to="{ path: '/contact' }"
             >CONTACT</b-navbar-item
+          >
+          <b-navbar-item tag="router-link" :to="{ path: '/earn' }"
+            >EARN</b-navbar-item
+          >
+
+          <b-navbar-item tag="router-link" :to="{ path: '/leader' }"
+            >LEADERBOARD</b-navbar-item
           >
         </template>
 

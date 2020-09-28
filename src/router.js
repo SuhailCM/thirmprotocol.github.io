@@ -9,7 +9,7 @@ import earn from './x/earn.vue';
 import ttoken from './x/ttoken.vue';
 import thrm from './x/thrm.vue';
 import faq from './x/faq.vue';
-
+import leader from './x/leader.vue';
 
 Vue.use(Router);
 
@@ -22,10 +22,16 @@ export default new Router({
 			component: index,
 		},
 		{
+			path: '/leader',
+			name: 'leader',
+			component: leader,
+		},
+		{
 			path: '/thrm',
 			name: 'thrm',
 			component: thrm,
-		},	{
+		},
+		{
 			path: '/faq',
 			name: 'faq',
 			component: faq,

@@ -10,6 +10,7 @@ import ttoken from './x/ttoken.vue';
 import thrm from './x/thrm.vue';
 import faq from './x/faq.vue';
 import leader from './x/leader.vue';
+import governance from './x/governance.vue';
 
 Vue.use(Router);
 
@@ -25,6 +26,11 @@ export default new Router({
 			path: '/leader',
 			name: 'leader',
 			component: leader,
+		},
+		{
+			path: '/governance',
+			name: 'governance',
+			component: governance,
 		},
 		{
 			path: '/thrm',

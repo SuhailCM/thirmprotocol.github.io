@@ -34,7 +34,9 @@
           <b-navbar-item tag="router-link" :to="{ path: '/earn' }"
             >EARN</b-navbar-item
           >
-
+          <b-navbar-item tag="router-link" :to="{ path: '/governance' }"
+            >GOVERNANCE</b-navbar-item
+          >
           <b-navbar-item tag="router-link" :to="{ path: '/leader' }"
             >LEADERBOARD</b-navbar-item
           >

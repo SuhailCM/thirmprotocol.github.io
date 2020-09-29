@@ -8,6 +8,13 @@
             <div class="column">
               <div class="title">THIRM LIQUIDITY PROVIDERS</div>
               <div class="subtitle">TOTAL REWARD : {{ reward }} THIRM</div>
+
+              <a
+                href="https://uniswap.info/pair/0x8ce44024c46545e5ab1d16c326ea157dad7b3c00"
+                target="_blank"
+              >
+                <b-button size="is-small">UNISWAP (THRM-USDC)</b-button>
+              </a>
             </div>
 
             <div class="column is-7 is-offset-1">
@@ -45,7 +52,7 @@ import axios from "axios";
 export default {
   data() {
     return {
-      reward: 700,
+      reward: 5000,
       data: [],
     };
   },

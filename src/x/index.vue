@@ -16,11 +16,7 @@
             </div>
             <div class="column is-offset-2">
               <div class="content box">
-                <strong>THIRM PROTOCOL</strong>
-                THIRM PROTOCOL supercharges your DeFi Performance. Access
-                non-ERC20 assets on ERC20. Earn interest on your assets without
-                locking them. Automatically switch to the most profitable
-                lending protocols.
+                <strong>THIRM PROTOCOL</strong> is Cross-chain & Cross-platform Lending Protocol built on Ethereum. Thirm Protocol automatically lends pooled user cryptocurrencies to highest paying protocol and generate the highest possible APY.
               </div>
 
               <div class="columns is-vcentered">

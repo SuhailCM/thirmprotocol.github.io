@@ -15,9 +15,28 @@
               ></lottie-player>
             </div>
             <div class="column is-offset-2">
+              <b-notification
+                type="is-success "
+                v-model="isActive"
+                aria-close-label="Close notification"
+              >
+                We are in BETA, Join our Discord !
+              </b-notification>
+
               <div class="content box">
-                <strong>THIRM PROTOCOL</strong> is Cross-chain & Cross-platform Lending Protocol built on Ethereum. Thirm Protocol automatically lends pooled user cryptocurrencies to highest paying protocol and generate the highest possible APY.
+                <strong>THIRM PROTOCOL</strong> is Cross-chain & Cross-platform
+                Lending Protocol built on Ethereum. Thirm Protocol automatically
+                lends pooled user cryptocurrencies to highest paying protocol
+                and generate the highest possible APY.
               </div>
+
+              <b-notification
+                type="is-link "
+                v-model="isActive"
+                aria-close-label="Close notification"
+              >
+                Thirm (THRM) governance tokens avaiable on Uniswap !
+              </b-notification>
 
               <div class="columns is-vcentered">
                 <div class="column">
@@ -38,7 +57,9 @@
                     href="https://uniswap.info/token/0xa93f2a6b50d92bd64848f5ea15164f558b75ce9c"
                     target="_blank"
                   >
-                    <b-button size="is-small">UNISWAP</b-button>
+                    <b-button size="is-small" type="is-primary"
+                      >UNISWAP</b-button
+                    >
                   </a>
                 </div>
                 <div class="column">

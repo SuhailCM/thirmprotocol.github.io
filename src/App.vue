@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div class="bg"></div>
+
     <template>
       <b-navbar :fixed-top="true">
         <template slot="brand">

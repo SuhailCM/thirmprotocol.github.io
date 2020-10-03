@@ -50,6 +50,78 @@
         </div>
       </div>
     </section>
+
+    <section class="hero is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <div class="title has-text-centered">MAX/TOTAL SUPPLY</div>
+          <br />
+          <br />
+          <div class="columns">
+            <div class="column">
+              <lottie-player
+                src="https://assets1.lottiefiles.com/packages/lf20_Az1u8i.json"
+                background="transparent"
+                speed="0.3"
+                style="width: 100%; height: 100%"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="column">
+              <lottie-player
+                src="https://assets2.lottiefiles.com/packages/lf20_UXIeIi.json"
+                background="transparent"
+                speed="0.3"
+                style="width: 100%; height: 100%"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="column">
+              <lottie-player
+                src="https://assets2.lottiefiles.com/packages/lf20_UXIeIi.json"
+                background="transparent"
+                speed="0.3"
+                style="width: 100%; height: 100%"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="column">
+              <lottie-player
+                src="https://assets2.lottiefiles.com/packages/lf20_UXIeIi.json"
+                background="transparent"
+                speed="0.3"
+                style="width: 100%; height: 100%"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="column">
+              <lottie-player
+                src="https://assets2.lottiefiles.com/packages/lf20_UXIeIi.json"
+                background="transparent"
+                speed="0.3"
+                style="width: 100%; height: 100%"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="column">
+              <lottie-player
+                src="https://assets2.lottiefiles.com/packages/lf20_UXIeIi.json"
+                background="transparent"
+                speed="0.3"
+                style="width: 100%; height: 100%"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 

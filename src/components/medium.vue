@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-hidden-mobile">
+  <section class="hero is-medium is-hidden-mobile">
     <div class="hero-body">
       <div class="container">
         <div

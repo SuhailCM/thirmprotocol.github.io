@@ -15,15 +15,14 @@
               ></lottie-player>
             </div>
             <div class="column is-offset-2">
-   
-             <b-notification
+              <b-notification
                 type="is-link "
                 v-model="isActive"
                 aria-close-label="Close notification"
               >
                 Thirm (THRM) governance tokens avaiable on Uniswap !
               </b-notification>
-              
+
               <div class="content box">
                 <strong>THIRM PROTOCOL</strong> is Cross-chain & Cross-platform
                 Lending Protocol built on Ethereum. Thirm Protocol automatically
@@ -134,18 +133,19 @@
       </div>
     </section>
 
+    <numbers />
     <medium />
   </div>
 </template>
 
 <script>
-//import platforms from "../components/platforms";
 import medium from "../components/medium";
+import numbers from "../components/numbers";
 
 export default {
   components: {
-    // platforms,
     medium,
+    numbers,
   },
 };
 </script>

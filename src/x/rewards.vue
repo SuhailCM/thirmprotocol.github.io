@@ -60,7 +60,7 @@ export default {
     axios({
       method: "GET",
       url:
-        "https://api.ethplorer.io/getTopTokenHolders/0x8ce44024c46545e5ab1d16c326ea157dad7b3c00?apiKey=freekey&limit=10",
+        "https://api.ethplorer.io/getTopTokenHolders/0x8ce44024c46545e5ab1d16c326ea157dad7b3c00?apiKey=freekey&limit=100",
     }).then((response) => {
       this.data = response.data.holders;
     });

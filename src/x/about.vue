@@ -60,6 +60,12 @@ export default {
             "https://media-exp1.licdn.com/dms/image/C5103AQFClN65G0jEVA/profile-displayphoto-shrink_200_200/0?e=1605139200&v=beta&t=Tlo6XdIwdF5_4nAR4Aycmrd5--88OmKRAWEAFURbFzU",
         },
         {
+          name: "Madhav Poudel",
+          title: "Frontend Developer",
+          img:
+            "https://media-exp1.licdn.com/dms/image/C5603AQEqigCWZn6lYw/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=Fvj3e_f4ESr0onxhyxiMqeGY57q5_aZNaNoIiQMIzwY",
+        },
+        {
           name: "Yash B",
           title: "Junior Developer, Manager",
           img:
@@ -70,12 +76,6 @@ export default {
           title: "Core Developer",
           img:
             "https://media-exp1.licdn.com/dms/image/C4E03AQF0_YCNuRLDMg/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=nkT9zOG_QHGPjbRpdSCpwaBbEvddgFALLFbS_T_5QWE",
-        },
-        {
-          name: "Madhav Poudel",
-          title: "Frontend Developer",
-          img:
-            "https://media-exp1.licdn.com/dms/image/C5603AQEqigCWZn6lYw/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=Fvj3e_f4ESr0onxhyxiMqeGY57q5_aZNaNoIiQMIzwY",
         },
       ],
     };

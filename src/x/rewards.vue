@@ -34,6 +34,15 @@
                 >
                   {{ ((props.row.share / 100) * reward).toFixed(4) }} THIRM
                 </b-table-column>
+
+                <b-table-column
+                  field="share"
+                  label="Equivalent ETH"
+                  v-slot="props"
+                >
+                  {{ ((props.row.share / 100) * reward).toFixed(4) * ethprice }}
+                  ETH
+                </b-table-column>
               </b-table>
             </div>
           </div>
@@ -53,10 +62,24 @@ export default {
   data() {
     return {
       reward: 5000,
+      ethprice: 0,
       data: [],
     };
   },
   mounted() {
+    axios({
+      url: "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+      method: "post",
+      data: {
+        query: `
+			  query { token(id : "0xa93f2a6b50d92bd64848f5ea15164f558b75ce9c"){ id derivedETH tradeVolume txCount totalLiquidity }}
+				`,
+      },
+    }).then((result) => {
+      this.ethprice =
+        parseFloat(result.data.data.token.derivedETH).toFixed(4) || 0;
+    });
+
     axios({
       method: "GET",
       url:

@@ -48,7 +48,7 @@ export default {
         {
           title: "Provide Liquidity",
           guide:
-            "THIRM PROTOCOL is continuously burning THIRM TOKEN. Receive (0.3% + 0.5%) commission for providing Liquidity via the DEX.",
+            "THIRM PROTOCOL is continuously burning THIRM TOKEN. Receive commission for providing Liquidity via the DEX.",
         },
         {
           title: "Thirm Vault (T-Tokens)",

@@ -17,7 +17,7 @@
               </a>
             </div>
 
-            <div class="column is-7 is-offset-1">
+            <div class="column is-8 is-offset-1">
               <b-table :data="data" :columns="columns" :hoverable="true">
                 <b-table-column field="address" label="Address" v-slot="props">
                   {{ props.row.address }}
@@ -40,7 +40,7 @@
                   label="Equivalent ETH"
                   v-slot="props"
                 >
-                  {{ ((props.row.share / 100) * reward).toFixed(4) * ethprice }}
+                  {{ ((props.row.share / 100) * reward * ethprice).toFixed(2) }}
                   ETH
                 </b-table-column>
               </b-table>

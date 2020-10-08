@@ -62,8 +62,16 @@
                     <b-button size="is-small">ETHERSCAN</b-button>
                   </a>
                 </div>
-
-                <div class="column is-3"></div>
+                <div class="column">
+                  <a
+                    href="https://www.coingecko.com/en/coins/thirm-protocol"
+                    target="_blank"
+                  >
+                    <b-button size="is-small" type="is-warning"
+                      >COINGECKO</b-button
+                    >
+                  </a>
+                </div>
               </div>
             </div>
           </div>

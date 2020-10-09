@@ -46,7 +46,7 @@
                 </div>
                 <div class="column">
                   <a
-                    href="https://uniswap.info/token/0xa93f2a6b50d92bd64848f5ea15164f558b75ce9c"
+                    href="https://uniswap.info/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069"
                     target="_blank"
                   >
                     <b-button size="is-small" type="is-primary"
@@ -56,7 +56,7 @@
                 </div>
                 <div class="column">
                   <a
-                    href="https://etherscan.io/token/0xa93f2a6b50d92bd64848f5ea15164f558b75ce9c"
+                    href="https://etherscan.io/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069"
                     target="_blank"
                   >
                     <b-button size="is-small">ETHERSCAN</b-button>

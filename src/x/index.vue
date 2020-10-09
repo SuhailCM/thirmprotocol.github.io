@@ -62,15 +62,8 @@
                     <b-button size="is-small">ETHERSCAN</b-button>
                   </a>
                 </div>
-                <div class="column">
-                  <a
-                    href="https://www.coingecko.com/en/coins/thirm-protocol"
-                    target="_blank"
-                  >
-                    <b-button size="is-small" type="is-warning"
-                      >COINGECKO</b-button
-                    >
-                  </a>
+                <div class="column is-4">
+              
                 </div>
               </div>
             </div>
@@ -78,6 +71,48 @@
         </div>
       </div>
     </section>
+
+     <div class="container">
+
+
+
+
+       <div class="columns is-vcentered is-multiline">
+
+       
+     <div class="column">
+     <a target="_blank" href="https://www.stateofthedapps.com/dapps/thirm">
+<img src="../assets/tags/sod.png" />
+</a>
+   </div>  
+            <div class="column ">     <a target="_blank" href="https://www.coingecko.com/en/coins/thirm-protocol">
+
+<img src="../assets/tags/coingecko.png" /></a>
+   </div>  
+   
+        <div class="column">     <a target="_blank" href="https://coinmarketcap.com/currencies/thirm-protocol/">
+
+<img src="../assets/tags/coinmarketcap.png" /></a>
+   </div>   
+        <div class="column ">     <a target="_blank" href="https://www.livecoinwatch.com/price/Thirm-THRM">
+
+<img src="../assets/tags/livecoinwatch.png" /></a>
+   </div>   
+
+ 
+     <div class="column">     <a target="_blank" href="https://uniswap.info/token/0xa93f2a6b50d92bd64848f5ea15164f558b75ce9c">
+
+<img src="../assets/tags/uniswap.png" /></a>
+   </div>   
+
+       <div class="column ">     <a target="_blank" href="https://etherscan.io/token/0xa93f2a6b50d92bd64848f5ea15164f558b75ce9c">
+
+<img src="../assets/tags/etherscan.png" /></a>
+   </div>   
+
+
+    </div>   </div>
+
     <section class="hero is-medium">
       <div class="hero-body">
         <div class="container">

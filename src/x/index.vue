@@ -70,7 +70,7 @@
       </div>
     </section>
 
-    <div class="container">
+    <div class="container is-hidden-mobile">
       <div class="columns is-vcentered is-multiline">
         <div class="column zoom">
           <a target="_blank" href="https://www.stateofthedapps.com/dapps/thirm">

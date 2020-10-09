@@ -24,10 +24,10 @@
               </b-notification>
 
               <div class="content box">
-                <strong>THIRM PROTOCOL</strong> is Cross-chain & Cross-platform
-                Lending Protocol built on Ethereum. Thirm Protocol automatically
-                lends pooled user cryptocurrencies to highest paying protocol
-                and generate the highest possible APY.
+                <strong>THIRM PROTOCOL</strong> is a Cross-chain &
+                Cross-platform Lending Protocol built on Ethereum. Thirm
+                Protocol automatically lends pooled user cryptocurrencies to the
+                highest paying protocol and generates the highest possible APY.
               </div>
 
               <div class="columns is-vcentered">

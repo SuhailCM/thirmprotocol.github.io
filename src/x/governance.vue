@@ -18,7 +18,7 @@
               <div class="box style1">
                 <strong>Coming Soon</strong>
                 <hr />
-                Governance Platform, Vote On Every Decision Thirm Makes
+                Governance Platform - Vote on every decision Thirm makes.
               </div>
             </div>
           </div>

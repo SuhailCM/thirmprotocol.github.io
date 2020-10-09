@@ -43,7 +43,7 @@ export default {
         {
           title: "HOLD",
           guide:
-            "THIRM PROTOCOL is continously burning THIRM TOKEN, which means growth overtime.",
+            "THIRM PROTOCOL is continuously burning THIRM TOKEN, which means growth over time.",
         },
         {
           title: "Provide Liquidity",

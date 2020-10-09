@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-medium is-hidden-mobile">
+    <section class="hero is-medium is-white is-hidden-mobile">
       <div class="hero-body">
         <div class="container">
           <div class="columns">

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-medium">
+    <section class="hero is-medium is-hidden-mobile">
       <div class="hero-body">
         <div class="container">
           <div class="columns">
@@ -91,12 +91,3 @@
 
 
 
-
-
-
-
-<style scoped>
-.style1 {
-  height: 250px;
-}
-</style>

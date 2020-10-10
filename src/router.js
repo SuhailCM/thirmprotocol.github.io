@@ -9,7 +9,6 @@ import earn from './x/earn.vue';
 import ttoken from './x/ttoken.vue';
 import thrm from './x/thrm.vue';
 import faq from './x/faq.vue';
-import rewards from './x/rewards.vue';
 import governance from './x/governance.vue';
 
 Vue.use(Router);
@@ -21,11 +20,6 @@ export default new Router({
 			path: '/',
 			name: 'index',
 			component: index,
-		},
-		{
-			path: '/rewards',
-			name: 'rewards',
-			component: rewards,
 		},
 		{
 			path: '/governance',

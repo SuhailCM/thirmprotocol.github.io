@@ -38,9 +38,7 @@
           <b-navbar-item tag="router-link" :to="{ path: '/governance' }"
             >GOVERNANCE</b-navbar-item
           >
-          <b-navbar-item tag="router-link" :to="{ path: '/rewards' }"
-            >REWARDS</b-navbar-item
-          >
+        
         </template>
 
         <template slot="end">

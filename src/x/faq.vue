@@ -5,7 +5,7 @@
         <div class="columns is-vcentered">
           <div class="column">
             <lottie-player
-                src="https://thirm.com/animations/faq.json"
+              src="https://thirm.com/animations/faq.json"
               background="transparent"
               speed="1"
               style="width: 100%; height: 100%"
@@ -56,22 +56,55 @@ export default {
       isOpen: 0,
       collapses: [
         {
-          title: "Getting THIRM Tokens",
-          text: "THIRM Tokens are not for sale by the team, only way to obtain THIRM Tokens is contacting/buying/trading from current holders. Uniswap Exchange is best place for you to find these traders.",
+          title: "THIRM Token",
+          text:
+            "THIRM Token is governance/ownership tracking smart contract written on ethereum blockchain.",
+        },
+        {
+          title: "THIRM Tokens Sale",
+          text:
+            "THIRM Tokens are not for sale by the team, we never had any token sale, the only way to obtain THIRM Tokens is by contacting/buying/trading from current tokens holders.",
         },
         {
           title: "THIRM Tokens Supply",
-          text: "Max Supply is at 100,000 THIRM. Governance can mint more if needed. ",
+          text:
+            "Max Supply is at 100,000 THIRM. Governance can mint more if needed. ",
         },
         {
           title: "THIRM Tokens Uses",
-          text: "Thirm Token is your governance share in Thirm Protocol, all holders decide future of Thirm Protocol.",
+          text:
+            "Thirm Token is your governance share in Thirm Protocol, all holders decide future of Thirm Protocol.",
         },
- {
+        {
           title: "THIRM Tokens Value",
-          text: "Thirm Token holds no value, Thirm Token is only used to govern/operate/manage Thirm Protocol, it has no real world value.",
+          text:
+            "Thirm Token holds no value, Thirm Token is only used to govern/operate/manage Thirm Protocol, it has no real world value.",
         },
-    
+        {
+          title: "T-Tokens",
+          text:
+            "T-TOKENS are Interest Bearing ERC20 Tokens, used by Thirm Vault. ",
+        },
+        {
+          title: "THIRM Vault",
+          text:
+            "Thirm Vault is a pool that allocates your funds to most interest  paying protocol.",
+        },
+        {
+          title: "Security Disclosure",
+          text:
+            "Thirm Protocol is very secure but understand this all software/code can have bugs/vulnerability, which is why its completely your responsibility to manage your funds, in case of any mishappening Thirm Solutions or its developers are not liable for any loss.",
+        },
+        {
+          title: "Funding Disclosure",
+          text:
+            "Thirm protocol creation and management are privately funded by its founder Aman S, we did not have any token sales, VC, private or public funding at any point in time.",
+        },
+        {
+          title: "Liability Disclosure",
+          text:
+            "You are resposbile for everything, Thirm Solutions or its members do not hold any Resposbilties/Liability for your actions.",
+        },
       ],
     };
   },

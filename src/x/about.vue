@@ -3,25 +3,14 @@
     <section class="hero is-medium">
       <div class="hero-body">
         <div class="container">
-          <div class="columns is-vcentered">
-            <div class="column">
-              <lottie-player
-                src="https://thirm.com/animations/about.json"
-                background="transparent"
-                speed="1"
-                style="width: 100%; height: 100%"
-                loop
-                autoplay
-              ></lottie-player>
-            </div>
-            <div class="column is-offset-1">
-              <div class="subtitle">
-                We conclude that cryptocurrencies should be convenient for
-                everyone. We aim to make cryptocurrency investment/profit a
-                hassle-free, one-click process.
-              </div>
-            </div>
-          </div>
+          <lottie-player
+            src="https://thirm.com/animations/about.json"
+            background="transparent"
+            speed="0.5"
+            style="width: 100%; height: 100%"
+            loop
+            autoplay
+          ></lottie-player>
         </div>
       </div>
     </section>
@@ -29,14 +18,25 @@
     <section class="hero is-medium">
       <div class="hero-body">
         <div class="container">
-          <div class="at-grid" data-column="4">
-            <div class="at-column" v-for="item in team" :key="item.name">
-              <div class="at-user">
-                <div class="at-user__avatar">
-                  <img :src="item.img" />
+          <div class="columns is-vcentered">
+            <div class="column">
+              <div class="subtitle">
+                We conclude that cryptocurrencies should be convenient for
+                everyone. We aim to make cryptocurrency investment/profit a
+                hassle-free, one-click process.
+              </div>
+            </div>
+            <div class="column is-offset-1">
+              <div class="at-grid" data-column="2">
+                <div class="at-column" v-for="item in team" :key="item.name">
+                  <div class="at-user">
+                    <div class="at-user__avatar">
+                      <img :src="item.img" />
+                    </div>
+                    <div class="at-user__name">{{ item.name }}</div>
+                    <div class="at-user__title">{{ item.title }}</div>
+                  </div>
                 </div>
-                <div class="at-user__name">{{ item.name }}</div>
-                <div class="at-user__title">{{ item.title }}</div>
               </div>
             </div>
           </div>
@@ -64,18 +64,6 @@ export default {
           title: "Frontend Developer",
           img:
             "https://media-exp1.licdn.com/dms/image/C5603AQEqigCWZn6lYw/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=Fvj3e_f4ESr0onxhyxiMqeGY57q5_aZNaNoIiQMIzwY",
-        },
-        {
-          name: "Yash B",
-          title: "Junior Developer, Manager",
-          img:
-            "https://media-exp1.licdn.com/dms/image/C5603AQF5xWciZH58qQ/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=bH0NWMQq_9RpRiZJ7q0-V2OAQu6iQgfhHgE8guiF-10",
-        },
-        {
-          name: "Paul Kalkbrenner",
-          title: "Core Developer",
-          img:
-            "https://media-exp1.licdn.com/dms/image/C4E03AQF0_YCNuRLDMg/profile-displayphoto-shrink_800_800/0?e=1605139200&v=beta&t=nkT9zOG_QHGPjbRpdSCpwaBbEvddgFALLFbS_T_5QWE",
         },
       ],
     };

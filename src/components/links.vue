@@ -10,7 +10,7 @@
         <div class="column zoom">
           <a
             target="_blank"
-            href=""
+            href="https://www.coingecko.com/en/coins/thirm-protocol"
           >
             <img src="../assets/tags/coingecko.png"
           /></a>

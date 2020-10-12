@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="container is-hidden-mobile">
-      <div class="columns is-vcentered is-multiline">
+    <div class="container">
+      <div class="columns is-mobile is-vcentered">
         <div class="column zoom">
           <a target="_blank" href="https://www.stateofthedapps.com/dapps/thirm">
             <img src="../assets/tags/sod.png" />
@@ -17,10 +17,7 @@
         </div>
 
         <div class="column zoom">
-          <a
-            target="_blank"
-            href=""
-          >
+          <a target="_blank" href="">
             <img src="../assets/tags/coinmarketcap.png"
           /></a>
         </div>

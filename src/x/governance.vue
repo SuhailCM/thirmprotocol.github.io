@@ -19,6 +19,12 @@
                 <strong>Coming Soon</strong>
                 <hr />
                 Governance Platform - Vote on every decision Thirm makes.
+                  <hr />
+                
+                       
+                 <a href="https://snapshot.page/#/thirm"><b-button type="is-primary is-light">VOTE NOW</b-button></a>
+
+                
               </div>
             </div>
           </div>

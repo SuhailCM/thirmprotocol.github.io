@@ -10,7 +10,7 @@
         <div class="column zoom">
           <a
             target="_blank"
-            href="https://www.coingecko.com/en/coins/thirm-protocol"
+            href=""
           >
             <img src="../assets/tags/coingecko.png"
           /></a>
@@ -19,7 +19,7 @@
         <div class="column zoom">
           <a
             target="_blank"
-            href="https://coinmarketcap.com/currencies/thirm-protocol/"
+            href=""
           >
             <img src="../assets/tags/coinmarketcap.png"
           /></a>

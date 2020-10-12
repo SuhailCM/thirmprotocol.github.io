@@ -27,7 +27,7 @@
         <div class="column zoom">
           <a
             target="_blank"
-            href="https://www.livecoinwatch.com/price/Thirm-THRM"
+            href="https://www.livecoinwatch.com/price/Thirm-THIRM"
           >
             <img src="../assets/tags/livecoinwatch.png"
           /></a>

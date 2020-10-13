@@ -20,7 +20,7 @@
                 v-model="isActive"
                 aria-close-label="Close notification"
               >
-                Thirm (THRM) governance tokens available on Uniswap !
+                THIRM governance tokens available on Uniswap !
               </b-notification>
 
               <div class="content box">

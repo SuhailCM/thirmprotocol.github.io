@@ -110,7 +110,7 @@ export default {
         {
           name: "Thirm Chainlink",
           symbol: "tLINK",
-          address: "0x36910c9695C1286c9377CEbc61D37bDEFcFdeAC6",
+          address: "null",
           logoURI: "https://thirm.com/icons/tLINK.png",
         },
       ],

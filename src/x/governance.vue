@@ -18,12 +18,27 @@
               <div class="box">
                 <strong> Governance Platform</strong>
                 <hr />
-                Vote on every decision THIRM makes.
+                Vote on every decision/proposal we make, using your THIRM
+                tokens.
                 <hr />
 
-                <a href="https://snapshot.page/#/thirm"
-                  ><b-button type="is-primary is-light">VOTE NOW</b-button></a
-                >
+                <div class="columns">
+                  <div class="column">
+                    <a href="https://snapshot.page/#/thirm"
+                      ><b-button type="is-primary is-light"
+                        >Vote On Proposals</b-button
+                      ></a
+                    >
+                  </div>
+                  <div class="column">
+                    <a href="https://snapshot.page/#/thirm/create"
+                      ><b-button type="is-primary is-light"
+                        >Create Proposal
+                      </b-button></a
+                    >
+                  </div>
+                  <div class="column"></div>
+                </div>
               </div>
             </div>
           </div>

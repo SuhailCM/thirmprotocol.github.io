@@ -14,17 +14,16 @@
                 autoplay
               ></lottie-player>
             </div>
-            <div class="column">
-              <div class="box style1">
-                <strong>Coming Soon</strong>
+            <div class="column is-offset-1">
+              <div class="box">
+                <strong> Governance Platform</strong>
                 <hr />
-                Governance Platform - Vote on every decision Thirm makes.
-                  <hr />
-                
-                       
-                 <a href="https://snapshot.page/#/thirm"><b-button type="is-primary is-light">VOTE NOW</b-button></a>
+                Vote on every decision THIRM makes.
+                <hr />
 
-                
+                <a href="https://snapshot.page/#/thirm"
+                  ><b-button type="is-primary is-light">VOTE NOW</b-button></a
+                >
               </div>
             </div>
           </div>
@@ -38,10 +37,3 @@
 
 
 
-
-
-<style scoped>
-.style1 {
-  height: 250px;
-}
-</style>

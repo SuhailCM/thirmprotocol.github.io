@@ -38,27 +38,11 @@
           <b-navbar-item tag="router-link" :to="{ path: '/governance' }"
             >GOVERNANCE</b-navbar-item
           >
-        
         </template>
 
         <template slot="end">
-          <b-navbar-item
-            target="_blank"
-            href="https://twitter.com/thirmprotocol"
-          >
-            <span class="has-text-dark">
-              <i class="fab fa-twitter fa-3x"></i>
-            </span>
-          </b-navbar-item>
-          <b-navbar-item target="_blank" href="https://t.me/thirm">
-            <span class="has-text-dark">
-              <i class="fab fa-telegram fa-3x"></i>
-            </span>
-          </b-navbar-item>
-          <b-navbar-item target="_blank" v-bind:href="discord">
-            <span class="has-text-dark">
-              <i class="fab fa-discord fa-3x"></i>
-            </span>
+          <b-navbar-item target="_blank" href="https://dapp.thirm.com/">
+            <b-button type="is-primary ">APP</b-button>
           </b-navbar-item>
         </template>
       </b-navbar>

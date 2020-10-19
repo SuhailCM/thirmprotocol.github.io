@@ -17,7 +17,7 @@
         </div>
 
         <div class="column zoom">
-          <a target="_blank" href="">
+          <a target="_blank" href="https://coinmarketcap.com/currencies/thirm-protocol">
             <img src="../assets/tags/coinmarketcap.png"
           /></a>
         </div>

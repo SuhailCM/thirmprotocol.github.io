@@ -24,8 +24,7 @@
               </b-notification>
 
               <div class="content box">
-                <strong>THIRM PROTOCOL</strong> is a Cross-chain &
-                Cross-platform Lending Protocol built on Ethereum. Thirm
+                <strong>THIRM PROTOCOL</strong> is a Cross-platform Lending Protocol. Thirm
                 Protocol automatically lends pooled user cryptocurrencies to the
                 highest paying protocol and generates the highest possible APY.
               </div>

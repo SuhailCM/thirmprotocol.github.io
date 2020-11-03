@@ -10,6 +10,7 @@ import ttoken from './x/ttoken.vue';
 import thrm from './x/thrm.vue';
 import faq from './x/faq.vue';
 import governance from './x/governance.vue';
+import rewards from './x/rewards.vue';
 
 Vue.use(Router);
 
@@ -60,6 +61,11 @@ export default new Router({
 			path: '/earn',
 			name: 'earn',
 			component: earn,
+		},
+		{
+			path: '/rewards',
+			name: 'rewards',
+			component: rewards,
 		},
 	],
 });

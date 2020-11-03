@@ -7,7 +7,7 @@
           <div class="columns is-vcentered">
             <div class="column">
               <div class="title">THIRM LIQUIDITY PROVIDERS</div>
-              <div class="subtitle">TOTAL REWARD : {{ reward }} THIRM</div>
+              <div class="subtitle">REWARD : {{ reward }} THIRM EACH WEEK</div>
 
               <a
                 href="https://uniswap.info/pair/0xd912aa12e3cf3458d478da3c629096f4e8bd5f72"
@@ -29,7 +29,7 @@
 
                 <b-table-column
                   field="share"
-                  label="Estimated Reward"
+                  label="Estimated Payout"
                   v-slot="props"
                 >
                   {{ ((props.row.share / 100) * reward).toFixed(4) }} THIRM
@@ -46,9 +46,6 @@
               </b-table>
             </div>
           </div>
-
-          <br />
-          <div class="content has-text-centered">EVENT ENDS 1 JAN 2021</div>
         </div>
       </div>
     </section>
@@ -64,7 +61,7 @@ import axios from "axios";
 export default {
   data() {
     return {
-      reward: 2000,
+      reward: 200,
       ethprice: 0,
       data: [],
     };

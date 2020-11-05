@@ -58,8 +58,9 @@
                 loop
                 autoplay
               ></lottie-player>
-              <div class="content has-text-centered">Highest Interest</div>
+              <div class="content has-text-centered">Transparent</div>
             </div>
+            
             <div class="column">
               <lottie-player
                 src="https://assets10.lottiefiles.com/packages/lf20_6Jp14J.json"

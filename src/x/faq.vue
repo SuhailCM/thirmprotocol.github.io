@@ -68,7 +68,7 @@ export default {
         {
           title: "THIRM Tokens Supply",
           text:
-            "Max Supply is at 100,000 THIRM.",
+            "Max Supply is at 100,000 THIRM. Company can mint more token to cover expenses.",
         },
         {
           title: "THIRM Tokens Uses",

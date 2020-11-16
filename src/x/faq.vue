@@ -68,7 +68,7 @@ export default {
         {
           title: "THIRM Tokens Supply",
           text:
-            "Max Supply is at 100,000 THIRM. Company can mint more token to cover expenses.",
+            "Tokens are burned regularly by DAPP users and minted by company to cover server and salary expanses. So a fixed supply does not exist on THIRM Token. ",
         },
         {
           title: "THIRM Tokens Uses",
@@ -80,16 +80,7 @@ export default {
           text:
             "Thirm Token holds no value, Thirm Token is only used to govern/operate/manage Thirm Protocol, it has no real world value.",
         },
-        {
-          title: "T-Tokens",
-          text:
-            "T-TOKENS are Interest Bearing ERC20 Tokens, used by Thirm Vault. ",
-        },
-        {
-          title: "THIRM Vault",
-          text:
-            "Thirm Vault is a pool that allocates your funds to most interest  paying protocol.",
-        },
+       
         {
           title: "Security Disclosure",
           text:

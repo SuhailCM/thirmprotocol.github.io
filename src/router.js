@@ -7,10 +7,9 @@ import whitepaper from './x/whitepaper.vue';
 import contact from './x/contact.vue';
 import earn from './x/earn.vue';
 import ttoken from './x/ttoken.vue';
-import thrm from './x/thrm.vue';
+import thirm from './x/thirm.vue';
 import faq from './x/faq.vue';
 import governance from './x/governance.vue';
-import rewards from './x/rewards.vue';
 
 Vue.use(Router);
 
@@ -28,9 +27,9 @@ export default new Router({
 			component: governance,
 		},
 		{
-			path: '/thrm',
-			name: 'thrm',
-			component: thrm,
+			path: '/thirm',
+			name: 'thirm',
+			component: thirm,
 		},
 		{
 			path: '/faq',
@@ -61,11 +60,6 @@ export default new Router({
 			path: '/earn',
 			name: 'earn',
 			component: earn,
-		},
-		{
-			path: '/rewards',
-			name: 'rewards',
-			component: rewards,
 		},
 	],
 });

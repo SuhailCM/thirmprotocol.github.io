@@ -57,13 +57,13 @@ export default {
           name: "Aman Singh",
           title: "Founder, Lead Developer",
           img:
-            "https://media-exp1.licdn.com/dms/image/C5103AQFClN65G0jEVA/profile-displayphoto-shrink_200_200/0?e=1605139200&v=beta&t=Tlo6XdIwdF5_4nAR4Aycmrd5--88OmKRAWEAFURbFzU",
+            "https://ipfs.io/ipfs/QmfK5JFYgT3BDEx4nT4yiG6WEHxS65GB3ae7ZVKP19TWno?filename=aman.PNG",
         },
         {
           name: "Madhav Poudel",
           title: "Frontend Developer",
           img:
-            "https://media-exp1.licdn.com/dms/image/C5603AQEqigCWZn6lYw/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=Fvj3e_f4ESr0onxhyxiMqeGY57q5_aZNaNoIiQMIzwY",
+            "https://ipfs.io/ipfs/QmYeag3Xbc2CP3kv5W5cmQszcfppRLLWtfNjtAwkfQ9tCJ?filename=madhav.PNG",
         },
       ],
     };

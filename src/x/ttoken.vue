@@ -65,16 +65,17 @@ export default {
 	data() {
 		return {
 			lot: [
-				{
-					name: 'Thirm Ethereum',
-					symbol: 'tETH',
-					address: '0x138083bd8a49357b4630733954e9538ed74df105',
-					logoURI: 'https://thirm.com/icons/tETH.png',
+				
+					{
+					name: 'Thirm Bitcoin',
+					symbol: 'tBTC',
+					address: '0x36910c9695C1286c9377CEbc61D37bDEFcFdeAC6',
+					logoURI: 'https://thirm.com/icons/tBTC.png',
 				},
 				{
 					name: 'Thirm Nano',
 					symbol: 'tNANO',
-					address: '0x8bd868574a92994e9c51e501523c255f561b34ad',
+					address: '0x9DB44C215F14a874C0Ca45895f3A97f0839c29d9',
 					logoURI: 'https://thirm.com/icons/tNANO.png',
 				},
 				{
@@ -89,18 +90,13 @@ export default {
 					address: '0xB29c13A70792B5B5D1Ab8e40b92233A16568Fe32',
 					logoURI: 'https://thirm.com/icons/tDAI.png',
 				},
-				{
-					name: 'Thirm Bitcoin',
-					symbol: 'tBTC',
-					address: '0x36910c9695C1286c9377CEbc61D37bDEFcFdeAC6',
-					logoURI: 'https://thirm.com/icons/tBTC.png',
+			{
+					name: 'Thirm Ethereum',
+					symbol: 'tETH',
+					address: '0x138083bd8a49357b4630733954e9538ed74df105',
+					logoURI: 'https://thirm.com/icons/tETH.png',
 				},
-				{
-					name: 'Thirm Chainlink',
-					symbol: 'tLINK',
-					address: 'null',
-					logoURI: 'https://thirm.com/icons/tLINK.png',
-				},
+				
 			],
 		};
 	},

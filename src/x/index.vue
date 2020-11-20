@@ -24,9 +24,7 @@
               </b-notification>
 
               <div class="content box">
-                <strong>THIRM PROTOCOL</strong> is a Cross-platform Lending Protocol. Thirm
-                Protocol automatically lends pooled user cryptocurrencies to the
-                highest paying protocol and generates the highest possible APY.
+                <strong>THIRM PROTOCOL</strong> links various cross-chain cryptocurrencies.
               </div>
 
               <div class="columns is-vcentered">

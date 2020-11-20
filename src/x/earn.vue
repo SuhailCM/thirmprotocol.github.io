@@ -36,8 +36,6 @@
           <div class="columns is-vcentered">
             <div class="column">
               <div class="title">THIRM LIQUIDITY PROVIDERS</div>
-              <div class="subtitle">REWARD : {{ reward }} THIRM EACH WEEK</div>
-
               <a
                 href="https://uniswap.info/pair/0xd912aa12e3cf3458d478da3c629096f4e8bd5f72"
                 target="_blank"

@@ -24,6 +24,9 @@
 					<b-navbar-item target="_blank" href="https://dapp.thirm.com/">
 						<b-button type="is-primary ">APP</b-button>
 					</b-navbar-item>
+                                        <b-navbar-item target="_blank" href="https://docs.thirm.com/">
+						<b-button type="is-primary ">DOCS</b-button>
+					</b-navbar-item>
 				</template>
 			</b-navbar>
 		</template>

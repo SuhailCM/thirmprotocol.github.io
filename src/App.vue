@@ -22,10 +22,12 @@
 
 				<template slot="end">
 					<b-navbar-item target="_blank" href="https://dapp.thirm.com/">
-						<b-button type="is-primary ">APP</b-button>
+						<b-button>APP</b-button>
 					</b-navbar-item>
                                         <b-navbar-item target="_blank" href="https://docs.thirm.com/">
-						<b-button type="is-primary ">DOCS</b-button>
+						<b-button >DOCS</b-button>
+					</b-navbar-item>        <b-navbar-item target="_blank" href="https://uniswap.info/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069">
+						<b-button >UNISWAP</b-button>
 					</b-navbar-item>
 				</template>
 			</b-navbar>

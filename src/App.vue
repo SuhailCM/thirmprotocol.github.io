@@ -9,14 +9,9 @@
 				</template>
 
 				<template slot="start">
-					<b-navbar-dropdown label="PRODUCTS">
-						<b-navbar-item tag="router-link" :to="{ path: '/thirm' }">THIRM</b-navbar-item>
-						<b-navbar-item tag="router-link" :to="{ path: '/ttoken' }"> T-TOKENS </b-navbar-item>
-					</b-navbar-dropdown>
 					<b-navbar-item tag="router-link" :to="{ path: '/faq' }">FAQ</b-navbar-item>
 					<b-navbar-item tag="router-link" :to="{ path: '/about' }">ABOUT</b-navbar-item>
 					<b-navbar-item tag="router-link" :to="{ path: '/contact' }">CONTACT</b-navbar-item>
-					<b-navbar-item tag="router-link" :to="{ path: '/earn' }">EARN</b-navbar-item>
 					<b-navbar-item tag="router-link" :to="{ path: '/governance' }">GOVERNANCE</b-navbar-item>
 				</template>
 
@@ -24,10 +19,11 @@
 					<b-navbar-item target="_blank" href="https://dapp.thirm.com/">
 						<b-button>APP</b-button>
 					</b-navbar-item>
-                                        <b-navbar-item target="_blank" href="https://docs.thirm.com/">
-						<b-button >DOCS</b-button>
-					</b-navbar-item>        <b-navbar-item target="_blank" href="https://uniswap.info/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069">
-						<b-button >UNISWAP</b-button>
+					<b-navbar-item target="_blank" href="https://docs.thirm.com/">
+						<b-button>DOCS</b-button>
+					</b-navbar-item>
+					<b-navbar-item target="_blank" href="https://uniswap.info/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069">
+						<b-button>UNISWAP</b-button>
 					</b-navbar-item>
 				</template>
 			</b-navbar>

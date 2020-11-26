@@ -3,13 +3,15 @@
 		<section class="hero is-medium">
 			<div class="hero-body">
 				<div class="container">
-					<div class="columns is-vcentered">
-						<div class="column is-7">
-							<img src="../assets/b.png" />
-						</div>
-						<div class="column is-offset-1">
-							<h1 class="title">T-TOKENS</h1>
-							<h2 class="subtitle">allows you to use BTC, LTC, NANO & more non ERC-20 cryptocurrencies on the Ethereum Network.</h2>
+					<div class="title">Important Components</div>
+					<hr />
+					<div class="columns is-vcentered is-multiline">
+						<div class="column is-4" v-for="item in list" :key="item.title">
+							<div class="box style1">
+								<strong>{{ item.title }}</strong>
+								<hr />
+								{{ item.guide }}
+							</div>
 						</div>
 					</div>
 				</div>
@@ -33,30 +35,6 @@
 				</div>
 			</div>
 		</section>
-
-		<section class="hero is-medium is-hidden-mobile">
-			<div class="hero-body">
-				<div class="container">
-					<div class="columns is-vcentered has-text-centered">
-						<div class="column">
-							<img style="height: 100px" src="../assets/extra/0.png" />
-						</div>
-						<div class="column">
-							<img style="height: 100px" src="../assets/extra/1.png" />
-						</div>
-						<div class="column">
-							<img style="height: 100px" src="../assets/extra/5.png" />
-						</div>
-						<div class="column">
-							<img style="height: 100px" src="../assets/extra/3.png" />
-						</div>
-						<div class="column">
-							<img style="height: 100px" src="../assets/extra/4.png" />
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
 	</div>
 </template>
 
@@ -65,8 +43,7 @@ export default {
 	data() {
 		return {
 			lot: [
-				
-					{
+				{
 					name: 'Thirm Bitcoin',
 					symbol: 'tBTC',
 					address: '0x36910c9695C1286c9377CEbc61D37bDEFcFdeAC6',
@@ -90,13 +67,29 @@ export default {
 					address: '0xB29c13A70792B5B5D1Ab8e40b92233A16568Fe32',
 					logoURI: 'https://thirm.com/icons/tDAI.png',
 				},
-			{
+				{
 					name: 'Thirm Ethereum',
 					symbol: 'tETH',
 					address: '0x138083bd8a49357b4630733954e9538ed74df105',
 					logoURI: 'https://thirm.com/icons/tETH.png',
 				},
-				
+			],
+			reward: 200,
+			ethprice: 0,
+			data: [],
+			list: [
+				{
+					title: 'THIRM VM',
+					guide: 'THIRM VM is software that allows you to access your cryptocurrecies on multiple blockchain.',
+				},
+				{
+					title: 'THIRM',
+					guide: 'THIRM is a governance smart contract written on Ethereum Blockchain, its tradeable with other cryptocurrency as it also follows ERC20 Token Standard.',
+				},
+				{
+					title: 'T-TOKENS',
+					guide: 'T-TOKENS are Tokenized cryptocurrencies by THIRM VM, each T-TOKEN is backed by its native cryptocurrency. ( ex 1 tBTC = 1 BTC )',
+				},
 			],
 		};
 	},
@@ -104,7 +97,7 @@ export default {
 </script>
 
 <style scoped>
-.zoom:hover {
-	transform: scale(1.05);
+.style1 {
+	height: 300px;
 }
 </style>

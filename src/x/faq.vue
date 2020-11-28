@@ -37,11 +37,11 @@ export default {
 			collapses: [
 				{
 					title: 'THIRM Token',
-					text: 'THIRM Token is governance/ownership tracking smart contract written on ethereum blockchain.',
+					text: 'THIRM Token is a governance/ownership tracking smart contract written on the ethereum blockchain.',
 				},
 				{
 					title: 'THIRM Tokens Sale',
-					text: 'THIRM Tokens are not for sale by the team, we never had any token sale, the only way to obtain THIRM Tokens is by contacting/buying/trading from current tokens holders.',
+					text: 'THIRM Tokens are not for sale by the team and we never had any token sale. The only way to obtain THIRM Tokens is by contacting/buying/trading from current tokens holders.',
 				},
 				{
 					title: 'THIRM Tokens Supply',
@@ -49,7 +49,7 @@ export default {
 				},
 				{
 					title: 'THIRM Tokens Uses',
-					text: 'Thirm Token is your governance share in Thirm Protocol, all holders decide future of Thirm VM.',
+					text: 'Thirm Tokens are your governance share in Thirm Protocol, all holders decide the future of Thirm VM.',
 				},
 				{
 					title: 'THIRM Tokens Value',
@@ -58,15 +58,15 @@ export default {
 
 				{
 					title: 'Security Disclosure',
-					text: 'Thirm Protocol is very secure but understand this all software/code can have bugs/vulnerability, which is why its completely your responsibility to manage your funds, in case of any mishappening Thirm Solutions or its developers are not liable for any loss.',
+					text: 'Thirm Protocol is very secure but understand that all software/code can have bugs/vulnerability, which is why it's completely your responsibility to manage your funds. In case of any mishappening Thirm Solutions or its developers are not liable for any losses.',
 				},
 				{
 					title: 'Funding Disclosure',
-					text: 'Thirm protocol creation and management are privately funded by its founder Aman S, we did not have any token sales, VC, private or public funding at any point in time.',
+					text: 'Thirm protocol creation and management are privately funded by its founder Aman S. We have not had any token sales, VC, private or public funding at any point in time.',
 				},
 				{
 					title: 'Liability Disclosure',
-					text: 'You are resposbile for everything, Thirm Solutions or its members do not hold any Resposbilties/Liability for your actions.',
+					text: 'You assume responsiblity for all risks, Thirm Solutions or its members do not hold any Resposbilties/Liability for your actions.',
 				},
 			],
 		};

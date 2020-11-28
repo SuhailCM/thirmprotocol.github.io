@@ -18,7 +18,7 @@
 							<lottie-player src="https://thirm.com/animations/feat.json" background="transparent" speed="0.6" style="width: 100%; height: 100%" loop autoplay></lottie-player>
 						</div>
 						<div class="column is-offset-1">
-							<div class="content box"><strong>THIRM VM</strong> links various cross-chain cryptocurrencies, allows you to access your crypto assets among various different blockchains.</div>
+							<div class="content box"><strong>THIRM VM</strong> links various cross-chain cryptocurrencies, allowing you to access your crypto assets among various different blockchains.</div>
 
 							<br />
 							<div class="columns is-multiline">
@@ -78,7 +78,7 @@
 								<div class="column is-12">
 									<div class="box">
 										<p>
-											Use Non-ERC20 cryptocurrencies like BNB, BTC, LTC and NANO on the blockchain. You can use these currencies outside of the Thirm Ecosystem too - no restrictions!
+											Use Non-ERC20 cryptocurrencies like BNB, BTC, LTC and NANO on the blockchain. You can use these currencies outside of the Thirm Ecosystem, too - no restrictions!
 										</p>
 									</div>
 								</div>

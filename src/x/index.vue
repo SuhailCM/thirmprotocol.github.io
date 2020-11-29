@@ -5,7 +5,7 @@
 				<div class="columns is-vcentered">
 					<div class="column">Approx 9000 THIRM is added on bounce.finance, 1 ETH = 40 THIRM. The generated ETH will be locked in Uniswap LP Permanently.</div>
 					<div class="column is-2">
-						<a href="https://app.bounce.finance/fixed-swap/4608"><b-button type=" is-light"> $THIRM on bounce.finance</b-button></a>
+						<a href="https://app.bounce.finance/fixed-swap/4608">$THIRM on bounce.finance</a>
 					</div>
 				</div>
 			</b-notification>

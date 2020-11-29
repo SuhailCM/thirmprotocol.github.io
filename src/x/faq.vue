@@ -58,7 +58,7 @@ export default {
 
 				{
 					title: 'Security Disclosure',
-					text: 'Thirm Protocol is very secure but understand that all software/code can have bugs/vulnerabilities, which is why it's completely your responsibility to manage your funds. In case of any mishappening Thirm Solutions or its developers are not liable for any losses.',
+					text: 'Thirm Protocol is very secure but understand that all software/code can have bugs/vulnerabilities, which is why its completely your responsibility to manage your funds. In case of any mishappening Thirm Solutions or its developers are not liable for any losses.',
 				},
 				{
 					title: 'Funding Disclosure',

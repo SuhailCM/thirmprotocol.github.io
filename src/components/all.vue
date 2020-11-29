@@ -80,11 +80,11 @@ export default {
 			list: [
 				{
 					title: 'THIRM VM',
-					guide: 'THIRM VM is software that allows you to access your cryptocurrecies on multiple blockchains.',
+					guide: 'THIRM VM is software that allows you to access your cryptocurrencies on multiple blockchains.',
 				},
 				{
 					title: 'THIRM',
-					guide: 'THIRM is a governance smart contract written on the Ethereum Blockchain and is tradeable with other cryptocurrency as it also follows ERC20 Token Standard.',
+					guide: 'THIRM is a governance smart contract written on the Ethereum Blockchain and is tradeable with other cryptocurrencies as it follows the ERC20 Token Standard.',
 				},
 				{
 					title: 'T-TOKENS',

@@ -21,7 +21,7 @@
           <div class="columns is-vcentered">
             <div class="column">
               <div class="subtitle">
-                We conclude that cryptocurrencies should be convenient for
+                We believe that cryptocurrencies should be convenient for
                 everyone. We aim to make cryptocurrency investment/profit a
                 hassle-free, one-click process.
               </div>

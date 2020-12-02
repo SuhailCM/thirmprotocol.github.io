@@ -40,33 +40,12 @@ export default {
 					text: 'THIRM Token is a governance/ownership tracking smart contract written on the ethereum blockchain.',
 				},
 				{
-					title: 'THIRM Tokens Sale',
-					text: 'THIRM Tokens are not for sale by the team and we never had any token sale. The only way to obtain THIRM Tokens is by contacting/buying/trading from current tokens holders.',
-				},
-				{
-					title: 'THIRM Tokens Supply',
-					text: 'Tokens are burned regularly by DAPP users and minted by company to cover server and salary expanses. So a fixed supply does not exist on THIRM Token.',
-				},
-				{
 					title: 'THIRM Tokens Uses',
 					text: 'Thirm Tokens are your governance share in Thirm Protocol, all holders decide the future of Thirm VM.',
 				},
 				{
 					title: 'THIRM Tokens Value',
 					text: 'THIRM holds no value, THIRM is only used to govern/operate/manage Thirm VM, it has no real world value.',
-				},
-
-				{
-					title: 'Security Disclosure',
-					text: 'Thirm Protocol is very secure but understand that all software/code can have bugs/vulnerabilities, which is why its completely your responsibility to manage your funds. In case of any mishappening Thirm Solutions or its developers are not liable for any losses.',
-				},
-				{
-					title: 'Funding Disclosure',
-					text: 'Thirm protocol creation and management are privately funded by its founder Aman S. We have not had any token sales, VC, private or public funding at any point in time.',
-				},
-				{
-					title: 'Liability Disclosure',
-					text: 'You assume responsiblity for all risks, Thirm Solutions or its members do not hold any Resposbilties/Liability for your actions.',
 				},
 			],
 		};

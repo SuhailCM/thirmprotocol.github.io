@@ -5,10 +5,7 @@
 		<template>
 			<b-navbar :fixed-top="true" class="navbar-wrapper" wrapper-class="container">
 				<template slot="brand">
-					<b-navbar-item class="logo" tag="router-link" :to="{ path: '/' }">
-
-					<img src="https://avatars0.githubusercontent.com/u/67930090?s=200&v=4" />
-					</b-navbar-item>
+					<b-navbar-item class="logo" tag="router-link" :to="{ path: '/' }">HOME</b-navbar-item>
 				</template>
 
 				<template slot="start">

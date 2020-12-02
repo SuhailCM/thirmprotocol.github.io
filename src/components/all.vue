@@ -47,31 +47,31 @@ export default {
 					name: 'Thirm Bitcoin',
 					symbol: 'tBTC',
 					address: '0x36910c9695C1286c9377CEbc61D37bDEFcFdeAC6',
-					logoURI: 'https://thirm.com/icons/tBTC.png',
+					logoURI: 'https://ipfs.io/ipfs/QmexKGqDqovzHZRZQkHvEv9GoWfi9yfDLah8HNWRrdAbHK/tBTC.png',
 				},
 				{
 					name: 'Thirm Nano',
 					symbol: 'tNANO',
 					address: '0x9DB44C215F14a874C0Ca45895f3A97f0839c29d9',
-					logoURI: 'https://thirm.com/icons/tNANO.png',
+					logoURI: 'https://ipfs.io/ipfs/QmexKGqDqovzHZRZQkHvEv9GoWfi9yfDLah8HNWRrdAbHK/tNANO.png',
 				},
 				{
 					name: 'Thirm Tether',
 					symbol: 'tUSDT',
 					address: '0xB962776Fa4FaD32F46609A813488C4b62227325f',
-					logoURI: 'https://thirm.com/icons/tUSDT.png',
+					logoURI: 'https://ipfs.io/ipfs/QmexKGqDqovzHZRZQkHvEv9GoWfi9yfDLah8HNWRrdAbHK/tUSDT.png',
 				},
 				{
 					name: 'Thirm Dai',
 					symbol: 'tDAI',
 					address: '0xB29c13A70792B5B5D1Ab8e40b92233A16568Fe32',
-					logoURI: 'https://thirm.com/icons/tDAI.png',
+					logoURI: 'https://ipfs.io/ipfs/QmexKGqDqovzHZRZQkHvEv9GoWfi9yfDLah8HNWRrdAbHK/tDAI.png',
 				},
 				{
 					name: 'Thirm Ethereum',
 					symbol: 'tETH',
 					address: '0x138083bd8a49357b4630733954e9538ed74df105',
-					logoURI: 'https://thirm.com/icons/tETH.png',
+					logoURI: 'https://ipfs.io/ipfs/QmexKGqDqovzHZRZQkHvEv9GoWfi9yfDLah8HNWRrdAbHK/tETH.png',
 				},
 			],
 			reward: 200,
@@ -98,6 +98,6 @@ export default {
 
 <style scoped>
 .style1 {
-	height: 300px;
+	height: 270px;
 }
 </style>

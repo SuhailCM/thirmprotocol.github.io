@@ -65,7 +65,7 @@
 
 								<div class="column is-4">
 									<div class="box">
-										<p>Financial Security</p>
+										<p>Secured</p>
 									</div>
 								</div>
 

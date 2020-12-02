@@ -19,27 +19,27 @@
 
 		<section>
 			<div class="container">
-				<div class="columns is-multiline">
+				<div class="columns is-multiline listing-wrapper">
 					<div class="column zoom">
-						<a target="_blank" href="https://www.stateofthedapps.com/dapps/thirm">
+						<a class="listing" target="_blank" href="https://www.stateofthedapps.com/dapps/thirm">
 							<img src="../assets/tags/sod.png" />
 						</a>
 					</div>
 
 					<div class="column zoom">
-						<a target="_blank" href="https://www.coingecko.com/en/coins/thirm-protocol"> <img src="../assets/tags/coingecko.png"/></a>
+						<a class="listing" target="_blank" href="https://www.coingecko.com/en/coins/thirm-protocol"> <img src="../assets/tags/coingecko.png"/></a>
 					</div>
 
 					<div class="column zoom">
-						<a target="_blank" href="https://coinmarketcap.com/currencies/thirm-protocol"> <img src="../assets/tags/coinmarketcap.png"/></a>
+						<a class="listing" target="_blank" href="https://coinmarketcap.com/currencies/thirm-protocol"> <img src="../assets/tags/coinmarketcap.png"/></a>
 					</div>
 
 					<div class="column zoom">
-						<a target="_blank" href="https://uniswap.info/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069"> <img src="../assets/tags/uniswap.png"/></a>
+						<a class="listing" target="_blank" href="https://uniswap.info/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069"> <img src="../assets/tags/uniswap.png"/></a>
 					</div>
 
 					<div class="column zoom">
-						<a target="_blank" href="https://etherscan.io/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069"> <img src="../assets/tags/etherscan.png"/></a>
+						<a class="listing" target="_blank" href="https://etherscan.io/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069"> <img src="../assets/tags/etherscan.png"/></a>
 					</div>
 				</div>
 			</div>
@@ -92,6 +92,27 @@
 		<medium />
 	</div>
 </template>
+
+<style>
+.listing-wrapper {
+	margin: 16px 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+	.listing-wrapper {
+		flex-direction: column;
+	}
+}
+
+.listing-wrapper .listing img{
+	width: 200px;
+	padding: 8px;
+}
+
+</style>
 
 <script>
 import medium from '../components/medium';

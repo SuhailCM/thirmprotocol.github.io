@@ -3,9 +3,12 @@
 		<div class="bg"></div>
 
 		<template>
-			<b-navbar :fixed-top="true">
+			<b-navbar :fixed-top="true" class="navbar-wrapper" wrapper-class="container">
 				<template slot="brand">
-					<b-navbar-item tag="router-link" :to="{ path: '/' }">HOME</b-navbar-item>
+					<b-navbar-item class="logo" tag="router-link" :to="{ path: '/' }">
+
+					<img src="https://avatars0.githubusercontent.com/u/67930090?s=200&v=4" />
+					</b-navbar-item>
 				</template>
 
 				<template slot="start">
@@ -34,70 +37,41 @@
 		<section class="hero is-medium">
 			<div class="hero-body">
 				<div class="container">
-					<div class="columns is-vcentered">
-						<div class="column is-6">
-							<div class="subtitle">Copyright © 2020 THIRM SOLUTIONS</div>
-						</div>
-						<div class="column">
-							<div class="columns">
-								<div class="column">
-									<center>
-										<a target="_blank" href="https://www.linkedin.com/company/thirm/?viewAsMember=true">
+					<div class="footer-text subtitle">Copyright © 2020 THIRM SOLUTIONS</div>
+				</div>
+				<div class="container">
+							<div class="social-icons">
+										<a class="social-icon-item" target="_blank" href="https://www.linkedin.com/company/thirm/?viewAsMember=true">
 											<span class="has-text-dark">
 												<i class="fab fa-linkedin fa-3x"></i>
 											</span>
 										</a>
-									</center>
-								</div>
-
-								<div class="column">
-									<center>
-										<a target="_blank" href="https://medium.com/thirmprotocol">
+										<a class="social-icon-item" target="_blank" href="https://medium.com/thirmprotocol">
 											<span class="has-text-dark">
 												<i class="fab fa-medium fa-3x"></i>
 											</span>
 										</a>
-									</center>
-								</div>
-								<div class="column">
-									<center>
-										<a target="_blank" href="https://github.com/thirmprotocol">
+										<a class="social-icon-item" target="_blank" href="https://github.com/thirmprotocol">
 											<span class="has-text-dark">
 												<i class="fab fa-github fa-3x"></i>
 											</span>
 										</a>
-									</center>
-								</div>
-								<div class="column">
-									<center>
-										<a target="_blank" href="https://twitter.com/thirmprotocol">
+										<a class="social-icon-item" target="_blank" href="https://twitter.com/thirmprotocol">
 											<span class="has-text-dark">
 												<i class="fab fa-twitter fa-3x"></i>
 											</span>
 										</a>
-									</center>
-								</div>
-								<div class="column">
-									<center>
-										<a target="_blank" href="https://t.me/thirm">
+										<a class="social-icon-item" target="_blank" href="https://t.me/thirm">
 											<span class="has-text-dark">
 												<i class="fab fa-telegram fa-3x"></i>
 											</span>
 										</a>
-									</center>
-								</div>
-								<div class="column">
-									<center>
-										<a target="_blank" v-bind:href="discord">
+										<a class="social-icon-item" target="_blank" v-bind:href="discord">
 											<span class="has-text-dark">
 												<i class="fab fa-discord fa-3x"></i>
 											</span>
 										</a>
-									</center>
-								</div>
 							</div>
-						</div>
-					</div>
 				</div>
 			</div>
 		</section>
@@ -124,6 +98,42 @@
 	100% {
 		transform: translateX(25%);
 	}
+}
+
+.navbar-wrapper {
+	border-bottom: 1px solid #e3e3e3;
+	height: 80px;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 12px 0;
+}
+
+.navbar-wrapper .logo img {
+	height: 80px;
+}
+
+.navbar-wrapper .navbar-item:hover,  .navbar-wrapper .navbar-item:focus{
+	background-color: transparent;
+}
+
+.navbar-wrapper .navbar-item.router-link-active {
+	color: #3742fa;
+}
+
+.social-icons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-icons .social-icon-item {
+	width: 80px;
+}
+
+.footer-text {
+	text-align: center;
+	margin: 24px 0;
 }
 </style>
 

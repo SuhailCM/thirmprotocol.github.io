@@ -42,19 +42,19 @@
 export default {
 	data() {
 		return {
-			lot: [
+			lot: [	{
+					name: 'Thirm Nano',
+					symbol: 'tNANO',
+					address: '0x9DB44C215F14a874C0Ca45895f3A97f0839c29d9',
+					logoURI: 'https://ipfs.io/ipfs/QmexKGqDqovzHZRZQkHvEv9GoWfi9yfDLah8HNWRrdAbHK/tNANO.png',
+				},
 				{
 					name: 'Thirm Bitcoin',
 					symbol: 'tBTC',
 					address: '0x36910c9695C1286c9377CEbc61D37bDEFcFdeAC6',
 					logoURI: 'https://ipfs.io/ipfs/QmexKGqDqovzHZRZQkHvEv9GoWfi9yfDLah8HNWRrdAbHK/tBTC.png',
 				},
-				{
-					name: 'Thirm Nano',
-					symbol: 'tNANO',
-					address: '0x9DB44C215F14a874C0Ca45895f3A97f0839c29d9',
-					logoURI: 'https://ipfs.io/ipfs/QmexKGqDqovzHZRZQkHvEv9GoWfi9yfDLah8HNWRrdAbHK/tNANO.png',
-				},
+			
 				{
 					name: 'Thirm Tether',
 					symbol: 'tUSDT',

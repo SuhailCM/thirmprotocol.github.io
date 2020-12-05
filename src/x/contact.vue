@@ -26,11 +26,6 @@
               <article class="message is-dark">
                 <div class="message-body">Developer : developer@thirm.com</div>
               </article>
-              <article class="message is-dark">
-                <div class="message-body">
-                  Partnerships : partnerships@thirm.com
-                </div>
-              </article>
             </div>
           </div>
         </div>

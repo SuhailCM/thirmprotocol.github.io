@@ -33,9 +33,7 @@
 
 		<section class="hero is-medium">
 			<div class="hero-body">
-				<div class="container">
-					<div class="footer-text subtitle">Copyright © 2020 THIRM SOLUTIONS</div>
-				</div>
+			
 				<div class="container">
 							<div class="social-icons">
 										<a class="social-icon-item" target="_blank" href="https://www.linkedin.com/company/thirm/?viewAsMember=true">
@@ -70,6 +68,10 @@
 										</a>
 							</div>
 				</div>
+				
+					<div class="container">
+					<div class="footer-text subtitle">Copyright © 2020 THIRM SOLUTIONS</div>
+				        </div>
 			</div>
 		</section>
 	</div>

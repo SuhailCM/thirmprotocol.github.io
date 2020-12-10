@@ -22,6 +22,9 @@
 					<b-navbar-item target="_blank" href="https://docs.thirm.com/">
 						<b-button>DOCS</b-button>
 					</b-navbar-item>
+                                        <b-navbar-item target="_blank" href="https://github.com/orgs/thirmprotocol/projects">
+						<b-button>ROADMAP</b-button>
+					</b-navbar-item>
 					<b-navbar-item target="_blank" href="https://uniswap.info/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069">
 						<b-button>UNISWAP</b-button>
 					</b-navbar-item>

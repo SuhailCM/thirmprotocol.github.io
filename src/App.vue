@@ -34,7 +34,7 @@
 
 		<router-view />
 
-		<section class="hero is-medium">
+		<section class="hero">
 			<div class="hero-body">
 				<div class="container">
 					<div class="social-icons">
@@ -80,6 +80,18 @@
 </template>
 
 <style scoped>
+
+	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700;500;600&display=swap');
+
+#app {
+  margin: 0;
+  font-family: 'Noto Sans', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .bg {
 	animation: slide 20s ease-in-out infinite alternate;
 	background-image: linear-gradient(-60deg, #d8e2f78e 50%, rgb(255, 255, 255) 50%);
@@ -102,11 +114,12 @@
 }
 
 .navbar-wrapper {
-	border-bottom: 1px solid #e3e3e3;
-	height: 80px;
+	box-shadow: 0 5px 10px rgba(154, 160, 185, 0.2), 2px 15px 40px rgba(166, 173, 201, 0.3);
+	overflow: hidden;
+	height: 70px;
 	font-size: 18px;
-	font-weight: 500;
-	padding: 12px 0;
+	font-weight: 700;
+	padding: 8px 0;
 }
 
 .navbar-wrapper .logo img {
@@ -136,6 +149,19 @@
 .footer-text {
 	text-align: center;
 	margin: 24px 0;
+}
+
+.navbar-end button {
+	color: #ffffff;
+	font-weight: 500;
+	border: 0;
+	border-radius: 6px;
+	width: 110px;
+	background: #e67e22;
+}
+
+.navbar-end button:hover {
+	background: #d35400; 
 }
 </style>
 

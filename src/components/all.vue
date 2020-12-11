@@ -4,13 +4,11 @@
 			<div class="hero-body">
 				<div class="container">
 					<div class="title">Important Components</div>
-					<hr />
 					<div class="columns is-vcentered is-multiline">
 						<div class="column is-4" v-for="item in list" :key="item.title">
 							<div class="box style1">
-								<strong>{{ item.title }}</strong>
-								<hr />
-								{{ item.guide }}
+								<div class="comp-title">{{ item.title }}</div>
+								<p>{{ item.guide }}</p>
 							</div>
 						</div>
 					</div>
@@ -18,14 +16,14 @@
 			</div>
 		</section>
 
-		<section class="hero is-light is-hidden-mobile">
+		<section class="coins-list hero is-hidden-mobile">
 			<div class="hero-body">
 				<div class="container">
 					<div class="columns is-multiline">
 						<div class="column is-2" v-for="item in lot" :key="item.symbol">
 							<b-tooltip :label="item.name" position="is-top">
 								<a target="_blank" v-bind:href="'https://etherscan.io/address/' + item.address">
-									<figure class="image is-128x128 box zoom">
+									<figure class="image is-128x128">
 										<img v-bind:src="item.logoURI.trim()" />
 									</figure>
 								</a>
@@ -37,6 +35,22 @@
 		</section>
 	</div>
 </template>
+
+<style>
+.box.style1 .comp-title {
+	font-size: 21px;
+	color: #d35400;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 16px 0;
+}
+
+.coins-list {
+	padding: 60px 0;
+	background-color: rgba(225,225,225,0.2);
+}
+
+</style>
 
 <script>
 export default {

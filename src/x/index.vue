@@ -45,31 +45,24 @@
 			</div>
 		</section>
 
-		<section class="hero is-medium">
+		<section class="hero">
 			<div class="hero-body">
 				<div class="container">
 					<div class="columns is-vcentered is-multiline">
 						<div class="column is-6">
 							<div class="columns is-multiline">
-								<div class="column is-4">
-									<div class="box">
-										<p>Diversify</p>
-									</div>
+								<div class="features">
+									<div class="feature">
+													<p>Diversify</p>
+												</div>
+												<div class="feature">
+													<p>Earn Interest</p>
+												</div>
+												<div class="feature">
+													<p>Secured</p>
+												</div>
 								</div>
-
-								<div class="column is-4">
-									<div class="box">
-										<p>Earn Interest</p>
-									</div>
-								</div>
-
-								<div class="column is-4">
-									<div class="box">
-										<p>Secured</p>
-									</div>
-								</div>
-
-								<div class="column is-12">
+									<div class="column is-12">
 									<div class="box">
 										<p>
 											Use Non-ERC20 cryptocurrencies like BNB, BTC, LTC and NANO on the blockchain. You can use these currencies outside of the Thirm Ecosystem, too - no restrictions!
@@ -110,6 +103,21 @@
 .listing-wrapper .listing img{
 	width: 200px;
 	padding: 8px;
+}
+
+.features {
+	margin: 16px 8px;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.features .feature {
+	font-size: 21px;
+	color: #d35400;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 0 16px;
 }
 
 </style>

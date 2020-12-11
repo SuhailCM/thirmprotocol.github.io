@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-medium is-hidden-mobile">
+  <section class="medium-wrapper hero is-hidden-mobile">
     <div class="hero-body">
       <div class="container">
         <div
@@ -12,6 +12,26 @@
     </div>
   </section>
 </template>
+
+<style>
+.medium-wrapper {
+  padding: 60px 0;
+}
+
+.medium-widget-article__image img {
+  border-radius: 8px;
+	border: 1px solid #e3e3e3;
+}
+
+.medium-widget-article__title {
+  font-size: 16px;
+}
+
+.medium-widget-article__description {
+  font-size: 15px;
+  color: #666 !important;
+}
+</style>
 
 <script>
 export default {

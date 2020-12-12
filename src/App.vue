@@ -120,6 +120,7 @@
 	font-size: 18px;
 	font-weight: 700;
 	padding: 8px 0;
+	background: rgba(255, 255, 255, 0.90)
 }
 
 .navbar-wrapper .logo img {

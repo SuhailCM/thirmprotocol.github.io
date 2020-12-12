@@ -22,11 +22,8 @@
 					<b-navbar-item target="_blank" href="https://docs.thirm.com/">
 						<b-button>DOCS</b-button>
 					</b-navbar-item>
-                    <b-navbar-item target="_blank" href="https://github.com/orgs/thirmprotocol/projects">
+					<b-navbar-item target="_blank" href="https://github.com/orgs/thirmprotocol/projects">
 						<b-button>ROADMAP</b-button>
-					</b-navbar-item>
-					<b-navbar-item target="_blank" href="https://uniswap.info/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069">
-						<b-button>UNISWAP</b-button>
 					</b-navbar-item>
 				</template>
 			</b-navbar>
@@ -72,7 +69,7 @@
 				</div>
 
 				<div class="container">
-					<div class="footer-text subtitle">Copyright © 2020 THIRM SOLUTIONS</div>
+					<div class="footer-text subtitle">Copyright © 2020 | THIRM SOLUTIONS</div>
 				</div>
 			</div>
 		</section>
@@ -80,21 +77,16 @@
 </template>
 
 <style scoped>
-
-	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700;500;600&display=swap');
-
 #app {
-  margin: 0;
-  font-family: 'Noto Sans', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: 'Noto Sans', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .bg {
-	animation: slide 20s ease-in-out infinite alternate;
-	background-image: linear-gradient(-60deg, #d8e2f78e 50%, rgb(255, 255, 255) 50%);
+	animation: slide 30s ease-in-out infinite alternate;
+	background-image: linear-gradient(-60deg, #eaeff88e 50%, rgb(255, 255, 255) 50%);
 	bottom: 0;
 	left: -50%;
 	opacity: 0.5;
@@ -116,14 +108,10 @@
 .navbar-wrapper {
 	height: 70px;
 	font-size: 18px;
-	font-weight: 600;
+	font-weight: 500;
 	padding: 8px 0;
-	background: rgba(255, 255, 255, 0.90);
+	background: rgba(255, 255, 255, 0.9);
 	border-bottom: 1px solid #f1f1f1;
-}
-
-.navbar-wrapper .logo img {
-	height: 80px;
 }
 
 .navbar-wrapper .navbar-item:hover,
@@ -161,7 +149,7 @@
 }
 
 .navbar-end button:hover {
-	background: #4834d4; 
+	background: #4834d4;
 }
 </style>
 

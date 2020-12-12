@@ -114,7 +114,7 @@
 
 .features .feature {
 	font-size: 21px;
-	color: #d35400;
+	color: #4834d4;
 	text-transform: uppercase;
 	font-weight: 700;
 	padding: 0 16px;

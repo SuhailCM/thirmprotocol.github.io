@@ -157,11 +157,11 @@
 	border: 0;
 	border-radius: 6px;
 	width: 110px;
-	background: #e67e22;
+	background: #686de0;
 }
 
 .navbar-end button:hover {
-	background: #d35400; 
+	background: #4834d4; 
 }
 </style>
 

@@ -28,8 +28,7 @@
 }
 
 .medium-widget-article__description {
-  font-size: 15px;
-  color: #666 !important;
+  display: none;
 }
 </style>
 

@@ -114,12 +114,12 @@
 }
 
 .navbar-wrapper {
-	box-shadow: 0 5px 10px rgba(154, 160, 185, 0.2), 2px 15px 40px rgba(166, 173, 201, 0.3);
 	height: 70px;
 	font-size: 18px;
 	font-weight: 700;
 	padding: 8px 0;
-	background: rgba(255, 255, 255, 0.90)
+	background: rgba(255, 255, 255, 0.90);
+	border-bottom: 1px solid #f1f1f1;
 }
 
 .navbar-wrapper .logo img {

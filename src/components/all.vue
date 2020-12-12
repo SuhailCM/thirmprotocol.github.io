@@ -41,7 +41,7 @@
 	font-size: 21px;
 	color: #4834d4;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 600;
 	padding: 16px 0;
 }
 

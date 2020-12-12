@@ -116,7 +116,7 @@
 .navbar-wrapper {
 	height: 70px;
 	font-size: 18px;
-	font-weight: 700;
+	font-weight: 600;
 	padding: 8px 0;
 	background: rgba(255, 255, 255, 0.90);
 	border-bottom: 1px solid #f1f1f1;
@@ -153,7 +153,7 @@
 
 .navbar-end button {
 	color: #ffffff;
-	font-weight: 500;
+	font-weight: 600;
 	border: 0;
 	border-radius: 6px;
 	width: 110px;

@@ -217,7 +217,7 @@ export default {
   color: #313435;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 2.625rem;
 }
 .at-user__title {

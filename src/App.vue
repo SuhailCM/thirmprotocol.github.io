@@ -115,7 +115,6 @@
 
 .navbar-wrapper {
 	box-shadow: 0 5px 10px rgba(154, 160, 185, 0.2), 2px 15px 40px rgba(166, 173, 201, 0.3);
-	overflow: hidden;
 	height: 70px;
 	font-size: 18px;
 	font-weight: 700;

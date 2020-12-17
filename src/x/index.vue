@@ -10,7 +10,7 @@
 						<div class="column is-offset-1">
 							<b-notification type="is-link is-light" aria-close-label="Close notification"> Approx 9000 THIRM is added on <a href="https://app.bounce.finance/fixed-swap/4608">bounce.finance</a>, 1 ETH = 40 THIRM. The generated ETH will be locked in Uniswap LP Permanently. </b-notification>
 
-							<div class="content box"><strong>THIRM VM</strong> links various cross-chain cryptocurrencies, allowing you to access your crypto assets on different blockchains.</div>
+							<div class="content box"><strong>THIRM PROTOCOL</strong> is a collection of tools, contracts, solvers that allows you to transfer cryptocurrencies between blockchains.</div>
 						</div>
 					</div>
 				</div>
@@ -53,19 +53,19 @@
 							<div class="columns is-multiline">
 								<div class="features">
 									<div class="feature">
-													<p>Diversify</p>
-												</div>
-												<div class="feature">
-													<p>Earn Interest</p>
-												</div>
-												<div class="feature">
-													<p>Secured</p>
-												</div>
+										<p>Crosschain</p>
+									</div>
+									<div class="feature">
+										<p>Fast</p>
+									</div>
+									<div class="feature">
+										<p>Secured</p>
+									</div>
 								</div>
-									<div class="column is-12">
+								<div class="column is-12">
 									<div class="box">
 										<p>
-											Use Non-ERC20 cryptocurrencies like BNB, BTC, LTC and NANO on the blockchain. You can use these currencies outside of the Thirm Ecosystem, too - no restrictions!
+											Use Non-ERC20 cryptocurrencies like BNB, BTC, LTC and NANO on the blockchain. You can use these currencies outside of the Thirm Protocol as well - no restrictions!
 										</p>
 									</div>
 								</div>
@@ -100,7 +100,7 @@
 	}
 }
 
-.listing-wrapper .listing img{
+.listing-wrapper .listing img {
 	width: 200px;
 	padding: 8px;
 }
@@ -119,7 +119,6 @@
 	font-weight: 600;
 	padding: 0 16px;
 }
-
 </style>
 
 <script>

@@ -1,21 +1,5 @@
 <template>
 	<div>
-		<section class="hero is-medium">
-			<div class="hero-body">
-				<div class="container">
-					<div class="title">Important Components</div>
-					<div class="columns is-vcentered is-multiline">
-						<div class="column is-4" v-for="item in list" :key="item.title">
-							<div class="box style1">
-								<div class="comp-title">{{ item.title }}</div>
-								<p>{{ item.guide }}</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
 		<section class="coins-list hero is-hidden-mobile">
 			<div class="hero-body">
 				<div class="container">
@@ -78,20 +62,6 @@ export default {
 			reward: 200,
 			ethprice: 0,
 			data: [],
-			list: [
-				{
-					title: 'THIRM VM',
-					guide: 'THIRM VM is software that allows you to access your cryptocurrencies on multiple blockchains.',
-				},
-				{
-					title: 'THIRM',
-					guide: 'THIRM is a governance smart contract written on the Ethereum Blockchain and is tradeable with other cryptocurrencies as it follows the ERC20 Token Standard.',
-				},
-				{
-					title: 'T-TOKENS',
-					guide: 'T-TOKENS are Tokenized cryptocurrencies by THIRM VM. Each T-TOKEN is backed by its native cryptocurrency. ( ex 1 tBTC = 1 BTC )',
-				},
-			],
 		};
 	},
 };

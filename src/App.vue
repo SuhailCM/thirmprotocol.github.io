@@ -60,7 +60,7 @@
 								<i class="fab fa-telegram fa-3x"></i>
 							</span>
 						</a>
-						<a class="social-icon-item" target="_blank" v-bind:href="discord">
+						<a class="social-icon-item" target="_blank" href="https://discord.gg/sA8AdfF7ac">
 							<span class="has-text-dark">
 								<i class="fab fa-discord fa-3x"></i>
 							</span>
@@ -153,26 +153,4 @@
 }
 </style>
 
-<script>
-import axios from 'axios';
 
-export default {
-	data() {
-		return {
-			discord: 'https://discord.com/widget?id=712795894982115380&theme=dark',
-		};
-	},
-	mounted() {
-		try {
-			axios({
-				method: 'GET',
-				url: 'https://discord.com/api/guilds/712795894982115380/widget.json',
-			}).then((responsex) => {
-				this.discord = responsex.data.instant_invite || 'https://discord.com/widget?id=712795894982115380&theme=dark';
-			});
-		} catch (error) {
-			console.log('no discord');
-		}
-	},
-};
-</script>

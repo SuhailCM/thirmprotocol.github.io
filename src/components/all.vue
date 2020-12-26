@@ -79,6 +79,12 @@ export default {
 					address: 'xxx',
 					logoURI: 'https://ipfs.io/ipfs/QmPjxYtYVfszwmAmrTGmrK7fu6K1EspEkxxDkwPQQxFE4m',
 				},
+				{
+					name: 'Coming Soon',
+					symbol: 'tLTC',
+					address: 'xxx',
+					logoURI: 'https://ipfs.io/ipfs/QmaGZnkkiDC6NV3rQPCcMPmDTL4zojQKV6LUsDCHQUzRri',
+				},
 			],
 			reward: 200,
 			ethprice: 0,

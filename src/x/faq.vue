@@ -41,7 +41,7 @@ export default {
 				},
 				{
 					title: 'THIRM Tokens Uses',
-					text: 'Thirm Tokens are your governance share in Thirm Protocol, all holders decide the future of Thirm VM.',
+					text: 'Thirm Tokens are your governance share in Thirm Protocol, all holders decide the future of Thirm Protocol.',
 				},
 				{
 					title: 'THIRM Tokens Value',

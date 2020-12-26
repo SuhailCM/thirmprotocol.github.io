@@ -1,17 +1,26 @@
 <template>
 	<div>
-		<section class="coins-list hero is-hidden-mobile">
+		<section class="hero is-medium ">
 			<div class="hero-body">
 				<div class="container">
-					<div class="columns is-multiline">
-						<div class="column is-2" v-for="item in lot" :key="item.symbol">
-							<b-tooltip :label="item.name" position="is-top">
-								<a target="_blank" v-bind:href="'https://etherscan.io/address/' + item.address">
-									<figure class="image is-128x128">
-										<img v-bind:src="item.logoURI.trim()" />
-									</figure>
-								</a>
-							</b-tooltip>
+					<div class="columns">
+						<div class="column is-3">
+							<h1 class="title">Supported Coins</h1>
+							<hr />
+							<h2 class="subtitle">More Coins Coming Soon..</h2>
+						</div>
+						<div class="column">
+							<div class="columns is-multiline">
+								<div class="column is-2" v-for="item in lot" :key="item.symbol">
+									<b-tooltip :label="item.name" position="is-top">
+										<a target="_blank" v-bind:href="'https://etherscan.io/address/' + item.address">
+											<figure class="image is-128x128">
+												<img v-bind:src="item.logoURI.trim()" />
+											</figure>
+										</a>
+									</b-tooltip>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -57,6 +66,18 @@ export default {
 					symbol: 'tBTC',
 					address: '0x36910c9695C1286c9377CEbc61D37bDEFcFdeAC6',
 					logoURI: 'https://ipfs.io/ipfs/QmexKGqDqovzHZRZQkHvEv9GoWfi9yfDLah8HNWRrdAbHK/tBTC.png',
+				},
+				{
+					name: 'Coming Soon',
+					symbol: 'tXMR',
+					address: 'xxx',
+					logoURI: 'https://ipfs.io/ipfs/QmaEjoEcj4qSv6F3qS4gU1vfdYhBGHkNdpzjVRTimFQn71',
+				},
+				{
+					name: 'Coming Soon',
+					symbol: 'tDASH',
+					address: 'xxx',
+					logoURI: 'https://ipfs.io/ipfs/QmPjxYtYVfszwmAmrTGmrK7fu6K1EspEkxxDkwPQQxFE4m',
 				},
 			],
 			reward: 200,

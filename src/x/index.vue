@@ -50,7 +50,7 @@
 			</div>
 		</section>
 
-		<all />
+		<all class="is-hidden-mobile"/>
 	</div>
 </template>
 

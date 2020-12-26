@@ -10,7 +10,7 @@
 						<div class="column is-offset-1">
 							<b-notification type="is-light" aria-close-label="Close notification"> Approx 9000 THIRM is added on <a href="https://app.bounce.finance/fixed-swap/4608">bounce.finance</a>, 1 ETH = 40 THIRM. The generated ETH will be locked in Uniswap LP Permanently. </b-notification>
 
-							<div class="content box"><strong>THIRM PROTOCOL</strong> is a collection of tools, contracts, and solvers that enables non-ERC20 cryptocurrencies (like BTC, LTC, HTR, NANO, etc.) partake in the DeFi edge, facilitating cross-chain lending, DEX</div>
+							<div class="content box"><strong>THIRM PROTOCOL</strong> enables non-ERC20 cryptocurrencies (like BTC, LTC, HTR, NANO, etc.) partake in the DeFi edge, facilitating cross-chain lending, DEX trading, collateralization and more.</div>
 
 							<hr />
 							<social />

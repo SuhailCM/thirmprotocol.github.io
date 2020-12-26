@@ -5,7 +5,7 @@
 				<div class="container">
 					<div class="columns is-vcentered">
 						<div class="column">
-							<lottie-player src="https://thirm.com/animations/astro.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
+							<lottie-player src="https://ipfs.io/ipfs/QmbYzvjNH1WcBiVDrmu8vHihxAoFw3vCztuZHcsiib7BCD" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
 						</div>
 						<div class="column is-offset-1">
 							<div class="content">

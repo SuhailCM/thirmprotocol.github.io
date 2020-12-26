@@ -5,7 +5,7 @@
 				<div class="container">
 					<div class="columns is-vcentered">
 						<div class="column">
-							<lottie-player src="https://thirm.com/animations/1.json" background="transparent" speed="0.6" style="width: 100%; height: 100%" loop autoplay></lottie-player>
+							<lottie-player src="https://thirm.com/logo.json" background="transparent" speed="0.4" style="width: 100%; height: 100%" loop autoplay></lottie-player>
 						</div>
 						<div class="column is-offset-1">
 							<b-notification type="is-light" aria-close-label="Close notification"> Approx 9000 THIRM is added on <a href="https://app.bounce.finance/fixed-swap/4608">bounce.finance</a>, 1 ETH = 40 THIRM. The generated ETH will be locked in Uniswap LP Permanently. </b-notification>

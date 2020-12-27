@@ -9,7 +9,7 @@
 						</div>
 						<div class="column is-offset-1">
 
-							<div class="subtitle"><strong>THIRM PROTOCOL</strong> enables non-ERC20 cryptocurrencies (like BTC, LTC, HTR, NANO, etc.) partake in the DeFi edge, facilitating cross-chain lending, DEX trading, collateralization and more.</div>
+							<div class="subtitle"><strong>THIRM PROTOCOL</strong> enables non-ERC20 cryptocurrencies partake in the DeFi edge, facilitating cross-chain lending, DEX trading, collateralization and more.</div>
 							<hr />
 							<social />
                                                         <hr />

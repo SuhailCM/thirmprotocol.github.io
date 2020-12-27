@@ -55,6 +55,7 @@ export default {
 					title: 'THIRM Protocol Audited',
 					text: 'THIRM is still is BETA and has not been audited, please test the protocol with small amounts.',
 				},
+                             
 			],
 		};
 	},

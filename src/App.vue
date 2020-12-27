@@ -20,9 +20,6 @@
 					<b-navbar-item target="_blank" href="https://docs.thirm.com/">
 						<b-button>DOCS</b-button>
 					</b-navbar-item>
-					<b-navbar-item target="_blank" href="https://github.com/orgs/thirmprotocol/projects">
-						<b-button>ROADMAP</b-button>
-					</b-navbar-item>
 				</template>
 			</b-navbar>
 		</template>

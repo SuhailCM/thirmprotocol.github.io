@@ -47,6 +47,10 @@ export default {
 					title: 'THIRM Tokens Value',
 					text: 'THIRM holds no value, THIRM is only used to govern/operate/manage Thirm VM, it has no real world value.',
 				},
+				{
+					title: 'THIRM Total Supply',
+					text: 'THIRM total supply is dynamic (continuously setting).',
+				},
 			],
 		};
 	},

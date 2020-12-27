@@ -86,9 +86,6 @@ export default {
 					logoURI: 'https://ipfs.io/ipfs/QmaGZnkkiDC6NV3rQPCcMPmDTL4zojQKV6LUsDCHQUzRri',
 				},
 			],
-			reward: 200,
-			ethprice: 0,
-			data: [],
 		};
 	},
 };

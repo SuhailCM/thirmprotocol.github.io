@@ -49,7 +49,7 @@ export default {
 	data() {
 		return {
 			lot: [
-		        	{
+				{
 					name: 'Thirm Nano',
 					symbol: 'tNANO',
 					address: '0x9DB44C215F14a874C0Ca45895f3A97f0839c29d9',

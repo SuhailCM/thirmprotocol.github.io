@@ -8,13 +8,11 @@
 							<lottie-player src="https://thirm.com/logo.json" background="transparent" speed="0.4" style="width: 100%; height: 100%" loop autoplay></lottie-player>
 						</div>
 						<div class="column is-offset-1">
-
 							<div class="subtitle"><strong>THIRM PROTOCOL</strong> enables non-ERC20 cryptocurrencies partake in the DeFi edge, facilitating cross-chain lending, DEX trading, collateralization and more.</div>
 							<hr />
 							<social />
-                                                        <hr />
-							<b-notification type="is-light" aria-close-label="Close notification"> Approx 9000 THIRM is added on <a href="https://app.bounce.finance/fixed-swap/4608">bounce.finance</a>, 1 ETH = 40 THIRM. The generated ETH will be locked in Uniswap LP Permanently. </b-notification>
 
+							<b-notification type="is-light" aria-close-label="Close notification"> Approx 9000 THIRM is added on <a href="https://app.bounce.finance/fixed-swap/4608">bounce.finance</a>, 1 ETH = 40 THIRM. The generated ETH will be locked in Uniswap LP Permanently. </b-notification>
 						</div>
 					</div>
 				</div>
@@ -51,7 +49,7 @@
 			</div>
 		</section>
 
-		<all class="is-hidden-mobile"/>
+		<all class="is-hidden-mobile" />
 	</div>
 </template>
 

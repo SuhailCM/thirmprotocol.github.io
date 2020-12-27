@@ -51,6 +51,10 @@ export default {
 					title: 'THIRM Total Supply',
 					text: 'THIRM total supply is dynamic (continuously setting).',
 				},
+				{
+					title: 'THIRM Protocol Audited',
+					text: 'THIRM is still is BETA and has not been audited, please test the protocol with small amounts.',
+				},
 			],
 		};
 	},

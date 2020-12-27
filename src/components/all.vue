@@ -90,9 +90,3 @@ export default {
 	},
 };
 </script>
-
-<style scoped>
-.style1 {
-	height: 270px;
-}
-</style>

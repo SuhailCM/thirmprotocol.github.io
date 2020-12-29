@@ -5,15 +5,14 @@
 				<div class="container">
 					<div class="columns is-vcentered">
 						<div class="column">
-							<lottie-player src="https://thirm.com/logo.json" background="transparent" speed="0.4" style="width: 100%; height: 100%" loop autoplay></lottie-player>
+							<lottie-player src="https://thirm.com/logo.json" background="transparent" speed="0.1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
 						</div>
-						<div class="column ">
-							<div class="subtitle"><strong>THIRM PROTOCOL</strong> enables non-ERC20 cryptocurrencies partake in the DeFi edge, facilitating cross-chain lending, DEX trading, collateralization and more.</div>
+						<div class="column">
+							<div class="subtitle"><strong>THIRM,</strong> a protocol that enables inter-blockchain access for cryptocurrency assets. Partake in the Defi, facilitating cross-chain lending, DEX trading, collateralization, and more.</div>
 							<hr />
 							<social />
 						</div>
 					</div>
-
 					<b-notification type="is-light" aria-close-label="Close notification"> Approx 9000 THIRM is added on <a href="https://app.bounce.finance/fixed-swap/4608">bounce.finance</a>, 1 ETH = 40 THIRM. The generated ETH will be locked in Uniswap LP Permanently. </b-notification>
 				</div>
 			</div>
@@ -54,12 +53,12 @@
 				<div class="container">
 					<div class="columns is-vcentered">
 						<div class="column">
-							<div class="title">New Age Of Inter-Blockchain Access.</div>
+							<div class="title">Inter-Blockchain Access.</div>
 							<hr />
 							<div class="subtitle">Access tokens from any blockchain using your existing smart contracts without having to worry about wrapping or unwrapping tokens.</div>
 						</div>
 						<div class="column">
-							<img src="https://ipfs.io/ipfs/QmNaxEPPZQNqc2UyW1kV5LrJKFCWGx5dpgSLmBYK9RPRqc/" />
+							<img src="https://ipfs.io/ipfs/QmPQuk7kPCXcceRxcKi1o3tpJpVfhedDHxMGxvmpkRmgeW/" />
 						</div>
 					</div>
 				</div>

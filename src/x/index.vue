@@ -7,15 +7,14 @@
 						<div class="column">
 							<lottie-player src="https://thirm.com/logo.json" background="transparent" speed="0.4" style="width: 100%; height: 100%" loop autoplay></lottie-player>
 						</div>
-						<div class="column is-offset-1">
-                                                       <b-notification type="is-light" aria-close-label="Close notification"> Approx 9000 THIRM is added on <a href="https://app.bounce.finance/fixed-swap/4608">bounce.finance</a>, 1 ETH = 40 THIRM. The generated ETH will be locked in Uniswap LP Permanently. </b-notification>
-
+						<div class="column ">
 							<div class="subtitle"><strong>THIRM PROTOCOL</strong> enables non-ERC20 cryptocurrencies partake in the DeFi edge, facilitating cross-chain lending, DEX trading, collateralization and more.</div>
 							<hr />
 							<social />
-
 						</div>
 					</div>
+
+					<b-notification type="is-light" aria-close-label="Close notification"> Approx 9000 THIRM is added on <a href="https://app.bounce.finance/fixed-swap/4608">bounce.finance</a>, 1 ETH = 40 THIRM. The generated ETH will be locked in Uniswap LP Permanently. </b-notification>
 				</div>
 			</div>
 		</section>
@@ -44,6 +43,23 @@
 
 						<div class="column zoom">
 							<a class="listing" target="_blank" href="https://etherscan.io/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069"> <img src="../assets/tags/etherscan.png"/></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="hero is-medium">
+			<div class="hero-body">
+				<div class="container">
+					<div class="columns is-vcentered">
+						<div class="column">
+							<div class="title">New Age Of Inter-Blockchain Access.</div>
+							<hr />
+							<div class="subtitle">Access tokens from any blockchain using your existing smart contracts without having to worry about wrapping or unwrapping tokens.</div>
+						</div>
+						<div class="column">
+							<img src="https://ipfs.io/ipfs/QmNaxEPPZQNqc2UyW1kV5LrJKFCWGx5dpgSLmBYK9RPRqc/" />
 						</div>
 					</div>
 				</div>

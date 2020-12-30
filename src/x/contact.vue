@@ -9,9 +9,10 @@
 						</div>
 
 						<div class="column is-offset-1">
-							<div class="title-text">
-								<strong>Contact Us</strong>
+							<div class="title">
+								<strong>CONTACT US</strong>
 							</div>
+							<hr />
 							<article class="message is-dark">
 								<div class="message-body">General : contact@thirm.com</div>
 							</article>
@@ -27,7 +28,6 @@
 </template>
 
 <style>
-
 .title-text {
 	font-size: 24px;
 	position: relative;
@@ -37,7 +37,7 @@
 }
 
 .title-text::after {
-	content: "";
+	content: '';
 	position: absolute;
 	width: 40px;
 	height: 5px;

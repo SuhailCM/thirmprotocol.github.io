@@ -1,12 +1,13 @@
 <template>
-	<div class="coin-wrapper">
+	<div>
 		<section class="hero is-medium ">
 			<div class="hero-body">
 				<div class="container">
 					<div class="columns">
 						<div class="column is-3">
-							<div class="title-text">Supported Coins</div>
-							<div class="side-text">More Coins Coming Soon..</div>
+							<div class="title">Supported Coins</div>
+							<hr />
+							<div class="subtitle">Supported Coins</div>
 						</div>
 						<div class="column">
 							<div class="columns is-multiline">
@@ -40,10 +41,6 @@
 .coins-list {
 	padding: 60px 0;
 	background-color: rgba(225, 225, 225, 0.2);
-}
-
-.coin-wrapper {
-	background: #f3f3f3;
 }
 </style>
 

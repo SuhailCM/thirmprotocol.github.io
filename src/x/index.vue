@@ -52,8 +52,9 @@
 				<div class="container">
 					<div class="columns is-vcentered">
 						<div class="column">
-							<div class="title-text">Inter-Blockchain Access</div>
-							<div class="side-text">Access tokens from any blockchain using your existing smart contracts without having to worry about wrapping or unwrapping tokens.</div>
+							<div class="title">Inter-Blockchain Access</div>
+							<hr />
+							<div class="subtitle">Access tokens from any blockchain using your existing smart contracts without having to worry about wrapping or unwrapping tokens.</div>
 						</div>
 						<div class="column">
 							<img src="https://ipfs.io/ipfs/QmPQuk7kPCXcceRxcKi1o3tpJpVfhedDHxMGxvmpkRmgeW/" />
@@ -106,7 +107,6 @@
 	margin: 24px 4px;
 }
 
-
 .title-text {
 	font-size: 24px;
 	position: relative;
@@ -116,7 +116,7 @@
 }
 
 .title-text::after {
-	content: "";
+	content: '';
 	position: absolute;
 	width: 40px;
 	height: 5px;
@@ -124,7 +124,6 @@
 	bottom: 0;
 	left: 0;
 }
-
 </style>
 
 <script>

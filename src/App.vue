@@ -6,20 +6,17 @@
 					<b-navbar-item class="logo" tag="router-link" :to="{ path: '/' }">THIRM</b-navbar-item>
 				</template>
 
-				<template slot="end">
-					<b-navbar-item tag="router-link" :to="{ path: '/' }">Home</b-navbar-item>
+				<template slot="start">
 					<b-navbar-item tag="router-link" :to="{ path: '/faq' }">FAQ</b-navbar-item>
-					<b-navbar-item tag="router-link" :to="{ path: '/about' }">About</b-navbar-item>
-					<b-navbar-item tag="router-link" :to="{ path: '/contact' }">Contact</b-navbar-item>
-					<b-navbar-item tag="router-link" :to="{ path: '/governance' }">Governance</b-navbar-item>
+					<b-navbar-item tag="router-link" :to="{ path: '/about' }">ABOUT</b-navbar-item>
+					<b-navbar-item tag="router-link" :to="{ path: '/contact' }">CONTACT</b-navbar-item>
+					<b-navbar-item tag="router-link" :to="{ path: '/governance' }">GOVERNANCE</b-navbar-item>
+					<b-navbar-item target="_blank" href="https://docs.thirm.com/">DOCS</b-navbar-item>
 				</template>
 
 				<template slot="end">
 					<b-navbar-item target="_blank" href="https://dapp.thirm.com/">
-						<b-button>App</b-button>
-					</b-navbar-item>
-					<b-navbar-item target="_blank" href="https://docs.thirm.com/">
-						<b-button>Docs</b-button>
+						<b-button>DAPP</b-button>
 					</b-navbar-item>
 				</template>
 			</b-navbar>
@@ -36,7 +33,6 @@
 </template>
 
 <style scoped>
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&family=Poppins:wght@500&display=swap');
 
 #app {
@@ -60,7 +56,8 @@
 	font-family: 'Poppins', 'Noto Sans', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
-.navbar-wrapper .logo.router-link-active, .navbar-wrapper .logo {
+.navbar-wrapper .logo.router-link-active,
+.navbar-wrapper .logo {
 	color: #191919 !important;
 }
 

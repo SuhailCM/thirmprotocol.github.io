@@ -1,26 +1,17 @@
 <template>
 	<div>
-		<section class="hero is-medium ">
+		<section class="hero is-medium is-light">
 			<div class="hero-body">
 				<div class="container">
-					<div class="columns">
-						<div class="column is-3">
-							<div class="title">Supported Coins</div>
-							<hr />
-							<div class="subtitle">Supported Coins</div>
-						</div>
-						<div class="column">
-							<div class="columns is-multiline">
-								<div class="column is-2" v-for="item in lot" :key="item.symbol">
-									<b-tooltip :label="item.name" position="is-top">
-										<a target="_blank" v-bind:href="'https://etherscan.io/address/' + item.address">
-											<figure class="image is-128x128">
-												<img v-bind:src="item.logoURI.trim()" />
-											</figure>
-										</a>
-									</b-tooltip>
-								</div>
-							</div>
+					<div class="columns is-multiline">
+						<div class="column is-2" v-for="item in lot" :key="item.symbol">
+							<b-tooltip :label="item.name" position="is-top">
+								<a target="_blank" v-bind:href="'https://etherscan.io/address/' + item.address">
+									<figure class="image is-128x128">
+										<img v-bind:src="item.logoURI.trim()" />
+									</figure>
+								</a>
+							</b-tooltip>
 						</div>
 					</div>
 				</div>

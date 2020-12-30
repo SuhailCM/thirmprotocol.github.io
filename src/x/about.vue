@@ -16,6 +16,7 @@
 				</div>
 			</div>
 		</section>
+
 		<section class="hero is-medium">
 			<div class="hero-body">
 				<div class="container">
@@ -28,27 +29,27 @@
 								We believe that cryptocurrencies should be convenient for everyone. We aim to make crosschain cryptocurrency management a hassle-free, one-click process.
 							</div>
 						</div>
-						</div>
-						<div class="columns is-vcentered">
-								<div class="team-wrapper" v-for="item in team" :key="item.name">
-									<div class="team-user">
-										<div class="team-avatar">
-											<img :src="item.img" />
-										</div>
-										<div class="team-name">{{ item.name }}</div>
-										<div class="team-role">{{ item.title }}</div>
-										<div class="item-social">
-											<a href="#">
-												<i class="fab fa-github"></i>
-											</a>
-											<a href="#">
-											<i class="fab fa-twitter"></i>
-											</a>
-											<a href="#">
-											<i class="fab fa-linkedin"></i>
-											</a>
-										</div>
-									</div>
+					</div>
+					<div class="columns is-vcentered">
+						<div class="team-wrapper" v-for="item in team" :key="item.name">
+							<div class="team-user">
+								<div class="team-avatar">
+									<img :src="item.img" />
+								</div>
+								<div class="team-name">{{ item.name }}</div>
+								<div class="team-role">{{ item.title }}</div>
+								<div class="item-social">
+									<a href="#">
+										<i class="fab fa-github"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-twitter"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-linkedin"></i>
+									</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -79,7 +80,6 @@ export default {
 </script>
 
 <style scoped>
-
 .team-wrapper {
 	display: flex;
 	flex-direction: row;
@@ -91,7 +91,7 @@ export default {
 	text-align: center;
 }
 
-.team-wrapper .team-user .team-avatar{
+.team-wrapper .team-user .team-avatar {
 	display: flex;
 	border-radius: 50%;
 	position: relative;
@@ -116,11 +116,11 @@ export default {
 	font-size: 20px;
 }
 
-.item-social a{
+.item-social a {
 	margin: 6px;
 }
 
-.item-social a:hover{
+.item-social a:hover {
 	color: #191919;
 }
 
@@ -133,7 +133,7 @@ export default {
 }
 
 .title-text::after {
-	content: "";
+	content: '';
 	position: absolute;
 	width: 40px;
 	height: 5px;
@@ -146,5 +146,4 @@ export default {
 	font-size: 18px;
 	margin: 24px 4px;
 }
-
 </style>

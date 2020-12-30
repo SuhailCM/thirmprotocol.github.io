@@ -1,7 +1,7 @@
 <template>
 	<div id="app">
 		<template>
-			<b-navbar :fixed-top="true" class="navbar-wrapper" wrapper-class="container">
+			<b-navbar :fixed-top="true" wrapper-class="container">
 				<template slot="brand">
 					<b-navbar-item class="logo" tag="router-link" :to="{ path: '/' }">THIRM</b-navbar-item>
 				</template>
@@ -11,12 +11,14 @@
 					<b-navbar-item tag="router-link" :to="{ path: '/about' }">ABOUT</b-navbar-item>
 					<b-navbar-item tag="router-link" :to="{ path: '/contact' }">CONTACT</b-navbar-item>
 					<b-navbar-item tag="router-link" :to="{ path: '/governance' }">GOVERNANCE</b-navbar-item>
-					<b-navbar-item target="_blank" href="https://docs.thirm.com/">DOCS</b-navbar-item>
 				</template>
 
 				<template slot="end">
 					<b-navbar-item target="_blank" href="https://dapp.thirm.com/">
 						<b-button>DAPP</b-button>
+					</b-navbar-item>
+					<b-navbar-item target="_blank" href="https://docs.thirm.com/">
+						<b-button>DOCS</b-button>
 					</b-navbar-item>
 				</template>
 			</b-navbar>
@@ -31,60 +33,3 @@
 		</footer>
 	</div>
 </template>
-
-<style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&family=Poppins:wght@500&display=swap');
-
-#app {
-	margin: 0;
-	font-family: 'Noto Sans', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.navbar-wrapper {
-	height: 70px;
-	font-size: 18px;
-	font-weight: 500;
-	padding: 8px 0;
-	background: rgba(255, 255, 255, 0.9);
-	border-bottom: 1px solid #f1f1f1;
-}
-
-.navbar-wrapper .logo {
-	font-size: 24px;
-	font-family: 'Poppins', 'Noto Sans', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-.navbar-wrapper .logo.router-link-active,
-.navbar-wrapper .logo {
-	color: #191919 !important;
-}
-
-.navbar-wrapper .navbar-item:hover,
-.navbar-wrapper .navbar-item:focus {
-	background-color: transparent;
-}
-
-.navbar-wrapper .navbar-item.router-link-active {
-	color: #3742fa;
-}
-
-.footer-text {
-	text-align: center;
-	margin: 24px 0;
-}
-
-.navbar-end button {
-	color: #ffffff;
-	font-weight: 600;
-	border: 0;
-	border-radius: 6px;
-	width: 110px;
-	background: #686de0;
-}
-
-.navbar-end button:hover {
-	background: #4834d4;
-}
-</style>

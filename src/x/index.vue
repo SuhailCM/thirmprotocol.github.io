@@ -65,6 +65,8 @@
 		</section>
 
 		<all class="is-hidden-mobile" />
+
+		<medium />
 	</div>
 </template>
 
@@ -128,12 +130,15 @@
 
 <script>
 import all from '../components/all';
+import medium from '../components/medium';
+
 import social from '../components/social';
 
 export default {
 	components: {
 		all,
 		social,
+		medium,
 	},
 };
 </script>

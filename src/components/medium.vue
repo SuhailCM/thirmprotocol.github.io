@@ -21,10 +21,6 @@
 .medium-widget-article__title {
 	font-size: 16px;
 }
-
-.medium-widget-article__description {
-	display: none;
-}
 </style>
 
 <script>
@@ -54,10 +50,10 @@ export default {
 				renderTo: '#medium-widget',
 				params: {
 					resource: 'https://medium.com/thirmprotocol',
-					postsPerLine: 4,
-					limit: 4,
+					postsPerLine: 5,
+					limit: 5,
 					picture: 'big',
-					fields: ['description'],
+					fields: ['description', 'publishAt'],
 					ratio: 'landscape',
 				},
 			});

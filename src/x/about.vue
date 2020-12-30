@@ -8,8 +8,9 @@
 							<lottie-player src="https://ipfs.io/ipfs/QmbYzvjNH1WcBiVDrmu8vHihxAoFw3vCztuZHcsiib7BCD" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
 						</div>
 						<div class="column is-offset-1">
-							<div class="side-text">
-								THIRM PROTOCOL, THIRM VM, THIRM TOKEN is developed and maintained by THIRM SOLUTIONS, a company operating from INDIA & CAYMAN ISLANDS.
+							<div class="content">
+								THIRM PROTOCOL, THIRM VM, THIRM TOKEN is developed and maintained by THIRM SOLUTIONS, a company operating from INDIA & CAYMAN ISLANDS. We believe that cryptocurrencies should be convenient for everyone. We aim to make crosschain cryptocurrency management a hassle-free, one-click process. We believe that cryptocurrencies should be convenient for everyone. We aim to make crosschain
+								cryptocurrency management a hassle-free, one-click process.
 							</div>
 						</div>
 					</div>
@@ -17,133 +18,43 @@
 			</div>
 		</section>
 
-		<section class="hero is-medium">
-			<div class="hero-body">
-				<div class="container">
-					<div class="columns is-vcentered">
-						<div class="column is-12">
-							<div class="title-text">
-								Meet the team
-							</div>
-							<div class="side-text">
-								We believe that cryptocurrencies should be convenient for everyone. We aim to make crosschain cryptocurrency management a hassle-free, one-click process.
-							</div>
+		<section class="section  is-medium">
+			<div class="container ">
+				<div class="columns">
+					<div class="column is-3">
+						<div class="level">
+							<img class="is-rounded" src="https://ipfs.io/ipfs/QmajEk5Lambbf7DkMPYotWEpWyS6VMUg5pn77ETReoHNXo" alt="" />
 						</div>
+						<h5 class="title is-5">Aman Singh</h5>
+						<p class="subtitle is-6">Founder, Lead Developer</p>
+						<p>When I'm not obsessively stressing about the fate of THIRM, I sometimes give lectures to school kids. Spend most of my time coding.</p>
 					</div>
-					<div class="columns is-vcentered">
-						<div class="team-wrapper" v-for="item in team" :key="item.name">
-							<div class="team-user">
-								<div class="team-avatar">
-									<img :src="item.img" />
-								</div>
-								<div class="team-name">{{ item.name }}</div>
-								<div class="team-role">{{ item.title }}</div>
-								<div class="item-social">
-									<a href="#">
-										<i class="fab fa-github"></i>
-									</a>
-									<a href="#">
-										<i class="fab fa-twitter"></i>
-									</a>
-									<a href="#">
-										<i class="fab fa-linkedin"></i>
-									</a>
-								</div>
-							</div>
+					<div class="column is-3">
+						<div class="level">
+							<img class="is-rounded" src="https://ipfs.io/ipfs/QmajEk5Lambbf7DkMPYotWEpWyS6VMUg5pn77ETReoHNXo" alt="" />
 						</div>
+						<h5 class="title is-5">Madhav Poudel</h5>
+						<p class="subtitle is-6">Developer</p>
+						<p>I am the absolute best programmer at THIRM. My genius shines and guides the THIRM team.</p>
+					</div>
+					<div class="column is-3">
+						<div class="level">
+							<img class="is-rounded" src="https://ipfs.io/ipfs/QmajEk5Lambbf7DkMPYotWEpWyS6VMUg5pn77ETReoHNXo" alt="" />
+						</div>
+						<h5 class="title is-5">Bong Lee</h5>
+						<p class="subtitle is-6">Manager</p>
+						<p>I work on THIRM only for the advanced technology. I don't really like most people I work with, but they need me to put out their fires, so&nbsp;I&nbsp;stay.</p>
+					</div>
+					<div class="column is-3">
+						<div class="level">
+							<img class="is-rounded" src="https://ipfs.io/ipfs/QmajEk5Lambbf7DkMPYotWEpWyS6VMUg5pn77ETReoHNXo" alt="" />
+						</div>
+						<h5 class="title is-5">Paul</h5>
+						<p class="subtitle is-6">Tester (Part Time)</p>
+						<p>I am simple man who loves drinking water and testing codes.</p>
 					</div>
 				</div>
 			</div>
 		</section>
 	</div>
 </template>
-
-<script>
-export default {
-	data() {
-		return {
-			team: [
-				{
-					name: 'Aman Singh',
-					title: 'Founder, Lead Developer',
-					img: 'https://ipfs.io/ipfs/QmfK5JFYgT3BDEx4nT4yiG6WEHxS65GB3ae7ZVKP19TWno?filename=aman.PNG',
-				},
-				{
-					name: 'Madhav Poudel',
-					title: 'Frontend Developer',
-					img: 'https://ipfs.io/ipfs/QmYeag3Xbc2CP3kv5W5cmQszcfppRLLWtfNjtAwkfQ9tCJ?filename=madhav.PNG',
-				},
-			],
-		};
-	},
-};
-</script>
-
-<style scoped>
-.team-wrapper {
-	display: flex;
-	flex-direction: row;
-}
-.team-wrapper .team-user {
-	width: 300px;
-	padding: 24px;
-	margin: 24px;
-	text-align: center;
-}
-
-.team-wrapper .team-user .team-avatar {
-	display: flex;
-	border-radius: 50%;
-	position: relative;
-	overflow: hidden;
-	height: 250px;
-	margin-bottom: 24px;
-	border: 1px solid #e3e3e3;
-}
-.team-wrapper .team-user .team-name {
-	font-size: 18px;
-	font-weight: 600;
-}
-
-.team-wrapper .team-user .team-role {
-	font-size: 15px;
-	color: #777;
-	font-style: italic;
-}
-
-.item-social {
-	margin: 8px;
-	font-size: 20px;
-}
-
-.item-social a {
-	margin: 6px;
-}
-
-.item-social a:hover {
-	color: #191919;
-}
-
-.title-text {
-	font-size: 24px;
-	position: relative;
-	padding: 16px 0;
-	margin-bottom: 36px;
-	font-family: 'Poppins', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-.title-text::after {
-	content: '';
-	position: absolute;
-	width: 40px;
-	height: 5px;
-	background-color: #3742fa;
-	bottom: 0;
-	left: 0;
-}
-
-.side-text {
-	font-size: 18px;
-	margin: 24px 4px;
-}
-</style>

@@ -1,8 +1,5 @@
 <template>
 	<div class="social-icons">
-		<a class="social-icon-item" target="_blank" href="https://www.linkedin.com/company/thirm/?viewAsMember=true">
-			<i class="fab fa-linkedin fa-3x"></i>
-		</a>
 		<a class="social-icon-item" target="_blank" href="https://medium.com/thirmprotocol">
 			<i class="fab fa-medium fa-3x"></i>
 		</a>
@@ -41,6 +38,6 @@
 }
 
 .social-icons .social-icon-item:hover {
-	background: #bdbdbd;
+	background: #f7f6f6;
 }
 </style>

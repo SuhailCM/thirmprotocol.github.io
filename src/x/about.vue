@@ -8,7 +8,7 @@
 							<lottie-player src="https://ipfs.io/ipfs/QmbYzvjNH1WcBiVDrmu8vHihxAoFw3vCztuZHcsiib7BCD" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
 						</div>
 						<div class="column is-offset-1">
-							<div class="content">
+							<div class="side-text">
 								THIRM PROTOCOL, THIRM VM, THIRM TOKEN is developed and maintained by THIRM SOLUTIONS, a company operating from INDIA & CAYMAN ISLANDS.
 							</div>
 						</div>
@@ -24,7 +24,7 @@
 							<div class="title-text">
 								Meet the team
 							</div>
-							<div class="content">
+							<div class="side-text">
 								We believe that cryptocurrencies should be convenient for everyone. We aim to make crosschain cryptocurrency management a hassle-free, one-click process.
 							</div>
 						</div>
@@ -108,6 +108,7 @@ export default {
 .team-wrapper .team-user .team-role {
 	font-size: 15px;
 	color: #777;
+	font-style: italic;
 }
 
 .item-social {
@@ -136,9 +137,14 @@ export default {
 	position: absolute;
 	width: 40px;
 	height: 5px;
-	background-color: red;
+	background-color: #3742fa;
 	bottom: 0;
 	left: 0;
+}
+
+.side-text {
+	font-size: 18px;
+	margin: 24px 4px;
 }
 
 </style>

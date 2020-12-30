@@ -8,8 +8,7 @@
 							<lottie-player src="https://thirm.com/logo.json" background="transparent" speed="0.1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
 						</div>
 						<div class="column">
-							<div class="subtitle"><strong>THIRM,</strong> a protocol that enables inter-blockchain access for cryptocurrency assets. Partake in the Defi, facilitating cross-chain lending, DEX trading, collateralization, and more.</div>
-							<hr />
+							<div class="side-text"><strong>THIRM,</strong> a protocol that enables inter-blockchain access for cryptocurrency assets. Partake in the Defi, facilitating cross-chain lending, DEX trading, collateralization, and more.</div>
 							<social />
 						</div>
 					</div>
@@ -53,9 +52,8 @@
 				<div class="container">
 					<div class="columns is-vcentered">
 						<div class="column">
-							<div class="title">Inter-Blockchain Access.</div>
-							<hr />
-							<div class="subtitle">Access tokens from any blockchain using your existing smart contracts without having to worry about wrapping or unwrapping tokens.</div>
+							<div class="title-text">Inter-Blockchain Access</div>
+							<div class="side-text">Access tokens from any blockchain using your existing smart contracts without having to worry about wrapping or unwrapping tokens.</div>
 						</div>
 						<div class="column">
 							<img src="https://ipfs.io/ipfs/QmPQuk7kPCXcceRxcKi1o3tpJpVfhedDHxMGxvmpkRmgeW/" />
@@ -102,6 +100,31 @@
 	font-weight: 600;
 	padding: 0 16px;
 }
+
+.side-text {
+	font-size: 18px;
+	margin: 24px 4px;
+}
+
+
+.title-text {
+	font-size: 24px;
+	position: relative;
+	padding: 16px 0;
+	margin-bottom: 36px;
+	font-family: 'Poppins', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title-text::after {
+	content: "";
+	position: absolute;
+	width: 40px;
+	height: 5px;
+	background-color: #3742fa;
+	bottom: 0;
+	left: 0;
+}
+
 </style>
 
 <script>

@@ -9,10 +9,9 @@
 						</div>
 
 						<div class="column is-offset-1">
-							<div class="subtitle has-text-centered">
-								<strong>CONTACT US</strong>
+							<div class="title-text">
+								<strong>Contact Us</strong>
 							</div>
-							<hr />
 							<article class="message is-dark">
 								<div class="message-body">General : contact@thirm.com</div>
 							</article>
@@ -26,3 +25,24 @@
 		</section>
 	</div>
 </template>
+
+<style>
+
+.title-text {
+	font-size: 24px;
+	position: relative;
+	padding: 16px 0;
+	margin-bottom: 36px;
+	font-family: 'Poppins', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title-text::after {
+	content: "";
+	position: absolute;
+	width: 40px;
+	height: 5px;
+	background-color: #3742fa;
+	bottom: 0;
+	left: 0;
+}
+</style>

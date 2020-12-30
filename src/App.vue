@@ -35,6 +35,9 @@
 </template>
 
 <style scoped>
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@500&display=swap');
+
 #app {
 	margin: 0;
 	font-family: 'Noto Sans', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;

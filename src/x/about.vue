@@ -20,27 +20,35 @@
 			<div class="hero-body">
 				<div class="container">
 					<div class="columns is-vcentered">
-						<div class="column is-3">
-							<div class="subtitle">
-								MEET THE TEAM
+						<div class="column is-12">
+							<div class="title-text">
+								Meet the team
 							</div>
-							<hr />
 							<div class="content">
 								We believe that cryptocurrencies should be convenient for everyone. We aim to make crosschain cryptocurrency management a hassle-free, one-click process.
 							</div>
 						</div>
-						<div class="column is-offset-1">
-							<div class="at-grid" data-column="2">
-								<div class="at-column" v-for="item in team" :key="item.name">
-									<div class="at-user">
-										<div class="at-user__avatar">
+						</div>
+						<div class="columns is-vcentered">
+								<div class="team-wrapper" v-for="item in team" :key="item.name">
+									<div class="team-user">
+										<div class="team-avatar">
 											<img :src="item.img" />
 										</div>
-										<div class="at-user__name">{{ item.name }}</div>
-										<div class="at-user__title">{{ item.title }}</div>
+										<div class="team-name">{{ item.name }}</div>
+										<div class="team-role">{{ item.title }}</div>
+										<div class="item-social">
+											<a href="#">
+												<i class="fab fa-github"></i>
+											</a>
+											<a href="#">
+											<i class="fab fa-twitter"></i>
+											</a>
+											<a href="#">
+											<i class="fab fa-linkedin"></i>
+											</a>
+										</div>
 									</div>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -71,149 +79,66 @@ export default {
 </script>
 
 <style scoped>
-.at-grid {
-	display: -webkit-box;
+
+.team-wrapper {
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
 	flex-direction: row;
-	flex-wrap: wrap;
-	background: #fff;
-	border: 3px solid #e2e9ed;
 }
-.at-grid[data-column='1'] .at-column {
-	width: 100%;
-	max-width: 100%;
-	min-width: 100%;
-	flex-basis: 100%;
-}
-.at-grid[data-column='2'] .at-column {
-	width: 50%;
-	max-width: 50%;
-	min-width: 50%;
-	flex-basis: 50%;
-}
-.at-grid[data-column='3'] .at-column {
-	width: 33.3333333333%;
-	max-width: 33.3333333333%;
-	min-width: 33.3333333333%;
-	flex-basis: 33.3333333333%;
-}
-.at-grid[data-column='4'] .at-column {
-	width: 25%;
-	max-width: 25%;
-	min-width: 25%;
-	flex-basis: 25%;
-}
-.at-grid[data-column='5'] .at-column {
-	width: 20%;
-	max-width: 20%;
-	min-width: 20%;
-	flex-basis: 20%;
-}
-.at-grid[data-column='6'] .at-column {
-	width: 16.6666666667%;
-	max-width: 16.6666666667%;
-	min-width: 16.6666666667%;
-	flex-basis: 16.6666666667%;
-}
-.at-grid[data-column='7'] .at-column {
-	width: 14.2857142857%;
-	max-width: 14.2857142857%;
-	min-width: 14.2857142857%;
-	flex-basis: 14.2857142857%;
-}
-.at-grid[data-column='8'] .at-column {
-	width: 12.5%;
-	max-width: 12.5%;
-	min-width: 12.5%;
-	flex-basis: 12.5%;
-}
-.at-grid[data-column='9'] .at-column {
-	width: 11.1111111111%;
-	max-width: 11.1111111111%;
-	min-width: 11.1111111111%;
-	flex-basis: 11.1111111111%;
-}
-.at-column {
-	z-index: 0;
-	position: relative;
-	background: #fff;
-	box-shadow: 0 0 0 1px #e2e9ed;
-	padding: 10px;
-	box-sizing: border-box;
-	-webkit-transition: box-shadow 0.2s ease, z-index 0s 0.2s ease, -webkit-transform 0.2s ease;
-	transition: box-shadow 0.2s ease, z-index 0s 0.2s ease, -webkit-transform 0.2s ease;
-	transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0.2s ease;
-	transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0.2s ease, -webkit-transform 0.2s ease;
-}
-.at-column:before {
-	content: '';
-	display: block;
-	padding-top: 100%;
-}
-.at-column:hover {
-	z-index: 1;
-	box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
-	-webkit-transform: scale(1.05);
-	transform: scale(1.05);
-	-webkit-transition: box-shadow 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
-	transition: box-shadow 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
-	transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease;
-	transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
-}
-.at-column:hover .at-social {
-	margin: 16px 0 0;
-	opacity: 1;
-}
-@media (max-width: 800px) {
-	.at-column {
-		width: 50% !important;
-		max-width: 50% !important;
-		min-width: 50% !important;
-		flex-basis: 50% !important;
-	}
-}
-@media (max-width: 600px) {
-	.at-column {
-		width: 100% !important;
-		max-width: 100% !important;
-		min-width: 100% !important;
-		flex-basis: 100% !important;
-	}
-}
-.at-user {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	width: 100%;
-	-webkit-transform: translate(0, -50%);
-	transform: translate(0, -50%);
+.team-wrapper .team-user {
+	width: 300px;
+	padding: 24px;
+	margin: 24px;
 	text-align: center;
 }
-.at-user__avatar {
-	width: 128px;
-	height: 128px;
-	border-radius: 100%;
-	margin: 0 auto 20px;
+
+.team-wrapper .team-user .team-avatar{
+	display: flex;
+	border-radius: 50%;
+	position: relative;
 	overflow: hidden;
+	height: 250px;
+	margin-bottom: 24px;
+	border: 1px solid #e3e3e3;
 }
-.at-user__avatar img {
-	display: block;
-	width: 100%;
-	max-width: 100%;
-}
-.at-user__name {
-	color: #313435;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.5rem;
+.team-wrapper .team-user .team-name {
+	font-size: 18px;
 	font-weight: 600;
-	line-height: 2.625rem;
 }
-.at-user__title {
-	color: #6f808a;
-	font-family: 'Roboto', sans-serif;
-	font-size: 0.875rem;
-	line-height: 2.375rem;
+
+.team-wrapper .team-user .team-role {
+	font-size: 15px;
+	color: #777;
 }
+
+.item-social {
+	margin: 8px;
+	font-size: 20px;
+}
+
+.item-social a{
+	margin: 6px;
+}
+
+.item-social a:hover{
+	color: #191919;
+}
+
+.title-text {
+	font-size: 24px;
+	position: relative;
+	padding: 16px 0;
+	margin-bottom: 36px;
+	font-family: 'Poppins', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title-text::after {
+	content: "";
+	position: absolute;
+	width: 40px;
+	height: 5px;
+	background-color: red;
+	bottom: 0;
+	left: 0;
+}
+
 </style>

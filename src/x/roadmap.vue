@@ -2,25 +2,19 @@
 	<div>
     <section class="container">
       <div class="roadmap">
-        <ul class="roadmap-list">
+        <ul class="roadmap-list" v-for="(roadmap, index) of roadmaps" :key="index">
           <li>
             <div class="roadmap-date">
-             4th January, 2021
+             {{ roadmap.date }}
             </div>
             <div class="roadmap-title">
-              Coming soon
+              {{ roadmap.title }}
             </div>
-          </li>
-          <li class="current">
-            <div class="roadmap-date">
-             10 January, 2021
-            </div>
-            <div class="roadmap-title">
-              Coming soon
+            <div class="roadmap-desc">
+              {{ roadmap.description }}
             </div>
           </li>
         </ul>
-      
       </div>
     </section>
 	</div>
@@ -32,6 +26,7 @@
   margin-bottom: 120px;
   margin-left: 80px;
   margin-right: 80px;
+  margin-top: 120px;
 }
 .roadmap .roadmap-list {
   margin-bottom: 48px;
@@ -57,10 +52,6 @@
   border-radius: 50%;
 }
 
-.roadmap .roadmap-list li.current::before{
-  background-color: blue;
-}
-
 .roadmap .roadmap-list li .roadmap-date{
   font-size: 14px;
   font-style: italic;
@@ -74,3 +65,20 @@
 } 
 
 </style>
+
+
+<script>
+export default {
+	data() {
+		return {
+			roadmaps: [
+				{
+					title: 'Coming soon',
+					date: '1st Jan 2020',
+          description: 'Coming soon'
+				}
+			],
+		};
+	},
+};
+</script>

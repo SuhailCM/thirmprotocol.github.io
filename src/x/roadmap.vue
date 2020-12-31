@@ -1,26 +1,5 @@
 <template>
 	<div>
-		<section class="hero is-medium">
-			<div class="hero-body">
-				<div class="container">
-					<div class="columns is-vcentered">
-						<div class="column">
-							<img src="https://i.pinimg.com/originals/17/33/f4/1733f4de8ce6f10ed3b2ffe875c1a8e6.gif" />
-						</div>
-
-						<div class="column is-offset-1">
-							<div class="title">
-								<strong>ROAD MAP</strong>
-							</div>
-							<hr />
-							<div class="content">
-                Our roadmap is a planned where we take on the most complex problems and turn them into great solutions
-              </div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
     <section class="container">
       <div class="roadmap">
         <ul class="roadmap-list">

@@ -47,12 +47,6 @@ export default {
 					logoURI: 'https://ipfs.io/ipfs/QmexKGqDqovzHZRZQkHvEv9GoWfi9yfDLah8HNWRrdAbHK/tNANO.png',
 				},
 				{
-					name: 'Thirm Hathor (In Development)',
-					symbol: 'tHTR',
-					address: '0xf11a94383bf3aa163cf04c47a2295a55026f2d08',
-					logoURI: 'https://ipfs.io/ipfs/QmTLDXpo1QCmWtSr3M4m5z4F4S1Ftwnnb1QDamz4rdMn5i',
-				},
-				{
 					name: 'Thirm Bitcoin (In Development)',
 					symbol: 'tBTC',
 					address: '0x36910c9695C1286c9377CEbc61D37bDEFcFdeAC6',

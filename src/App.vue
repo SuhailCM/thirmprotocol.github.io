@@ -10,6 +10,7 @@
 					<b-navbar-item tag="router-link" :to="{ path: '/faq' }">FAQ</b-navbar-item>
 					<b-navbar-item tag="router-link" :to="{ path: '/about' }">ABOUT</b-navbar-item>
 					<b-navbar-item tag="router-link" :to="{ path: '/contact' }">CONTACT</b-navbar-item>
+					<b-navbar-item tag="router-link" :to="{ path: '/roadmap' }">ROADMAP</b-navbar-item>
 					<b-navbar-item tag="router-link" :to="{ path: '/governance' }">GOVERNANCE</b-navbar-item>
 				</template>
 

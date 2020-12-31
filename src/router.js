@@ -1,11 +1,12 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-
-import index from './x/index.vue';
 import about from './x/about.vue';
 import contact from './x/contact.vue';
 import faq from './x/faq.vue';
 import governance from './x/governance.vue';
+import index from './x/index.vue';
+import roadmap from './x/roadmap.vue';
+
 
 Vue.use(Router);
 
@@ -22,13 +23,16 @@ export default new Router({
 			name: 'governance',
 			component: governance,
 		},
-
+		{
+			path: '/roadmap',
+			name: 'roadmap',
+			component: roadmap,
+		},
 		{
 			path: '/faq',
 			name: 'faq',
 			component: faq,
 		},
-
 		{
 			path: '/about',
 			name: 'about',
@@ -38,6 +42,6 @@ export default new Router({
 			path: '/contact',
 			name: 'contact',
 			component: contact,
-		},
+		}
 	],
 });

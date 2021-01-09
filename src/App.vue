@@ -18,6 +18,9 @@
 					<b-navbar-item target="_blank" href="https://dapp.thirm.com/">
 						<b-button>DAPP</b-button>
 					</b-navbar-item>
+	                                <b-navbar-item target="_blank" href="https://matcha.xyz/markets/0xb526fd41360c98929006f3bdcbd16d55de4b0069">
+						<b-button>TRADE</b-button>
+					</b-navbar-item>
 					<b-navbar-item target="_blank" href="https://docs.thirm.com/">
 						<b-button>DOCS</b-button>
 					</b-navbar-item>

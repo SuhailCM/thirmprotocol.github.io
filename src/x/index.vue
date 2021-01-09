@@ -42,6 +42,10 @@
 						<div class="column zoom">
 							<a class="listing" target="_blank" href="https://etherscan.io/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069"> <img src="../assets/tags/etherscan.png"/></a>
 						</div>
+
+						<div class="column zoom">
+							<a class="listing" target="_blank" href="https://matcha.xyz/markets/0xb526fd41360c98929006f3bdcbd16d55de4b0069"> <img src="../assets/tags/matcha.png"/></a>
+						</div>
 					</div>
 				</div>
 			</div>

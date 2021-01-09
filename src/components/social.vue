@@ -23,21 +23,17 @@
 	display: flex;
 	flex-direction: row;
 	margin: 32px 0;
-	font-size: 8px;
+	font-size: 12px;
 }
 
 .social-icons .social-icon-item {
 	padding: 4px;
 	margin: 8px;
 	color: #444;
-	border-radius: 50%;
-	background: #e3e3e3;
-	width: 40px;
-	height: 40px;
-	padding: 8px 10px;
 }
 
 .social-icons .social-icon-item:hover {
-	background: #f7f6f6;
+	color: #000;
 }
+
 </style>

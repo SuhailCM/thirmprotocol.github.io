@@ -121,9 +121,9 @@ export default {
 				},
 
         {
-					title: 'BETA Release',
+					title: 'Alpha Release',
 					date: 'August 28, 2020',
-          description: 'Released the beta version of the DAPP.'
+          description: 'Released the Alpha version of the DAPP.'
 				},
 
         {

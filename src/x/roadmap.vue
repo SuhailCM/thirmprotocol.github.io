@@ -29,13 +29,12 @@
   margin-top: 120px;
 }
 .roadmap .roadmap-list {
-  margin-bottom: 48px;
+  padding-bottom: 24px;
   border-left: 3px solid #f1f1f1;
   padding-left: 24px;
 }
 
 .roadmap .roadmap-list li{
-  margin-bottom: 24px;
   position: relative;
   padding-bottom: 24px;
   padding-left: 24px;
@@ -46,7 +45,7 @@
   width: 16px;
   height: 16px;
   position: absolute;
-  background-color: #27ae60;
+  background-color: #0652DD;
   top: 2px;
   left: -34px;
   border-radius: 50%;
@@ -72,11 +71,36 @@ export default {
 	data() {
 		return {
 			roadmaps: [
-				{
-					title: 'Coming soon',
-					date: '1st Jan 2020',
-          description: 'Coming soon'
-				}
+        
+        {
+					title: 'Protocol Development',
+					date: 'February 15, 2020',
+          description: 'Started the development of thirm protocol.'
+				},
+
+        {
+					title: 'Token Creation',
+					date: 'May 17, 2020',
+          description: 'Created the THIRM token.'
+				},
+
+        {
+					title: 'BETA Release',
+					date: 'August 28, 2020',
+          description: 'Released the beta version of the DAPP.'
+				},
+
+        {
+					title: 'Stateofthedapps Listing',
+					date: 'September 6, 2020',
+          description: 'Listed THIRM protocol on "stateofthedapps".'
+				},
+
+        {
+					title: 'Uniswap Listing',
+					date: 'September 27, 2020',
+          description: 'Listed THIRM protocol on "uniswap".'
+				},
 			],
 		};
 	},

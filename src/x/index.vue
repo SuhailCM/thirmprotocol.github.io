@@ -61,7 +61,7 @@
 							<div class="subtitle">Access tokens from any blockchain using your existing smart contracts without having to worry about wrapping or unwrapping tokens.</div>
 						</div>
 						<div class="column">
-							<img src="../assets/images/chain.png" />
+							<img src="../assets/images/block-chain.png" />
 						</div>
 					</div>
 				</div>

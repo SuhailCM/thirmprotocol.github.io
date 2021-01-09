@@ -61,7 +61,7 @@
 							<div class="subtitle">Access tokens from any blockchain using your existing smart contracts without having to worry about wrapping or unwrapping tokens.</div>
 						</div>
 						<div class="column">
-							<img src="https://ipfs.io/ipfs/QmPQuk7kPCXcceRxcKi1o3tpJpVfhedDHxMGxvmpkRmgeW/" />
+							<img src="../assets/images/chain.png" />
 						</div>
 					</div>
 				</div>

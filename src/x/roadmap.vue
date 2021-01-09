@@ -34,7 +34,7 @@
 <style>
 
 .roadmap {
-  margin: 48px auto;
+  margin: 80px auto;
 }
 
 .upcom {

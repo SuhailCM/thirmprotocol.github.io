@@ -30,7 +30,7 @@
 					</div>
 					<div class="column is-3">
 						<div class="level">
-							<img class="is-rounded" src="https://ipfs.io/ipfs/QmajEk5Lambbf7DkMPYotWEpWyS6VMUg5pn77ETReoHNXo" alt="" />
+							<img class="is-rounded" src="https://ipfs.io/ipfs/QmWq9Qp5Yg2Fpxctq4cgH8Ge2FJqDQd5nFnsJAgfz95eQo" alt="" />
 						</div>
 						<h5 class="title is-5">Madhav Poudel</h5>
 						<p class="subtitle is-6">Developer</p>

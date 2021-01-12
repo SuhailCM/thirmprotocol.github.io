@@ -22,7 +22,7 @@
 				<div class="columns">
 					<div class="column is-3">
 						<div class="level">
-							<img class="is-rounded" src="https://ipfs.io/ipfs/QmajEk5Lambbf7DkMPYotWEpWyS6VMUg5pn77ETReoHNXo" alt="" />
+							<img class="is-rounded" src="https://ipfs.io/ipfs/QmP61RC27XooEZxDU4W48qgFoxXoKP2wC37d7KoAffTvah" alt="" />
 						</div>
 						<h5 class="title is-5">Aman Singh</h5>
 						<p class="subtitle is-6">Founder, Lead Developer</p>

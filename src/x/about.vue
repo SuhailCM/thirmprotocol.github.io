@@ -9,8 +9,7 @@
 						</div>
 						<div class="column is-offset-1">
 							<div class="content">
-								THIRM PROTOCOL, THIRM VM, THIRM TOKEN is developed and maintained by THIRM SOLUTIONS, a company operating from INDIA & CAYMAN ISLANDS. We believe that cryptocurrencies should be convenient for everyone. We aim to make crosschain cryptocurrency management a hassle-free, one-click process. We believe that cryptocurrencies should be convenient for everyone. We aim to make crosschain
-								cryptocurrency management a hassle-free, one-click process.
+								THIRM PROTOCOL, THIRM VM, THIRM TOKEN is developed and maintained by THIRM SOLUTIONS, a company operating from INDIA & CAYMAN ISLANDS. We believe that cryptocurrencies should be convenient for everyone. We aim to make crosschain cryptocurrency management a hassle-free, one-click process. We believe that cryptocurrencies should be convenient for everyone.
 							</div>
 						</div>
 					</div>

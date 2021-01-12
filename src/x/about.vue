@@ -46,7 +46,7 @@
 					</div>
 					<div class="column is-3">
 						<div class="level">
-							<img class="is-rounded" src="https://ipfs.io/ipfs/QmajEk5Lambbf7DkMPYotWEpWyS6VMUg5pn77ETReoHNXo" alt="" />
+							<img class="is-rounded" src="https://ipfs.io/ipfs/QmYvULYv7e7PTPBFLPAHqFPYKVripRr7JN9nLQTZRHNAmB" alt="" />
 						</div>
 						<h5 class="title is-5">Paul</h5>
 						<p class="subtitle is-6">Tester (Part Time)</p>

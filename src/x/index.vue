@@ -22,9 +22,7 @@
 				<div class="container">
 					<div class="columns is-multiline listing-wrapper">
 						<div class="column zoom">
-							<a class="listing" target="_blank" href="https://www.stateofthedapps.com/dapps/thirm">
-								<img src="../assets/tags/sod.png" />
-							</a>
+							<a class="listing" target="_blank" href="https://www.stateofthedapps.com/dapps/thirm"><img src="../assets/tags/sod.png"/></a>
 						</div>
 
 						<div class="column zoom">

@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="columns is-vcentered">
 					<div class="column">
-						<lottie-player src="https://ipfs.io/ipfs/QmY6tADiKWMEsYddVjia77iMN2NhR8sR5qpWHiEzSJnxer" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
+						<lottie-player src="https://thirm.com/animations/faq.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
 					</div>
 					<div class="column is-offset-1">
 						<b-collapse class="card" animation="slide" v-for="(collapse, index) of collapses" :key="index" :open="isOpen == index" @open="isOpen = index">

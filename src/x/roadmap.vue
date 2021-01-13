@@ -206,7 +206,7 @@ export default {
 					status: 'current',
 				},
 				{
-					title: 'Coming soon',
+					title: 'Test Bitcoin',
 					date: 'January 15, 2021',
 					description: 'Coming soon.',
 					status: 'next',

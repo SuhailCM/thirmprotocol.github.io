@@ -5,7 +5,7 @@
 				<div class="container">
 					<div class="columns is-vcentered">
 						<div class="column">
-							<lottie-player src="https://thirm.com/logo.json" background="transparent" speed="0.1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
+							<lottie-player src="https://thirm.com/animations/logo.json" background="transparent" speed="0.1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
 						</div>
 						<div class="column">
 							<div class="side-text"><strong>THIRM,</strong> a protocol that enables inter-blockchain access for cryptocurrency assets. Partake in the Defi, facilitating cross-chain lending, DEX trading, collateralization, and more.</div>
@@ -61,7 +61,7 @@
 							<div class="subtitle">Access tokens from any blockchain using your existing smart contracts without having to worry about wrapping or unwrapping tokens.</div>
 						</div>
 						<div class="column">
-							<img src="../assets/images/block-chain.png" />
+							<lottie-player src="https://thirm.com/animations/blockchain.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
 						</div>
 					</div>
 				</div>

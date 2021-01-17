@@ -12,7 +12,6 @@
 							<social />
 						</div>
 					</div>
-					<b-notification type="is-light" aria-close-label="Close notification"> Approx 9000 THIRM is added on <a href="https://app.bounce.finance/fixed-swap/4608">bounce.finance</a>, 1 ETH = 40 THIRM. The generated ETH will be locked in Uniswap LP Permanently. </b-notification>
 				</div>
 			</div>
 		</section>

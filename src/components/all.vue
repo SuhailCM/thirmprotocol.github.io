@@ -39,39 +39,16 @@
 export default {
 	data() {
 		return {
-			lot: [
-				{
-					name: 'Thirm Nano',
-					symbol: 'tNANO',
-					address: '0x9DB44C215F14a874C0Ca45895f3A97f0839c29d9',
-					logoURI: 'https://ipfs.io/ipfs/QmexKGqDqovzHZRZQkHvEv9GoWfi9yfDLah8HNWRrdAbHK/tNANO.png',
-				},
-				{
-					name: 'Thirm Bitcoin (In Development)',
-					symbol: 'tBTC',
-					address: '0x36910c9695C1286c9377CEbc61D37bDEFcFdeAC6',
-					logoURI: 'https://ipfs.io/ipfs/QmexKGqDqovzHZRZQkHvEv9GoWfi9yfDLah8HNWRrdAbHK/tBTC.png',
-				},
-				{
-					name: 'Coming Soon',
-					symbol: 'tXMR',
-					address: 'xxx',
-					logoURI: 'https://ipfs.io/ipfs/QmaEjoEcj4qSv6F3qS4gU1vfdYhBGHkNdpzjVRTimFQn71',
-				},
-				{
-					name: 'Coming Soon',
-					symbol: 'tDASH',
-					address: 'xxx',
-					logoURI: 'https://ipfs.io/ipfs/QmPjxYtYVfszwmAmrTGmrK7fu6K1EspEkxxDkwPQQxFE4m',
-				},
-				{
-					name: 'Coming Soon',
-					symbol: 'tLTC',
-					address: 'xxx',
-					logoURI: 'https://ipfs.io/ipfs/QmaGZnkkiDC6NV3rQPCcMPmDTL4zojQKV6LUsDCHQUzRri',
-				},
-			],
+			lot: [],
 		};
+	},
+	async created() {
+		try {
+			const Data = await fetch('https://raw.githubusercontent.com/thirmprotocol/Config/main/coins.json').then((data) => data.json());
+			this.lot = Data.reverse();
+		} catch (e) {
+			console.log(e);
+		}
 	},
 };
 </script>

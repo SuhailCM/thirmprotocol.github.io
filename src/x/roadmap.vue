@@ -6,7 +6,7 @@
 					<div class="column is-one-third" v-for="(roadmap, index) of roadmaps" :key="index">
 						<i :class="roadmap.status === 'done' ? 'fas fa-check done-status' : roadmap.status === 'current' ? 'fas current-status' : 'fas next-status'"></i>
 
-						<div :class="roadmap.status === 'current' ? 'card timeline-boxed' : 'timeline-boxed'">
+						<div :class="roadmap.status === 'current' ? 'card timeline-boxed' : roadmap.status === 'done' ? 'timeline-boxed' : 'timeline-boxed timeline-next'">
 							<div class="timeline-subtitle">
 								{{ roadmap.date }}
 							</div>
@@ -54,6 +54,10 @@
 	margin-top: 8px;
 }
 
+.roadmap .timeline .timeline-next {
+	opacity: 0.5;
+}
+
 .roadmap .timeline i.done-status {
 	background: #27ae60;
 	color: #ffffff;
@@ -64,9 +68,9 @@
 }
 
 .roadmap .timeline .timeline-current-info {
-	background: #fc4a1a;
-	background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);
-	background: linear-gradient(to right, #f7b733, #fc4a1a);
+	background: #8E2DE2;
+	background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+	background: linear-gradient(to right, #4A00E0, #8E2DE2); 
 	margin: 8px -16px -16px -16px;
 	color: #fff;
 	padding: 8px 4px;
@@ -90,15 +94,15 @@
 }
 
 .roadmap .timeline i.current-status {
-	background-image: linear-gradient(to right, #f7b733, #fc4a1a);
+	background: #8E2DE2;
 	position: relative;
 }
 
 .roadmap .timeline i.current-status:before {
 	width: 20px;
 	height: 20px;
-	background: #ff4757;
-	border: 2px solid #ffffff;
+	background: #8E2DE2;
+	border: 4px solid #ffffff;
 	content: '';
 	top: 0;
 	left: 0;
@@ -117,7 +121,7 @@
 	left: 0;
 	width: 36px;
 	height: 36px;
-	background-image: linear-gradient(109.8deg, rgba(255, 189, 55, 1) 5.6%, rgba(250, 111, 152, 1) 91.5%);
+	background: #8E2DE2;
 	border-radius: 50%;
 }
 
@@ -135,7 +139,7 @@
 }
 
 .roadmap .timeline i.next-status {
-	background: #1abc9c;
+	background: #bdbdbd;
 	position: relative;
 }
 
@@ -164,81 +168,25 @@
 export default {
 	data() {
 		return {
-			roadmaps: [
-				{
-					title: 'Protocol Development Start',
-					date: 'February 15, 2020',
-					description: 'Started the development of thirm protocol.',
-					status: 'done',
-				},
-				{
-					title: 'Token Creation',
-					date: 'May 17, 2020',
-					description: 'Created the THIRM token.',
-					status: 'done',
-				},
-				{
-					title: 'Internal Research & Testing',
-					date: 'August 28, 2020',
-					description: 'Released the Alpha version of the DAPP.',
-					status: 'done',
-				},
-				{
-					title: 'Stateofthedapps Listing',
-					date: 'September 6, 2020',
-					description: 'Listed THIRM protocol on "stateofthedapps".',
-					status: 'done',
-				},
-				{
-					title: 'Realease BETA',
-					date: 'September 7, 2020',
-					description: 'Getting users to test the DAPP & Protocol.',
-					status: 'done',
-				},
-				{
-					title: 'Uniswap Listing',
-					date: 'September 27, 2020',
-					description: 'Listed THIRM protocol on "uniswap".',
-					status: 'done',
-				},
-				{
-					title: 'THIRM Defaltion Started',
-					date: 'September 27, 2020',
-					description: 'Enbaled THIRM Defaltion, DAPP now charges THIRM as fees and burns them.',
-					status: 'done',
-				},
-				{
-					title: 'Test Nano',
-					date: 'January 15, 2021',
-					description: 'Testing Nano with the experts.',
-					status: 'current',
-				},
-				{
-					title: 'Test Bitcoin',
-					date: 'Coming soon.',
-					description: 'Coming soon.',
-					status: 'next',
-				},
-				{
-					title: 'Test Monero',
-					date: 'Coming soon.',
-					description: 'Coming soon.',
-					status: 'next',
-				},
-				{
-					title: 'Code AUDIT',
-					date: 'Coming soon.',
-					description: 'Coming soon.',
-					status: 'next',
-				},
-				{
-					title: 'List on All DEX & Protocols',
-					date: 'Coming soon.',
-					description: 'Coming soon.',
-					status: 'next',
-				},
-			],
+			roadmaps: [],
 		};
 	},
+
+	created () {
+    this.fetchData()
+  },
+  watch: {
+    '$route': 'fetchData'
+  },
+	methods: {
+    async fetchData () {
+			try {
+				const roadmapData = await fetch("https://raw.githubusercontent.com/thirmprotocol/Roadmap/main/roadmaps.json").then(data => data.json());
+				this.roadmaps = roadmapData.reverse();
+			} catch(e) {
+				console.log(e);
+			}
+    }
+  }
 };
 </script>

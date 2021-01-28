@@ -5,7 +5,7 @@
 				<div class="container">
 					<div class="columns is-vcentered">
 						<div class="column">
-							<lottie-player src="https://thirm.com/animations/thirm.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
+							<lottie-player src="https://raw.githubusercontent.com/thirmprotocol/thirmprotocol.github.io/master/public/animations/thirm.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
 						</div>
 						<div class="column is-3 is-offset-1">
 							<div class="subtitle"><strong>THIRM PROTOCOL</strong> allows you to transfer your cryptocurrency assets between multiple blockchains. Inter-blockchain access powered by an abstract permissionless VM accessed through open smart contracts on all supported blockchains.</div>
@@ -29,7 +29,7 @@
 			</div>
 		</section>
 
-		<section class="hero">
+		<section class="hero is-light">
 			<div class="hero-body">
 				<div class="container">
 					<div class="columns is-multiline listing-wrapper">
@@ -64,14 +64,27 @@
 		<section class="hero is-medium">
 			<div class="hero-body">
 				<div class="container">
-					<div class="columns is-vcentered">
-						<div class="column">
-							<div class="title">Inter-Blockchain Access</div>
-							<hr />
-							<div class="subtitle">Access tokens from any blockchain using your existing smart contracts without having to worry about wrapping or unwrapping tokens.</div>
-						</div>
-						<div class="column">
+					<div class="columns is-vcentered is-multiline">
+						<div class="column is-6">
 							<img src="../assets/blockchain.png" />
+						</div>
+
+						<div class="column is-6">
+							<hr />
+							<div class="subtitle">
+								Access tokens from any blockchain using your existing smart contracts without having to worry about wrapping or unwrapping tokens.
+							</div>
+						</div>
+
+						<div class="column is-6">
+							<hr />
+							<div class="subtitle">
+								Utilize your existing non-custodial smart contracts to collateralize cross-chain assets. Each T-Token is 100% verifiable and backed by its native cryptocurrency (e.g., 1 tBTC = 1 BTC). They can be locked, lent, borrowed, traded, or used in more complex logics.
+							</div>
+						</div>
+
+						<div class="column is-6">
+							<img src="../assets/invest.png" />
 						</div>
 					</div>
 				</div>

@@ -173,12 +173,12 @@ export default {
 	},
 	async created() {
 		try {
-			const roadmapData = await fetch('https://raw.githubusercontent.com/thirmprotocol/Config/main/roadmap.json').then((data) => data.json());
-			this.roadmaps = roadmapData.reverse();
+			const Data = await fetch('https://raw.githubusercontent.com/thirmprotocol/Config/main/roadmap.json').then((data) => data.json());
+			this.roadmaps = Data.reverse();
 		} catch (e) {
 			console.log(e);
 		}
-		this.fetchData();
+
 	},
 };
 </script>

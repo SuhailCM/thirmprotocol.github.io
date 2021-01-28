@@ -8,7 +8,7 @@
 							<lottie-player src="https://thirm.com/animations/logo.json" background="transparent" speed="0.1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
 						</div>
 						<div class="column">
-							<div class="side-text"><strong>THIRM,</strong> a protocol that enables inter-blockchain access for cryptocurrency assets. Partake in the Defi, facilitating cross-chain lending, DEX trading, collateralization, and more.</div>
+							<div class="side-text"><strong>THIRM PROTOCOL</strong> allows you to transfer your cryptocurrency assets between numerous blockchains. Inter-blockchain access powered by an abstract permissionless VM accessed through open smart contracts on all supported blockchains. </div>
 							<social />
 						</div>
 					</div>

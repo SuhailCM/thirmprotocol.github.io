@@ -166,37 +166,45 @@ export default {
 		return {
 			roadmaps: [
 				{
-					title: 'Protocol Development',
+					title: 'Protocol Development Start',
 					date: 'February 15, 2020',
 					description: 'Started the development of thirm protocol.',
 					status: 'done',
 				},
-
 				{
 					title: 'Token Creation',
 					date: 'May 17, 2020',
 					description: 'Created the THIRM token.',
 					status: 'done',
 				},
-
 				{
-					title: 'Alpha Release',
+					title: 'Internal Research & Testing',
 					date: 'August 28, 2020',
 					description: 'Released the Alpha version of the DAPP.',
 					status: 'done',
 				},
-
 				{
 					title: 'Stateofthedapps Listing',
 					date: 'September 6, 2020',
 					description: 'Listed THIRM protocol on "stateofthedapps".',
 					status: 'done',
 				},
-
+				{
+					title: 'Realease BETA',
+					date: 'September 7, 2020',
+					description: 'Getting users to test the DAPP & Protocol.',
+					status: 'done',
+				},
 				{
 					title: 'Uniswap Listing',
 					date: 'September 27, 2020',
 					description: 'Listed THIRM protocol on "uniswap".',
+					status: 'done',
+				},
+				{
+					title: 'THIRM Defaltion Started',
+					date: 'September 27, 2020',
+					description: 'Enbaled THIRM Defaltion, DAPP now charges THIRM as fees and burns them.',
 					status: 'done',
 				},
 				{
@@ -207,7 +215,25 @@ export default {
 				},
 				{
 					title: 'Test Bitcoin',
-					date: 'January 15, 2021',
+					date: 'Coming soon.',
+					description: 'Coming soon.',
+					status: 'next',
+				},
+				{
+					title: 'Test Monero',
+					date: 'Coming soon.',
+					description: 'Coming soon.',
+					status: 'next',
+				},
+				{
+					title: 'Code AUDIT',
+					date: 'Coming soon.',
+					description: 'Coming soon.',
+					status: 'next',
+				},
+				{
+					title: 'List on All DEX & Protocols',
+					date: 'Coming soon.',
 					description: 'Coming soon.',
 					status: 'next',
 				},

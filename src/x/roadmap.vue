@@ -68,9 +68,9 @@
 }
 
 .roadmap .timeline .timeline-current-info {
-	background: #8E2DE2;
-	background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-	background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+	background: #8e2de2;
+	background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
+	background: linear-gradient(to right, #4a00e0, #8e2de2);
 	margin: 8px -16px -16px -16px;
 	color: #fff;
 	padding: 8px 4px;
@@ -94,14 +94,14 @@
 }
 
 .roadmap .timeline i.current-status {
-	background: #8E2DE2;
+	background: #8e2de2;
 	position: relative;
 }
 
 .roadmap .timeline i.current-status:before {
 	width: 20px;
 	height: 20px;
-	background: #8E2DE2;
+	background: #8e2de2;
 	border: 4px solid #ffffff;
 	content: '';
 	top: 0;
@@ -121,7 +121,7 @@
 	left: 0;
 	width: 36px;
 	height: 36px;
-	background: #8E2DE2;
+	background: #8e2de2;
 	border-radius: 50%;
 }
 
@@ -171,22 +171,14 @@ export default {
 			roadmaps: [],
 		};
 	},
-
-	created () {
-    this.fetchData()
-  },
-  watch: {
-    '$route': 'fetchData'
-  },
-	methods: {
-    async fetchData () {
-			try {
-				const roadmapData = await fetch("https://raw.githubusercontent.com/thirmprotocol/Roadmap/main/roadmaps.json").then(data => data.json());
-				this.roadmaps = roadmapData.reverse();
-			} catch(e) {
-				console.log(e);
-			}
-    }
-  }
+	async created() {
+		try {
+			const roadmapData = await fetch('https://raw.githubusercontent.com/thirmprotocol/Roadmap/main/roadmaps.json').then((data) => data.json());
+			this.roadmaps = roadmapData.reverse();
+		} catch (e) {
+			console.log(e);
+		}
+		this.fetchData();
+	},
 };
 </script>

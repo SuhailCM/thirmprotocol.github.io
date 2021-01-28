@@ -8,9 +8,9 @@
 
 				<template slot="start">
 					<b-navbar-item tag="router-link" :to="{ path: '/faq' }">FAQ</b-navbar-item>
+					<b-navbar-item tag="router-link" :to="{ path: '/roadmap' }">ROADMAP</b-navbar-item>
 					<b-navbar-item tag="router-link" :to="{ path: '/about' }">ABOUT</b-navbar-item>
 					<b-navbar-item tag="router-link" :to="{ path: '/contact' }">CONTACT</b-navbar-item>
-					<b-navbar-item tag="router-link" :to="{ path: '/roadmap' }">ROADMAP</b-navbar-item>
 					<b-navbar-item tag="router-link" :to="{ path: '/governance' }">GOVERNANCE</b-navbar-item>
 				</template>
 
@@ -38,7 +38,7 @@
 
 		<footer class="footer">
 			<div class="content has-text-centered">
-				<p>Copyright © 2020 | <strong>THIRM SOLUTIONS</strong></p>
+				<p>Copyright © 2021 | <strong>THIRM SOLUTIONS</strong></p>
 			</div>
 		</footer>
 	</div>

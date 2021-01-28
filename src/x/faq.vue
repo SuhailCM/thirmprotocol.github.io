@@ -40,8 +40,7 @@ export default {
 	},
 	async created() {
 		try {
-			const Data = await fetch('https://raw.githubusercontent.com/thirmprotocol/Config/main/faq.json').then((data) => data.json());
-			this.collapses = Data.reverse();
+			this.collapses =  await fetch('https://raw.githubusercontent.com/thirmprotocol/Config/main/faq.json').then((data) => data.json());
 		} catch (e) {
 			console.log(e);
 		}

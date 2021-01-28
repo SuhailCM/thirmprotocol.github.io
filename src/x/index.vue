@@ -5,11 +5,24 @@
 				<div class="container">
 					<div class="columns is-vcentered">
 						<div class="column">
-							<lottie-player src="https://thirm.com/animations/logo.json" background="transparent" speed="0.1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
+							<lottie-player src="https://thirm.com/animations/thirm.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
 						</div>
-						<div class="column">
-							<div class="side-text"><strong>THIRM PROTOCOL</strong> allows you to transfer your cryptocurrency assets between multiple blockchains. Inter-blockchain access powered by an abstract permissionless VM accessed through open smart contracts on all supported blockchains.  </div>
-							<social />
+						<div class="column is-3 is-offset-1">
+							<div class="subtitle"><strong>THIRM PROTOCOL</strong> allows you to transfer your cryptocurrency assets between multiple blockchains. Inter-blockchain access powered by an abstract permissionless VM accessed through open smart contracts on all supported blockchains.</div>
+							<hr />
+
+							<div class="columns is-vcentered">
+								<div class="column">
+									<a href="https://dapp.thirm.com/" target="_blank">
+										<b-button type="is-success is-dark" expanded>Access DAPP</b-button>
+									</a>
+								</div>
+								<div class="column">
+									<a href="https://docs.thirm.com/" target="_blank">
+										<b-button type="is-success is-light" expanded>Read Documentation</b-button>
+									</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -58,7 +71,7 @@
 							<div class="subtitle">Access tokens from any blockchain using your existing smart contracts without having to worry about wrapping or unwrapping tokens.</div>
 						</div>
 						<div class="column">
-							<lottie-player src="https://thirm.com/animations/blockchain.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
+							<img src="../assets/blockchain.png" />
 						</div>
 					</div>
 				</div>
@@ -132,12 +145,10 @@
 <script>
 import all from '../components/all';
 import medium from '../components/medium';
-import social from '../components/social';
 
 export default {
 	components: {
 		all,
-		social,
 		medium,
 	},
 };

@@ -15,14 +15,20 @@
 				</template>
 
 				<template slot="end">
-					<b-navbar-item target="_blank" href="https://dapp.thirm.com/">
-						<b-button>DAPP</b-button>
+					<b-navbar-item target="_blank" href="https://medium.com/thirmprotocol">
+						<i class="fab fa-medium fa-2x"></i>
 					</b-navbar-item>
-					<b-navbar-item target="_blank" href="https://matcha.xyz/markets/0xb526fd41360c98929006f3bdcbd16d55de4b0069">
-						<b-button>TRADE</b-button>
+					<b-navbar-item target="_blank" href="https://github.com/thirmprotocol">
+						<i class="fab fa-github fa-2x"></i>
 					</b-navbar-item>
-					<b-navbar-item target="_blank" href="https://docs.thirm.com/">
-						<b-button>DOCS</b-button>
+					<b-navbar-item target="_blank" href="https://twitter.com/thirmprotocol">
+						<i class="fab fa-twitter fa-2x"></i>
+					</b-navbar-item>
+					<b-navbar-item target="_blank" href="https://t.me/thirm">
+						<i class="fab fa-telegram fa-2x"></i>
+					</b-navbar-item>
+					<b-navbar-item target="_blank" href="https://discord.gg/sA8AdfF7ac">
+						<i class="fab fa-discord fa-2x"></i>
 					</b-navbar-item>
 				</template>
 			</b-navbar>

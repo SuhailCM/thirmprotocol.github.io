@@ -6,7 +6,7 @@
 					<div class="column">
 						<div class="title">THIRM BLOG</div>
 						<hr />
-						<div class="subtitle">Read about various updates from THIRM TEAM.</div>
+						<div class="subtitle">UPDATES FROM THIRM TEAM.</div>
 					</div>
 					<div class="column">
 						<div ref="medium-widget" id="medium-widget" class="lcontainer__medium-widget" :class="{ 'lcontainer__medium-widget--loaded': isMediumLoaded }"></div>

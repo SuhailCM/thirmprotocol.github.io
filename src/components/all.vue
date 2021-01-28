@@ -44,8 +44,7 @@ export default {
 	},
 	async created() {
 		try {
-			const Data = await fetch('https://raw.githubusercontent.com/thirmprotocol/Config/main/coins.json').then((data) => data.json());
-			this.lot = Data.reverse();
+			this.lot = await fetch('https://raw.githubusercontent.com/thirmprotocol/Config/main/coins.json').then((data) => data.json());
 		} catch (e) {
 			console.log(e);
 		}

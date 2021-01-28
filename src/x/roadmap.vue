@@ -1,37 +1,29 @@
 <template>
-	<div>
-		<section class="container">
-			<div class="roadmap">
-				<div class="timeline columns is-multiline is-desktop">
-					<div class="column is-one-third" v-for="(roadmap, index) of roadmaps" :key="index">
-						<i :class="roadmap.status === 'done' ? 'fas fa-check done-status' : roadmap.status === 'current' ? 'fas current-status' : 'fas next-status'"></i>
+	<section class="hero is-medium">
+		<div class="hero-body">
+			<div class="container">
+				<div class="roadmap">
+					<div class="timeline columns is-multiline is-desktop">
+						<div class="column  is-one-third" v-for="(roadmap, index) of roadmaps" :key="index">
+							<i :class="roadmap.status === 'done' ? 'fas fa-check done-status' : roadmap.status === 'current' ? 'fas current-status' : 'fas next-status'"></i>
 
-						<div :class="roadmap.status === 'current' ? 'card timeline-boxed' : roadmap.status === 'done' ? 'timeline-boxed' : 'timeline-boxed timeline-next'">
-							<div class="timeline-subtitle">
-								{{ roadmap.date }}
-							</div>
-							<div class="timeline-title">
-								{{ roadmap.title }}
-							</div>
-							<div class="timeline-desc">
-								{{ roadmap.description }}
-							</div>
-							<div :class="roadmap.status === 'current' ? 'timeline-current-info' : 'timeline-hide'">
-								Current Milestone
+							<div :class="roadmap.status === 'current' ? 'timeline-boxed' : roadmap.status === 'done' ? 'timeline-boxed' : 'timeline-boxed timeline-next'">
+								<div class="timeline-title ">
+									{{ roadmap.title }}
+								</div>
+								<div class="timeline-desc box">
+									{{ roadmap.description }}
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-	</div>
+		</div>
+	</section>
 </template>
 
 <style>
-.roadmap {
-	margin: 80px auto;
-}
-
 .roadmap .timeline {
 	padding: 16px;
 	margin: 36px;
@@ -143,15 +135,6 @@
 	position: relative;
 }
 
-.roadmap .timeline .timeline-subtitle {
-	font-size: 12px;
-	margin-bottom: 8px;
-	color: #888;
-	background: #f1f1f1;
-	display: inline-block;
-	padding: 4px 8px;
-}
-
 .roadmap .timeline .timeline-title {
 	font-size: 20px;
 	margin-bottom: 8px;
@@ -178,7 +161,6 @@ export default {
 		} catch (e) {
 			console.log(e);
 		}
-
 	},
 };
 </script>

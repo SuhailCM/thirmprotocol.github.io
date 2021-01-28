@@ -23,7 +23,7 @@
 							<img class="is-rounded" src="https://ipfs.io/ipfs/QmP61RC27XooEZxDU4W48qgFoxXoKP2wC37d7KoAffTvah" alt="" />
 						</div>
 						<h5 class="title is-5">Aman Singh</h5>
-						<p class="subtitle is-6">Founder, Lead Developer</p>
+						<p class="subtitle is-6">Founder, Developer</p>
 						<p>When I'm not obsessively stressing about the fate of THIRM, I sometimes give lectures to school kids. Spend most of my time coding.</p>
 					</div>
 					<div class="column is-3">

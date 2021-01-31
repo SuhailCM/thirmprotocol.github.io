@@ -13,12 +13,12 @@
 							<div class="columns is-vcentered">
 								<div class="column">
 									<a href="https://dapp.thirm.com/" target="_blank">
-										<b-button type="is-success is-dark" expanded>Access DAPP</b-button>
+										<b-button type="is-success is-dark" expanded>Bridge Assets</b-button>
 									</a>
 								</div>
 								<div class="column">
 									<a href="https://docs.thirm.com/" target="_blank">
-										<b-button type="is-success is-light" expanded>Read Documentation</b-button>
+										<b-button type="is-danger is-light" expanded>Documentation</b-button>
 									</a>
 								</div>
 							</div>

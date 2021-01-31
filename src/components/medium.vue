@@ -2,16 +2,7 @@
 	<section class="medium-wrapper hero is-medium  is-hidden-mobile">
 		<div class="hero-body">
 			<div class="container">
-				<div class="columns is-vcentered">
-					<div class="column">
-						<div class="title">THIRM BLOG</div>
-						<hr />
-						<div class="subtitle">UPDATES FROM THIRM TEAM.</div>
-					</div>
-					<div class="column">
-						<div ref="medium-widget" id="medium-widget" class="lcontainer__medium-widget" :class="{ 'lcontainer__medium-widget--loaded': isMediumLoaded }"></div>
-					</div>
-				</div>
+				<div ref="medium-widget" id="medium-widget" class="lcontainer__medium-widget" :class="{ 'lcontainer__medium-widget--loaded': isMediumLoaded }"></div>
 			</div>
 		</div>
 	</section>
@@ -59,7 +50,7 @@ export default {
 				renderTo: '#medium-widget',
 				params: {
 					resource: 'https://medium.com/thirmprotocol',
-					postsPerLine: 2,
+					postsPerLine: 4,
 					limit: 4,
 					picture: 'big',
 					fields: ['description', 'publishAt'],

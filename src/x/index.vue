@@ -28,7 +28,7 @@
 			</div>
 		</section>
 
-		<section class="hero is-light">
+		<section class="hero  is-medium">
 			<div class="hero-body">
 				<div class="container">
 					<div class="columns is-multiline listing-wrapper">
@@ -54,36 +54,6 @@
 
 						<div class="column zoom">
 							<a class="listing" target="_blank" href="https://matcha.xyz/markets/0xb526fd41360c98929006f3bdcbd16d55de4b0069"> <img src="../assets/tags/matcha.png"/></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="hero is-medium">
-			<div class="hero-body">
-				<div class="container">
-					<div class="columns is-vcentered is-multiline">
-						<div class="column is-6">
-							<img src="../assets/blockchain.png" />
-						</div>
-
-						<div class="column is-6">
-							<hr />
-							<div class="subtitle">
-								Access tokens from any blockchain using your existing smart contracts without having to worry about wrapping or unwrapping tokens.
-							</div>
-						</div>
-
-						<div class="column is-6">
-							<hr />
-							<div class="subtitle">
-								Utilize your existing non-custodial smart contracts to collateralize cross-chain assets. Each T-Token is 100% verifiable and backed by its native cryptocurrency (e.g., 1 tBTC = 1 BTC). They can be locked, lent, borrowed, traded, or used in more complex logics.
-							</div>
-						</div>
-
-						<div class="column is-6">
-							<img src="../assets/invest.png" />
 						</div>
 					</div>
 				</div>

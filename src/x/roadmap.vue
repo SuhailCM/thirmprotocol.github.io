@@ -151,16 +151,23 @@
 export default {
 	data() {
 		return {
-			roadmaps: [],
+			roadmaps: [
+				{ title: 'Protocol Development Start', description: 'Started the development of thirm protocol.', status: 'done' },
+				{ title: 'Token Creation', description: 'Created the THIRM token.', status: 'done' },
+				{ title: 'Internal Research & Testing', description: 'Released the Alpha version of the DAPP.', status: 'done' },
+				{ title: 'Stateofthedapps Listing', description: 'Listed THIRM protocol on "stateofthedapps".', status: 'done' },
+				{ title: 'Realease BETA', description: 'Getting users to test the DAPP & Protocol.', status: 'done' },
+				{ title: 'Uniswap Listing', description: 'Listed THIRM protocol on "uniswap".', status: 'done' },
+				{ title: 'THIRM Deflation Started', description: 'Enabled THIRM Defaltion, DAPP now charges THIRM as fees and burns them.', status: 'done' },
+				{ title: 'THIRM LP Contract', description: 'Regular expansion in Liquidity Pool On Uniswap.', status: 'done' },
+				{ title: 'Test Nano', description: 'Testing Nano with the experts.', status: 'current' },
+				{ title: 'Test Bitcoin', description: 'Coming soon.', status: 'next' },
+				{ title: 'Test Monero', description: 'Coming soon.', status: 'next' },
+				{ title: 'Code AUDIT', description: 'Coming soon.', status: 'next' },
+				{ title: 'List on All DEX & Protocols', description: 'Coming soon.', status: 'next' },
+			],
 		};
 	},
-	async created() {
-		try {
-			const Data = await fetch('https://raw.githubusercontent.com/thirmprotocol/Config/main/roadmap.json').then((data) => data.json());
-			this.roadmaps = Data.reverse();
-		} catch (e) {
-			console.log(e);
-		}
-	},
+	async created() {},
 };
 </script>

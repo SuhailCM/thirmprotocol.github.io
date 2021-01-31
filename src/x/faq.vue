@@ -29,21 +29,19 @@
 	</section>
 </template>
 
-
 <script>
 export default {
 	data() {
 		return {
 			isOpen: 0,
-			collapses: [],
+			collapses: [
+				{ title: 'THIRM Token', text: 'THIRM Token is a governance/ownership tracking smart contract written on the ethereum blockchain.' },
+				{ title: 'THIRM Tokens Uses', text: 'Thirm Tokens are your governance share in Thirm Protocol, all holders decide the future of Thirm Protocol.' },
+				{ title: 'THIRM Tokens Value', text: 'THIRM holds no value, THIRM is only used to govern/operate/manage Thirm VM, it has no real world value.' },
+				{ title: 'THIRM Total Supply', text: 'THIRM total supply is dynamic (continuously setting).' },
+				{ title: 'THIRM Protocol Audited', text: 'THIRM is still is BETA and has not been audited, please test the protocol with small amounts.' },
+			],
 		};
-	},
-	async created() {
-		try {
-			this.collapses =  await fetch('https://raw.githubusercontent.com/thirmprotocol/Config/main/faq.json').then((data) => data.json());
-		} catch (e) {
-			console.log(e);
-		}
 	},
 };
 </script>

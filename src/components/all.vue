@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<section class="hero is-medium">
+		<section class="hero is-large">
 			<div class="hero-body">
 				<div class="container">
 					<div class="columns is-vcentered">

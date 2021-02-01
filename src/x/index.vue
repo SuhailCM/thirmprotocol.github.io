@@ -17,6 +17,11 @@
 									</a>
 								</div>
 								<div class="column">
+									<a href="https://stats.thirm.com/" target="_blank">
+										<b-button type="is-link is-light" expanded>Stats</b-button>
+									</a>
+								</div>
+								<div class="column">
 									<a href="https://docs.thirm.com/" target="_blank">
 										<b-button type="is-danger is-light" expanded>Documentation</b-button>
 									</a>

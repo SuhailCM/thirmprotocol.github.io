@@ -30,6 +30,9 @@
 					<b-navbar-item target="_blank" href="https://discord.gg/sA8AdfF7ac">
 						<i class="fab fa-discord fa-2x"></i>
 					</b-navbar-item>
+					<b-navbar-item target="_blank" href="https://www.linkedin.com/company/thirm/?viewAsMember=true">
+						<i class="fab fa-linkedin fa-2x"></i>
+					</b-navbar-item>
 				</template>
 			</b-navbar>
 		</template>

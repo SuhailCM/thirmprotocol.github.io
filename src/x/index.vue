@@ -12,7 +12,7 @@
 
 							<div class="columns is-vcentered">
 								<div class="column">
-									<a href="https://dapp.thirm.com/" target="_blank">
+									<a href="https://bridge.thirm.com/" target="_blank">
 										<b-button type="is-success is-light" expanded>Bridge Assets</b-button>
 									</a>
 								</div>

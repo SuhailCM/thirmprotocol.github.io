@@ -1,8 +1,8 @@
 <template>
 	<div>
-		<section class="hero is-large">
+		<section class="hero is-medium">
 			<div class="hero-body">
-				<div class="container">
+				<div class="container ">
 					<div class="columns is-vcentered">
 						<div class="column is-3 ">
 							<div class="subtitle">Current <strong> Blockchains</strong> Supported</div>

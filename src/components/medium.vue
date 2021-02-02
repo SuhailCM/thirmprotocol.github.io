@@ -1,5 +1,5 @@
 <template>
-	<section class="medium-wrapper hero is-medium is-light is-hidden-mobile">
+	<section class="medium-wrapper  is-hidden-mobile hero is-medium  is-light">
 		<div class="hero-body">
 			<div class="container box">
 				<div ref="medium-widget" id="medium-widget" class="lcontainer__medium-widget" :class="{ 'lcontainer__medium-widget--loaded': isMediumLoaded }"></div>

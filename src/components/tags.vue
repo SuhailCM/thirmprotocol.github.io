@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<section class="hero  is-medium is-light">
+		<section class="hero is-medium is-light">
 			<div class="hero-body">
 				<div class="container">
 					<div class="columns is-multiline listing-wrapper">

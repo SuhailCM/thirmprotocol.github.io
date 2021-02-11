@@ -1,7 +1,7 @@
 <template>
-	<section class="medium-wrapper  is-hidden-mobile hero is-medium  is-light">
+	<section class="hero is-medium">
 		<div class="hero-body">
-			<div class="container box">
+			<div class="container">
 				<div ref="medium-widget" id="medium-widget" class="lcontainer__medium-widget" :class="{ 'lcontainer__medium-widget--loaded': isMediumLoaded }"></div>
 			</div>
 		</div>
@@ -53,7 +53,7 @@ export default {
 					postsPerLine: 3,
 					limit: 3,
 					picture: 'big',
-					fields: ['description', 'publishAt'],
+					fields: [],
 					ratio: 'landscape',
 				},
 			});

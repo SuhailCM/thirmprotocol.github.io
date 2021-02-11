@@ -73,20 +73,16 @@
 			</div>
 		</section>
 
-		<all class="is-hidden-mobile" />
-
 		<medium />
 	</div>
 </template>
 
 <script>
-import all from '../components/all';
 import medium from '../components/medium';
 import tags from '../components/tags';
 
 export default {
 	components: {
-		all,
 		medium,
 		tags,
 	},

@@ -73,7 +73,7 @@
 			</div>
 		</section>
 
-		<medium />
+		<medium class="is-hidden-mobile" />
 	</div>
 </template>
 

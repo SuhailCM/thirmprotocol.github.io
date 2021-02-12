@@ -50,8 +50,8 @@ export default {
 				renderTo: '#medium-widget',
 				params: {
 					resource: 'https://medium.com/thirmprotocol',
-					postsPerLine: 3,
-					limit: 3,
+					postsPerLine: 4,
+					limit: 4,
 					picture: 'big',
 					fields: [],
 					ratio: 'landscape',

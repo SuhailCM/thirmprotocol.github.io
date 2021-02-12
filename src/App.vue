@@ -1,7 +1,7 @@
 <template>
 	<div id="app">
 		<template>
-			<b-navbar :fixed-top="true" wrapper-class="container">
+			<b-navbar :fixed-top="true">
 				<template slot="brand">
 					<b-navbar-item class="logo" tag="router-link" :to="{ path: '/' }"><strong>THIRM</strong></b-navbar-item>
 				</template>

@@ -39,27 +39,33 @@
 			<div class="hero-body">
 				<div class="container">
 					<div class="columns is-vcentered is-multiline">
-						<div class="column is-6">
+						<div class="column zoom is-6">
 							<div class="subtitle box has-text-centered">Modular</div>
 						</div>
 
-						<div class="column is-6">
+						<div class="column zoom  is-6">
 							<div class="subtitle box  has-text-centered">Fast</div>
 						</div>
 
-						<div class="column is-4">
+						<div class="column zoom  is-4">
 							<div class="subtitle  box has-text-centered">Secure</div>
 						</div>
 
-						<div class="column is-4">
+						<div class="column  zoom is-4">
 							<div class="subtitle  box has-text-centered">Cross Platform</div>
 						</div>
 
-						<div class="column is-4">
+						<div class="column zoom  is-4">
 							<div class="subtitle  box has-text-centered">Interlinked</div>
 						</div>
-						<div class="column is-4">
-							<div class="subtitle  box has-text-centered">Interlinked</div>
+						<div class="column zoom  is-7">
+							<div class="subtitle  box has-text-centered">Permisionless</div>
+						</div>
+						<div class="column zoom  is-3">
+							<div class="subtitle  box has-text-centered">Trustless</div>
+						</div>
+						<div class="column zoom  is-2">
+							<div class="subtitle  box has-text-centered">SAFU</div>
 						</div>
 					</div>
 				</div>
@@ -83,3 +89,9 @@ export default {
 	},
 };
 </script>
+
+<style scoped>
+.zoom:hover {
+	transform: scale(1.4);
+}
+</style>

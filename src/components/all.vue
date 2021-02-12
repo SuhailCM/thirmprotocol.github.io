@@ -1,27 +1,22 @@
 <template>
 	<div>
-		<section class="hero is-medium">
-			<div class="hero-body">
-				<div class="container ">
-					<div class="columns is-vcentered">
-						<div class="column is-3 ">
-							<div class="subtitle">Current <strong> Blockchains</strong> Supported</div>
-							<hr />
-							Read Documentation To Know More
-						</div>
-						<div class="column is-offset-1">
-							<div class="columns is-multiline">
-								<div class="column is-3" v-for="item in lot" :key="item.symbol">
-									<b-tooltip :label="item.name" position="is-top">
-										<a target="_blank" v-bind:href="'https://etherscan.io/address/' + item.address">
-											<figure class="image is-128x128">
-												<img v-bind:src="item.logoURI.trim()" />
-											</figure>
-										</a>
-									</b-tooltip>
-								</div>
-							</div>
-						</div>
+		<section class="section is-large container">
+			<h1 class="title has-text-centered">Current <strong> Blockchains</strong> Supported</h1>
+			<h2 class="subtitle has-text-centered">Read Documentation To Know More</h2>
+
+			<br />
+			<br />
+
+			<div class="column is-offset-1">
+				<div class="columns is-multiline">
+					<div class="column is-3" v-for="item in lot" :key="item.symbol">
+						<b-tooltip :label="item.name" position="is-top">
+							<a target="_blank" v-bind:href="'https://etherscan.io/address/' + item.address">
+								<figure class="image is-128x128">
+									<img v-bind:src="item.logoURI.trim()" />
+								</figure>
+							</a>
+						</b-tooltip>
 					</div>
 				</div>
 			</div>

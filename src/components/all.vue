@@ -12,7 +12,7 @@
 					<div class="column is-3" v-for="item in lot" :key="item.symbol">
 						<b-tooltip :label="item.name" position="is-top">
 							<a target="_blank" v-bind:href="'https://etherscan.io/address/' + item.address">
-								<figure class="image is-128x128">
+								<figure class="coin-image is-128x128">
 									<img v-bind:src="item.logoURI.trim()" />
 								</figure>
 							</a>
@@ -24,7 +24,7 @@
 	</div>
 </template>
 
-<style>
+<style scoped>
 .box.style1 .comp-title {
 	font-size: 21px;
 	color: #4834d4;
@@ -33,10 +33,19 @@
 	padding: 16px 0;
 }
 
-.coins-list {
-	padding: 60px 0;
-	background-color: rgba(225, 225, 225, 0.2);
+.b-tooltip {
+    width: 100%;
 }
+
+.coin-image{
+	padding: 16px;
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
 </style>
 
 <script>

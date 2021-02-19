@@ -16,10 +16,13 @@
 .medium-widget-article__image img {
 	border-radius: 8px;
 	border: 1px solid #e3e3e3;
+	background: #fff;
 }
 
 .medium-widget-article__title {
 	font-size: 16px;
+	margin-top: 16px;
+	color: #424242;
 }
 </style>
 

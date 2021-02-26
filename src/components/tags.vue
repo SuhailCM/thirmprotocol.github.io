@@ -60,6 +60,9 @@
 .list-items {
 	width: 250px;
 	margin: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .listing-wrapper .listing img {

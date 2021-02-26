@@ -13,12 +13,17 @@
 							<div class="columns is-vcentered">
 								<div class="column">
 									<a href="https://bridge.thirm.com/" target="_blank">
-										<b-button type="is-success is-light" expanded>Bridge Assets</b-button>
+										<b-button class="access-button" block type="is-info" expanded>
+											<span>Access Bridge</span>
+											<i class="fas fa-long-arrow-alt-right"></i>
+										</b-button>
 									</a>
 								</div>
+							</div>
+							<div class="columns is-vcentered">
 								<div class="column">
 									<a href="https://stats.thirm.com/" target="_blank">
-										<b-button type="is-link is-light" expanded>Stats</b-button>
+										<b-button type="is-success is-light" expanded>Stats</b-button>
 									</a>
 								</div>
 								<div class="column">
@@ -38,32 +43,32 @@
 		<section class="section is-medium container">
 			<div class="columns is-vcentered is-multiline">
 				<div class="column zoom is-6">
-					<div class="subtitle box has-text-centered">Modular</div>
+					<div class="subtitle box has-text-centered" style="background-color: #7ed6df">Modular</div>
 				</div>
 
 				<div class="column zoom  is-6">
-					<div class="subtitle box  has-text-centered">Fast</div>
+					<div class="subtitle box  has-text-centered" style="background-color: #ffbe76">Fast</div>
 				</div>
 
 				<div class="column zoom  is-4">
-					<div class="subtitle  box has-text-centered">Secure</div>
+					<div class="subtitle  box has-text-centered" style="background-color: #95afc0">Secure</div>
 				</div>
 
 				<div class="column  zoom is-4">
-					<div class="subtitle  box has-text-centered">Cross Platform</div>
+					<div class="subtitle  box has-text-centered" style="background-color: #ff6b81">Cross Platform</div>
 				</div>
 
 				<div class="column zoom  is-4">
-					<div class="subtitle  box has-text-centered">Interlinked</div>
+					<div class="subtitle  box has-text-centered" style="background-color: #70a1ff">Interlinked</div>
 				</div>
 				<div class="column zoom  is-7">
-					<div class="subtitle  box has-text-centered">Permisionless</div>
+					<div class="subtitle  box has-text-centered" style="background-color: #ffda79">Permisionless</div>
 				</div>
 				<div class="column zoom  is-3">
-					<div class="subtitle  box has-text-centered">Trustless</div>
+					<div class="subtitle  box has-text-centered" style="background-color: #f7f1e3">Trustless</div>
 				</div>
 				<div class="column zoom  is-2">
-					<div class="subtitle  box has-text-centered">SAFU</div>
+					<div class="subtitle  box has-text-centered" style="background-color: #2bcbba">SAFU</div>
 				</div>
 			</div>
 		</section>
@@ -89,7 +94,22 @@ export default {
 </script>
 
 <style scoped>
+.zoom {
+	transition: all 0.5s ease-in-out;
+	
+}
+
+.zoom .box {
+	padding: 40px 0;
+	color: #191919;
+	font-size: 18px;
+	font-weight: 500;
+}
 .zoom:hover {
-	transform: scale(1.4);
+	transform: scale(1.2);
+}
+
+.access-button i {
+		margin-left: 8px;
 }
 </style>

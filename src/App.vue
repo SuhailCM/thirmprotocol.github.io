@@ -49,8 +49,22 @@
 
 <style scoped>
 
-.navbar-item {
+.navbar-end {
+		display: flex ;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+}
+.navbar-end .navbar-item {
+	margin: 4px 0;
 	padding: 4px 10px;
+	display: inline-block;
+}
+
+@media screen and (max-width: 1023px) {
+.navbar-end .navbar-item {
+	margin: 16px 0;
+}
 }
 .navbar-item .fab{
 	font-size: 28px;

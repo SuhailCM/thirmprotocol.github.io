@@ -109,11 +109,18 @@ export default {
 	transform: scale(1.2);
 }
 
+.access-button {
+	height: 50px;
+}
 .access-button i {
 		margin-left: 8px;
 }
 
 .thirm-info {
 	padding: 24px;
+}
+
+.thirm-info .content.box {
+	padding: 32px;
 }
 </style>

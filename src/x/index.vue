@@ -7,7 +7,7 @@
 						<div class="column">
 							<lottie-player src="https://thirm.com/animations/thirm.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay></lottie-player>
 						</div>
-						<div class="column is-4 is-offset-1">
+						<div class="column is-5 thirm-info">
 							<div class="content box"><strong>THIRM PROTOCOL</strong> allows you to transfer your cryptocurrency assets between multiple blockchains. Inter-blockchain access powered by an abstract permissionless VM accessed through open smart contracts on all supported blockchains.</div>
 
 							<div class="columns is-vcentered">
@@ -111,5 +111,9 @@ export default {
 
 .access-button i {
 		margin-left: 8px;
+}
+
+.thirm-info {
+	padding: 24px;
 }
 </style>

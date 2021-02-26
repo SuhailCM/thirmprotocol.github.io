@@ -14,7 +14,7 @@
 					<b-navbar-item tag="router-link" :to="{ path: '/governance' }"><strong>GOVERNANCE</strong></b-navbar-item>
 				</template>
 
-				<template slot="end">
+				<template slot="end" class="social-icons">
 					<b-navbar-item target="_blank" href="https://medium.com/thirmprotocol">
 						<i class="fab fa-medium fa-2x"></i>
 					</b-navbar-item>
@@ -46,3 +46,18 @@
 		</footer>
 	</div>
 </template>
+
+<style scoped>
+
+.navbar-item {
+	padding: 4px 10px;
+}
+.navbar-item .fab{
+	font-size: 28px;
+	color: #444;
+}
+
+	.navbar-item .fab:hover {
+		color: #191919;
+	}
+</style>

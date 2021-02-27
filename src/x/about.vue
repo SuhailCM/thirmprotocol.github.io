@@ -36,11 +36,11 @@
 					</div>
 					<div class="column is-3">
 						<div class="level">
-							<img class="is-rounded" src="https://ipfs.io/ipfs/QmRuCEkQWTR9k9N4nfwih5k88rbcUassBDeSWQ8bCsKiCz" alt="" />
+							<img class="is-rounded" src="https://ipfs.io/ipfs/QmbnXQuL5z7YnyjGTZDQz7gzGPkphSJSSMdACVy2BFAP5w" alt="" />
 						</div>
-						<h5 class="title is-5">Bong Lee</h5>
+						<h5 class="title is-5">Suhail L</h5>
 						<p class="subtitle is-6">Manager</p>
-						<p>I work on THIRM only for the advanced technology. I don't really like most people I work with, but they need me to put out their fires, so&nbsp;I&nbsp;stay.</p>
+						<p>I can handle everything that doesn’t have C.O.D.E in it , apart from being an entrepreneur, I like to take part in tech that will change the world or revolutionized an industry- that is where THIRM comes in.</p>
 					</div>
 					<div class="column is-3">
 						<div class="level">

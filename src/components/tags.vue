@@ -13,9 +13,17 @@
 				<div class="list-items">
 					<a class="listing" target="_blank" href="https://coinmarketcap.com/currencies/thirm-protocol"> <img src="../assets/tags/coinmarketcap.png"/></a>
 				</div>
-			</div>
-			<div class="listing-wrapper">
 
+				<div class="list-items">
+					<a class="listing" target="_blank" href="https://pancakeswap.info/token/0x21da60b286baefd4725a41bb50a9237eb836a9ed"> <img src="../assets/tags/pancake.png"/></a>
+				</div>
+
+				<div class="list-items">
+					<a class="listing" target="_blank" href="https://bscscan.com/token/0x21da60b286baefd4725a41bb50a9237eb836a9ed"> <img src="../assets/tags/bscscan.png"/></a>
+				</div>
+			</div>
+
+			<div class="listing-wrapper">
 				<div class="list-items greyscale">
 					<a class="listing" target="_blank" href="https://uniswap.info/token/0xb526fd41360c98929006f3bdcbd16d55de4b0069"> <img src="../assets/tags/uniswap.png"/></a>
 				</div>
@@ -27,18 +35,6 @@
 				<div class="list-items greyscale">
 					<a class="listing" target="_blank" href="https://matcha.xyz/markets/0xb526fd41360c98929006f3bdcbd16d55de4b0069"> <img src="../assets/tags/matcha.png"/></a>
 				</div>
-			</div>
-
-			<div class="listing-wrapper">
-
-				<div class="list-items">
-					<a class="listing" target="_blank" href="https://pancakeswap.info/token/0x21da60b286baefd4725a41bb50a9237eb836a9ed"> <img src="../assets/tags/pancake.png"/></a>
-				</div>
-
-				<div class="list-items">
-					<a class="listing" target="_blank" href="https://bscscan.com/token/0x21da60b286baefd4725a41bb50a9237eb836a9ed"> <img src="../assets/tags/bscscan.png"/></a>
-				</div>
-
 			</div>
 		</section>
 	</div>
@@ -72,7 +68,11 @@
 .list-items.greyscale {
 	opacity: 0.3;
 }
-.list-items.greyscale a > img{
+.list-items.greyscale a > img {
 	filter: grayscale(100%);
+}
+
+.list-items:hover {
+	transform: scale(1.2);
 }
 </style>
